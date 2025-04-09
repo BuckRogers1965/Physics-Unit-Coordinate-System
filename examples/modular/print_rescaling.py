@@ -69,7 +69,7 @@ def print_rescaling (grouped_constants, rescale_factors, rescale_value_by_units)
     print()
     print()
     print()
-    print(f"   {'Symbol':<8} {'Constant Name':<32} {'Original Value':<20} {'Rescaled Value':<20} {'Units Applied':25} {'Ratio'}")
+    print(f"   {'Symbol':<8} {'Constant Name':<32} {'Original Value':<16} {'Rescaled Value':<16} {'Units Applied':29} {'Ratio'}")
     print("   ", end="")
     print("-" * 125) # Adjusted width
     
@@ -88,7 +88,7 @@ def print_rescaling (grouped_constants, rescale_factors, rescale_value_by_units)
                  rescaled_value_str = f"{rescaled_value:.10e}" # Use scientific notation here too
                  units_applied_str = " ".join(units_applied)
     
-                 print(f"   {data['symbol']:<8} {name:<32} {original_value_str:<20} {rescaled_value_str:<20} {promote_exponents(units_applied_str):<25}  {original_value/ rescaled_value:8.8e}")
+                 print(f"   {data['symbol']:<8} {name:<32} {original_value_str:<16} {rescaled_value_str:<16} {promote_exponents(units_applied_str):<29} {original_value/ rescaled_value:8.8e}")
 
                  # Loop through fields dynamically based on args or print all if --all flag is present
                  indent = " " * 11 

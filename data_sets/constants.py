@@ -175,6 +175,52 @@ grouped_constants = {
             "reference": "Defined by CODATA 2018."
         }
     },
+    "Units of Measure": {
+        "1 kg": {
+            "value": 1,
+            "units": [("kg", 1)],
+            "symbol": "1 kg",
+            "pronunciation": "One kilogram",
+            "date": "1889",
+            "name": "International Bureau of Weights and Measures",
+            "origin": "The kilogram was originally defined by the mass of the international prototype of the kilogram.",
+            "comment": "The standard SI unit of mass.",
+            "reference": "Updated definition based on Planck constant in 2019."
+        },
+        "1 meter": {
+            "value": 1,
+            "units": [("m", 1)],
+            "symbol": "1 m",
+            "pronunciation": "One meter",
+            "date": "1793",
+            "name": "French Academy of Sciences",
+            "origin": "Originally defined as one ten-millionth of the distance from the equator to the North Pole along a meridian through Paris.",
+            "comment": "The standard SI unit of length.",
+            "reference": "Revised definition based on the speed of light in 1983."
+        },
+        "1 second": {
+            "value": 1,
+            "units": [("s", 1)],
+            "symbol": "1 s",
+            "pronunciation": "One second",
+            "date": "~2000 BCE",
+            "name": "Ancient Babylonians",
+            "origin": "Initially developed by the Babylonians as part of a sexagesimal system, dividing the day into 24 hours, each hour into 60 minutes, and each minute into 60 seconds.",
+            "comment": "The standard SI unit of time, now defined by atomic clocks based on cesium-133 transitions.",
+            "reference": "Modern definition adopted in 1967 by the International System of Units (SI)."
+        },
+        "1 Hz": {
+            "value": 1,
+            "units": [("s", -1)],
+            "symbol": "Hz",
+            "pronunciation": "One Hertz",
+            "date": "~2000 BCE",
+            "name": "Ancient Babylonians",
+            "origin": "The inverse second.",
+            "comment": "The standard SI unit of frequency, now defined by atomic clocks based on cesium-133 transitions.",
+            "reference": "Modern definition adopted in 1967 by the International System of Units (SI)."
+        }
+    },
     "Masses": {
         "electron_mass_me": {
             "value": 9.1093837015e-31,
@@ -308,52 +354,6 @@ grouped_constants = {
             "comment": "Key to studying weak force interactions.",
             "reference": "Defined by Particle Data Group (PDG) 2023."
         },
-    },
-    "Units of Measure": {
-        "1 kg": {
-            "value": 1,
-            "units": [("kg", 1)],
-            "symbol": "1 kg",
-            "pronunciation": "One kilogram",
-            "date": "1889",
-            "name": "International Bureau of Weights and Measures",
-            "origin": "The kilogram was originally defined by the mass of the international prototype of the kilogram.",
-            "comment": "The standard SI unit of mass.",
-            "reference": "Updated definition based on Planck constant in 2019."
-        },
-        "1 meter": {
-            "value": 1,
-            "units": [("m", 1)],
-            "symbol": "1 m",
-            "pronunciation": "One meter",
-            "date": "1793",
-            "name": "French Academy of Sciences",
-            "origin": "Originally defined as one ten-millionth of the distance from the equator to the North Pole along a meridian through Paris.",
-            "comment": "The standard SI unit of length.",
-            "reference": "Revised definition based on the speed of light in 1983."
-        },
-        "1 second": {
-            "value": 1,
-            "units": [("s", 1)],
-            "symbol": "1 s",
-            "pronunciation": "One second",
-            "date": "~2000 BCE",
-            "name": "Ancient Babylonians",
-            "origin": "Initially developed by the Babylonians as part of a sexagesimal system, dividing the day into 24 hours, each hour into 60 minutes, and each minute into 60 seconds.",
-            "comment": "The standard SI unit of time, now defined by atomic clocks based on cesium-133 transitions.",
-            "reference": "Modern definition adopted in 1967 by the International System of Units (SI)."
-        },
-        "1 Hz": {
-            "value": 1,
-            "units": [("s", -1)],
-            "symbol": "Hz",
-            "pronunciation": "One Hertz",
-            "date": "~2000 BCE",
-            "name": "Ancient Babylonians",
-            "origin": "The inverse second.",
-            "comment": "The standard SI unit of frequency, now defined by atomic clocks based on cesium-133 transitions.",
-            "reference": "Modern definition adopted in 1967 by the International System of Units (SI)."
-        }
     },
     "Planck Units": {
         "planck_length_lP": {

@@ -2,10 +2,11 @@ from load_mods import load_module
 
 # --- Choose the desired scaling ---
 #scaling_choice = "si" 
-scaling_choice = "imperial" 
-#scaling_choice = "natural" 
+#scaling_choice = "imperial" 
+scaling_choice = "natural" 
 #scaling_choice = "atomic_electron" 
 #scaling_choice = "galactic" 
+#scaling_choice = "time" 
 
 scaling_module_path = f"./modular/unit_scaling/{scaling_choice}_scaling.py"
 scaling_module_name = f"{scaling_choice}_scaling"
