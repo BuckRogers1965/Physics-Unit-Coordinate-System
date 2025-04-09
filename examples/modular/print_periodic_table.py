@@ -108,7 +108,3 @@ def print_periodic_table(periodic_table, rescale_factors, rescale_value_by_units
         if args.formula:
             print(f"Electron Configuration: {element.get('electron_configuration', 'Unknown')}")
 
-    print("\n--- Scaling Factors Used ---")
-    for unit_entry in rescale_factors:
-        print(f"   {unit_entry['symbol']:<10} {unit_entry['factor']:.20e}")
-

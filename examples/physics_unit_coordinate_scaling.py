@@ -13,10 +13,16 @@ scaling_module_name = f"{scaling_choice}_scaling"
 
 constants     = load_module("../data_sets/constants.py",      "constants") 
 scaling       = load_module(scaling_module_path,      scaling_module_name)
+unit_scaling  = scaling.calculate_scaling_factors(constants.grouped_constants)
 rescale_units = load_module("./modular/rescale_units.py", "rescale_units")
 
 process       = load_module("./modular/print_rescaling.py", "print_rescaling")
 process.print_rescaling(
          constants.grouped_constants,
-         scaling.calculate_scaling_factors(constants.grouped_constants),
+         unit_scaling,
          rescale_units.rescale_value_by_units)
+
+print("\n   --- Scaling Factors Used ---")
+for unit_entry in unit_scaling:
+    print(f"   {unit_entry['symbol']:<10} -> {unit_entry['factor']:.20e} -> {unit_entry['swap_with']:<10}")
+

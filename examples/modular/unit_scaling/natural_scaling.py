@@ -16,6 +16,7 @@ def calculate_scaling_factors(constants):
         {"symbol": "mol","factor": 1.0/ Na,    "swap_with": "mol_n"},
         {"symbol": "pi", "factor": math.pi,    "swap_with": "pi_n"},
         {"symbol": "Hz", "factor": 1.0,        "swap_with": "Hz_n"},
+        {"symbol": "amu", "factor": 1/1.66053906660e-27 * h / (c**2) , "swap_with": "kg_n"},
     ]
 
     # Find the scaling factor for "s"

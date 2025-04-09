@@ -106,6 +106,3 @@ def print_rescaling (grouped_constants, rescale_factors, rescale_value_by_units)
              else:
                  print(f"   Skipping malformed entry: {name}") # Error handling for bad entries
 
-    print("\n   --- Scaling Factors Used ---")
-    for unit_entry in rescale_factors:
-        print(f"   {unit_entry['symbol']:<10} {unit_entry['factor']:.20e}")
