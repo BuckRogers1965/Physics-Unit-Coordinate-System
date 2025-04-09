@@ -33,7 +33,7 @@ Traditional physics has treated constants like \( c \), \( h \), and \( k \) as 
 - **Speed of light (\( c \))** in natural units becomes \( 1 \), unifying space and time without additional scaling.
 - **Planck’s constant (\( h \))** and **Boltzmann’s constant (\( k \))** similarly become dimensionless or normalized in unit systems that align the values of units of measure to unity.
 
-This transformation highlights that these constants act as **conversion factors** between units that havae scaled coordinates rather than standalone entities.
+This transformation highlights that these constants act as **conversion factors** between units that have scaled coordinates rather than standalone entities.
 
 ---
 
