@@ -1,0 +1,42 @@
+
+   This document is from a program where I was working on a modular
+   unit scaling framework based on these idea.
+
+
+   How constants c, h, and k act as unit scaling factors.
+
+
+   E=mc^2   E=m kg_J where kg_J = c^2 with units of J/kg
+   kg_J  = 8.98755178737e+16 J/kg      J_kg = 1.11265005605e-17 kg/J
+   This unit scaling exists because there are 299792458.0 meters in each light second.
+
+   E=hf    h = Hz_kg kg_J  therefore Hz_kg = h/kg_J
+   Hz_J  = 6.62607015e-34 J/Hz         J_Hz = 1.50919017964e+33 Hz/J
+   Hz_kg = 7.37249732381e-51 kg/Hz     kg_Hz = 1.35639248965e+50 Hz/kg
+   Hz_kg exists because there are 7.372497323812708e-51 kg in each Hz.
+
+   E=kT    k = K_Hz Hz_kg kg_J therefore K_Hz = k/(Hz_kg kg_J)
+   K_J   = 1.380649e-23 J/K            J_K = 7.24297051604e+22 K/J
+   K_Hz  = 2.083661912333e+10 Hz/K     Hz_K = 4.79924307337e-11 K/Hz
+   K_Hz exists because there are 20836619123.327576 Hz in each Kelvin.
+
+        In SI units: 4.79924307337e-11 K = 1 Hz = 7.37249732381e-51 kg = 6.62607015e-34 J
+   In natural units:        1 K          = 1 Hz =         1 kg         =         1 J
+
+   The constants (c, h, k) have the values they do because SI units are defined far
+   from natural units, where these scaling factors would be unity.
+   In natural units (where 1 Hz = 1 kg = 1 K = 1 J), these scaling factors (kg_J, Hz_J, K_J) would all be 1.
+   It is only by rescaling our units of measure to unity with each other that c=h=k=1 is true.
+   This shows that c, h, and k's SI values are solely unit conversion artifacts,
+   not indicators of mysterious 'quantum magic' or deeply fundamental values beyond unit scaling.
+   This does not diminish the constants, understanding their true nature makes them more important.
+
+   T ~ f ~ m ~ J are all equivalences.
+
+   T <-- K_Hz --> Hz <-- Hz_kg --> kg <-- kg_J --> J
+   Since the units are equivalent you can simply scale between any unit
+   No one unit of measure is more important than any other.
+
+
+
+
