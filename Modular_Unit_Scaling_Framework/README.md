@@ -117,7 +117,7 @@ By unifying these relationships, the framework bridges SI units and natural unit
 
 This framework not only simplifies calculations but also redefines how constants and units are perceived in physics, making them more intuitive and interconnected.
 
-
+'''
 
    How constants c, h, and k act as unit scaling factors.
 
@@ -154,4 +154,4 @@ This framework not only simplifies calculations but also redefines how constants
    No one unit of measure is more important than any other.
 
 
-
+'''
