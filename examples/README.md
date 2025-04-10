@@ -37,8 +37,8 @@ kg, and temperature scales are away from natural units where
 
 The main two examples are:  
 
-**physics_unit_coordinate_scaling.py**
-**print_periodic_table.py**
+- **physics_unit_coordinate_scaling.py**
+- **print_periodic_table.py**
 
 The first program converts a set of the constants in the ```../data_sets/constnats.py```
 
