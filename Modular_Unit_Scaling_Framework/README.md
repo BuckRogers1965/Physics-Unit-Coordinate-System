@@ -37,44 +37,36 @@ This is arguably one of the most complex formulas in thermodynamics. Simplified,
 ---
 
 ### Planck's Law Formula
-**Original:**  
-`B(f, T) = 2 * f**3 * h / (c**2 * (e**(f * h / (T * k)) - 1))`
+**Original:**    `B(f, T) = 2 * f**3 * h / (c**2 * (e**(f * h / (T * k)) - 1))`
 
-**Simplified:**  
-`B(f, T) = 2 * f**3 * Hz_kg / (e**(f / (T * K_Hz)) - 1)`
+**Simplified:**  `B(f, T) = 2 * f**3 * Hz_kg / (e**(f / (T * K_Hz)) - 1)`
 
 In the numerator, one of the frequencies is converted into a mass. In the exponent, it becomes either a ratio of frequencies or can be interpreted as a ratio of temperatures: `f * Hz_K / T`.
 
 ---
 
 ### Wien's Displacement Constant
-**Original:**  
-`x_peak = c * h / (T * k * λ_max)`
+**Original:**    `x_peak = c * h / (T * k * λ_max)`
 
-**Simplified:**  
-`x_peak = c / (K_Hz * T * λ_max)`
+**Simplified:**  `x_peak = c / (K_Hz * T * λ_max)`
 
 This formula simply converts temperature into frequency, scaled by `λ_max` and unit-converted to a wavelength by `c`.
 
 ---
 
 ### Debye Temperature
-**Original:**  
-`Θ_D = h * ν_D / k`
+**Original:**    `Θ_D = h * ν_D / k`
 
-**Simplified:**  
-`Θ_D = ν_D * Hz_K`
+**Simplified:**  `Θ_D = ν_D * Hz_K`
 
 This becomes a simple unit conversion of frequency to temperature.
 
 ---
 
 ### Einstein Temperature
-**Original:** 
-`Θ_E = h * ν_E / k`
+**Original:**    `Θ_E = h * ν_E / k`
 
-**Simplified:**  
-`Θ_E = ν_E * Hz_K`
+**Simplified:**  `Θ_E = ν_E * Hz_K`
 
 Like the Debye temperature, this simply converts frequency to temperature.
 
