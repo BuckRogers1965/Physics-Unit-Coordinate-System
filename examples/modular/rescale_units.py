@@ -68,6 +68,7 @@ def rescale_value_by_units(constant_data, unit_scaling_modes):
 
                 # Replace the current unit with its corresponding "swap_with" unit
                 swapped_unit = mode["swap_with"]
+                #print (f"*** {unit_symbol} {rescale_factor} {power} {swapped_unit}")
                 if power != 1:  # Include the power if it's not 1
                     units_applied_list.append(f"{swapped_unit}^{power}")
                 else:

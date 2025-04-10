@@ -1142,7 +1142,7 @@ periodic_table = {
     58: {
         "name": "Cerium",
         "symbol": "Ce",
-        "group": "Lanthanide",
+        "group": 19,
         "period": 6,
         "atomic_number": 58,
         "discovery": {
@@ -1162,7 +1162,7 @@ periodic_table = {
     59: {
         "name": "Praseodymium",
         "symbol": "Pr",
-        "group": "Lanthanide",
+        "group": 19,
         "period": 6,
         "atomic_number": 59,
         "discovery": {
@@ -1182,7 +1182,7 @@ periodic_table = {
     60: {
         "name": "Neodymium",
         "symbol": "Nd",
-        "group": "Lanthanide",
+        "group": 19,
         "period": 6,
         "atomic_number": 60,
         "discovery": {
@@ -1202,7 +1202,7 @@ periodic_table = {
     61: {
         "name": "Promethium",
         "symbol": "Pm",
-        "group": "Lanthanide",
+        "group": 19,
         "period": 6,
         "atomic_number": 61,
         "discovery": {
@@ -1222,7 +1222,7 @@ periodic_table = {
     62: {
         "name": "Samarium",
         "symbol": "Sm",
-        "group": "Lanthanide",
+        "group": 19,
         "period": 6,
         "atomic_number": 62,
         "discovery": {
@@ -1242,7 +1242,7 @@ periodic_table = {
     63: {
         "name": "Europium",
         "symbol": "Eu",
-        "group": "Lanthanide",
+        "group": 19,
         "period": 6,
         "atomic_number": 63,
         "discovery": {
@@ -1262,7 +1262,7 @@ periodic_table = {
     64: {
         "name": "Gadolinium",
         "symbol": "Gd",
-        "group": "Lanthanide",
+        "group": 19,
         "period": 6,
         "atomic_number": 64,
         "discovery": {
@@ -1282,7 +1282,7 @@ periodic_table = {
     65: {
         "name": "Terbium",
         "symbol": "Tb",
-        "group": "Lanthanide",
+        "group": 19,
         "period": 6,
         "atomic_number": 65,
         "discovery": {
@@ -1302,7 +1302,7 @@ periodic_table = {
     66: {
         "name": "Dysprosium",
         "symbol": "Dy",
-        "group": "Lanthanide",
+        "group": 19,
         "period": 6,
         "atomic_number": 66,
         "discovery": {
@@ -1322,7 +1322,7 @@ periodic_table = {
     67: {
         "name": "Holmium",
         "symbol": "Ho",
-        "group": "Lanthanide",
+        "group": 19,
         "period": 6,
         "atomic_number": 67,
         "discovery": {
@@ -1342,7 +1342,7 @@ periodic_table = {
  68: {
         "name": "Erbium",
         "symbol": "Er",
-        "group": "Lanthanide",
+        "group": 19,
         "period": 6,
         "atomic_number": 68,
         "discovery": {
@@ -1362,7 +1362,7 @@ periodic_table = {
     69: {
         "name": "Thulium",
         "symbol": "Tm",
-        "group": "Lanthanide",
+        "group": 19,
         "period": 6,
         "atomic_number": 69,
         "discovery": {
@@ -1382,7 +1382,7 @@ periodic_table = {
     70: {
         "name": "Ytterbium",
         "symbol": "Yb",
-        "group": "Lanthanide",
+        "group": 19,
         "period": 6,
         "atomic_number": 70,
         "discovery": {
@@ -1402,7 +1402,7 @@ periodic_table = {
     71: {
         "name": "Lutetium",
         "symbol": "Lu",
-        "group": "Lanthanide",
+        "group": 19,
         "period": 6,
         "atomic_number": 71,
         "discovery": {

@@ -25,6 +25,38 @@ parser.add_argument('-p', '--pronunciation',  action='store_true', help='Give pr
 parser.add_argument('-r', '--reference',      action='store_true', help='Print reference field')
 parser.add_argument('-u', '--units',          action='store_true', help='Print unit field')
 args = parser.parse_args() # Parse the arguments provided when running the script
+'''
+83: {'atomic_number': 83,
+      'common_uses': ['Alloys', 'Medical treatments', 'Cosmetics'],
+      'discovery': {'discoverer': 'Prehistoric',
+                    'notes': 'Known since ancient times; thought to be stable '
+                             'but faintly radioactive.',
+                    'year': None},
+      'electron_configuration': '[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p³',
+      'group': 15,
+      'name': 'Bismuth',
+      'period': 6,
+      'physical_properties': {'atomic_mass': {'notes': 'Dominated by isotope '
+                                                       'Bi-209.',
+                                              'units': [('amu', 1)],
+                                              'value': 208.98},
+                              'boiling_point': {'notes': 'Applications in '
+                                                         'medical and '
+                                                         'industrial uses.',
+                                                'units': [('K', 1)],
+                                                'value': 1837},
+                              'density': {'notes': 'Brittle, lustrous metal.',
+                                          'units': [('kg', 1), ('m', -3)],
+                                          'value': 9.78},
+                              'melting_point': {'notes': 'Used in '
+                                                         'low-melting-point '
+                                                         'alloys.',
+                                                'units': [('K', 1)],
+                                                'value': 544.7}},
+      'symbol': 'Bi'}}
+
+
+'''
 
 if args.debug:
     print (f"   Comman line arguments found {args}")
@@ -62,6 +94,32 @@ def promote_exponents(unit_string):
     # Join the processed parts back into a single string
     return " ".join(formatted_parts)
 
+def get_group_name(group_number):
+    """Returns the group name for a given group number in the periodic table."""
+    group_names = {
+        1: "Alkali Metals",
+        2: "Alkaline Earth Metals",
+        3: "Scandium",
+        4: "Titanium",
+        5: "Vanadium",
+        6: "Chromium",
+        7: "Manganese",
+        8: "Iron",
+        9: "Cobalt",
+        10: "Nickel",
+        11: "Copper",
+        12: "Zinc",
+        13: "Boron (Icosagens)",
+        14: "Carbon (Crystallogens)",
+        15: "Nitrogen (Pnictogens)",
+        16: "Oxygen (Chalcogens)",
+        17: "Halogens",
+        18: "Noble Gases",
+        19: "Lanthanides",
+        20: "Actinides", 
+    }
+    return group_names.get(group_number, "Unknown")
+
 def print_periodic_table(periodic_table, rescale_factors, rescale_value_by_units):
     # Handle debug option
     if args.debug:
@@ -73,20 +131,20 @@ def print_periodic_table(periodic_table, rescale_factors, rescale_value_by_units
     print("\n--- Periodic Table ---")
     for atomic_number, element in periodic_table.items():
         print(f"\nElement: {element['name']} ({element['symbol']})")
-        print(f"Group: {element['group']}, Period: {element['period']}, Atomic Number: {atomic_number}")
+        print(f"Group: {element['group']} {get_group_name(element['group'])}, Period: {element['period']}, Atomic Number: {atomic_number}")
 
-        # Print atomic mass with units
-        atomic_mass = element['physical_properties']['atomic_mass']
+        # Iterate through other physical properties
+        for property_name, property_details in element['physical_properties'].items():
+            value, units, notes = property_details['value'], property_details['units'], property_details['notes']
+            #print (f"{property_name} {value} {units} {notes}")
+            if value:
+                scaled_value,  units_applied = rescale_value_by_units( {"value": value, "units": units}, rescale_factors)
+                units_str = " ".join(units_applied)
+                print (f"{property_name:<14} {scaled_value:<18.8} {promote_exponents(units_str):<13} {notes}")
 
         #print("\nInspecting `physical_properties`:")
         #pprint(element['physical_properties'])
-        #pprint(atomic_mass['value'])
-
-        rescaled_mass,  units_applied = rescale_value_by_units(
-                 {"value": atomic_mass['value'], "units": atomic_mass['units']}, rescale_factors)
-
-        units_applied_str = " ".join(units_applied)
-        print(f"Atomic Mass: {rescaled_mass} {promote_exponents(units_applied_str)}")
+        #pprint(periodic_table)
 
         # Print other properties based on flags
         if args.units:
