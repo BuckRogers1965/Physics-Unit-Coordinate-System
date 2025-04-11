@@ -596,7 +596,7 @@ grouped_constants = {
         "electron_compton_wavelength": {
             "value": 2.42631023867e-12,
             "units": [("m", 1)],
-            "symbol": "λ_e,C",
+            "symbol": "λ_e_C",
             "pronunciation": "Electron Compton wavelength",
             "date": "1923",
             "name": "Arthur Compton",
@@ -607,7 +607,7 @@ grouped_constants = {
         "neutron Compton wavelength": {
             "value": 1.31959090581e-15,
             "units": [("m", 1)],
-            "symbol": "λ_n,C",  # No official symbol
+            "symbol": "λ_n_C",  # No official symbol
             "pronunciation": "Neutron Compton wavelength",
             "date": "1936",
             "name": "James Chadwick (concept)",
