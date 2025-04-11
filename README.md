@@ -15,6 +15,12 @@ The **Physics Unit Coordinate System** is a groundbreaking framework that redefi
 - **Applications Across Physics**  
   Supports theoretical physics, education, and scientific research by providing tools to simplify and standardize calculations and analyses.
 
+## Where to start.  
+
+The ```Modular Unit Scaling System``` folder has a README.md file on how to use the scaling factors to simplify equations and use that part of the system in our current SI units of measure.
+
+The ```examples``` folder has a README.md file on how to use the the Physics Unit Coordinate system to scale the constants or the periodic table information to a new unit system of measurement This also can how generate scaled constants as sets of data and as python and c libaries.
+
 ## Why This Matters
 The Physics Unit Coordinate System challenges traditional interpretations of constants like \( h \), \( c \), and \( k \), showing how they are intrinsically linked to unit scaling rather than being arbitrary standalone values. This framework bridges human-defined measurement systems with universal truths, offering a powerful lens for scientific inquiry and practical applications.
 

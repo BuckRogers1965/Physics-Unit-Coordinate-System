@@ -665,7 +665,7 @@ grouped_constants = {
         "Angstrom star": {
             "value": 1.00001495e-10,
             "units": [("m", 1)],
-            "symbol": "Å*",
+            "symbol": "Å_star",
             "pronunciation": "Angstrom star unit",
             "date": "1913",
             "name": "Niels Bohr (concept)",

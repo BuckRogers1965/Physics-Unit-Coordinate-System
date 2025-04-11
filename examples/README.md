@@ -29,20 +29,24 @@ kg, and temperature scales are away from natural units where
 │       └── time_scaling.py
 ├── natural_units.py                    The non modular version to convert constants
 ├── physics_unit_coordinate_scaling.py  Converts contants to new unit system
+├── print_constants_formatted.py        Outputs constants in different formats
 ├── print_periodic_table.py             Shows how to process the periodit table
 └── README.md                           You are here.
 
 ```
 
 
-The main two examples are:  
+The examples are:  
 
 - **physics_unit_coordinate_scaling.py**
+- **print_constants_formatted.py**
 - **print_periodic_table.py**
 
-The first program converts a set of the constants in the ```../data_sets/constnats.py```
+physics_unit_coordinate_scaling.py converts a set of the constants in the ```../data_sets/constnats.py```
 
-The second program converts a set of the elements in the ```../data_sets/periodic_table.py```
+print_constants_formatted.py outputs constants in differnt formats from the ```../data_sets/constnats.py```
+
+print_periodic_table.py converts a set of the elements in the ```../data_sets/periodic_table.py```
 
 These two programs are written in a modular way to allow easy updates.
 
