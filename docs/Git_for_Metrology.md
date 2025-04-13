@@ -1,7 +1,7 @@
 # Git for Metrology: A Versioned Approach to Fundamental Physical Constants
 
-**Authors:** [Your Name], [Co-Authors]  
-**Date:** [Today's Date]  
+**Author:**  J. Rogers
+**Date:**  11 Apr 2025 1837 
 **License:** CC BY-SA 4.0
 
 ---

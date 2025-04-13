@@ -223,11 +223,11 @@ grouped_constants = {
             "reference": "Modern definition adopted in 1967 by the International System of Units (SI)."
         },
         "Amp force": {
-            "value": 10e-7,
+            "value": 1e-7,
             "units": [("kg", 1), ("m", 1), ("s", -2), ("A", -2)],
             "symbol": "A",
             "pronunciation": "amp force",
-            "comment": "in natural units amp_force = α/2π",
+            "comment": "in natural units where e = squart(alpha), amp_force = α/2π where e=1, amp_force = α/2π",
         },
         "1 J": {
             "value": 1, 
@@ -244,7 +244,7 @@ grouped_constants = {
             "date": "1897",
             "name": "J.J. Thomson",
             "origin": "First measured in cathode ray experiments as the charge of an electron.",
-            "comment": "Fundamental to electromagnetism and quantum mechanics.",
+            "comment": "natural units it is sqrt (alpha) - Fundamental to electromagnetism and quantum mechanics.",
             "reference": "Defined by CODATA 2018."
         },
         "avogadro_constant_Na": {
@@ -538,7 +538,7 @@ grouped_constants = {
             "value": 8.987551787e9,
             "units": [("kg", 1), ("m", 3), ("s", -2), ("C", -2)],
             "symbol": "k_e",
-            "comment": "kₑ_natural = 1 / (4π * (1/(2α))) = 2α / (4π) = α / (2π)",
+            "comment": "in natural units where e = squart(alpha), kₑ_natural = 1/2pi,  kₑ_natural = 1 / (4π * (1/(2α))) = 2α / (4π) = α / (2π)",
             "formula": "c**2 * 1e-7",
             "pronunciation": "Coulomb’s constant",
             "date": "1785",
@@ -550,7 +550,7 @@ grouped_constants = {
             "value": 8.8541878128e-12,
             "units": [("C", 2), ("kg", -1), ("m", -3), ("s", 2)],
             "symbol": "ε₀",
-            "comment": "ε₀_natural = 1 / (2α)",
+            "comment": "where  e = squart(alpha), kₑ_natural = 1/2, where e=1, ε₀_natural = 1 / (2α)",
             "formula": "1e7 / ( c**2 4 * pi)",
             "pronunciation": "Vacuum permittivity",
             "date": "1879",
@@ -562,7 +562,7 @@ grouped_constants = {
             "value": 1.25663706212e-6,
             "units": [("kg", 1), ("m", 1), ("s", -2), ("C", -2)],
             "symbol": "μ₀",
-            "comment": "μ₀_natural = 2α",
+            "comment": "where e= squart(alpha), μ₀_natural = 2,  where e=1, μ₀_natural = 2α",
             "formula": "4* pi / '1e7 ",
             "pronunciation": "Vacuum permeability",
             "date": "1820",
@@ -574,7 +574,7 @@ grouped_constants = {
             "value": 376.730313412,
             "units": [("kg", 1), ("m", 2), ("s", -1), ("C", -2)],
             "symbol": "Z_0",
-            "comment": "",
+            "comment": "where e= squart(alpha), μ₀_natural = 2,  where e=1, μ₀_natural = 2α",
             "formula": "c * 4 * pi / 1e7",
             "pronunciation": "Characteristic impedance of vacuum",
             "date": "Derived from Maxwell’s equations",
