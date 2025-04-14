@@ -20,7 +20,7 @@ Now:
 
 **3. Replace μ₀ with the Ampère force (μ₀/4π = 10⁻⁷ N/A²):**
 ```math
-\alpha = \frac{e^2 \cdot \text{amp\_force} \cdot 2}{h} \cdot c
+\alpha = \frac{e^2 \cdot \text{amp\_force} \cdot 2 \cdot \pi}{h} \cdot c
 ```
 *(Where amp_force = 10⁻⁷ N/A²)*
 
