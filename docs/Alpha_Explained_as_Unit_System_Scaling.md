@@ -64,7 +64,7 @@ Now:
 
 1.  **The Calculation as Scaling:** The calculation derived from the standard definition:
     ```math
-    unit_ratio = (e^2 * amp\_force) / (Hz_kg * c) ≈ 0.0011614...
+    unit\_ratio = (e^2 * amp\_force) / (Hz_kg * c) ≈ 0.0011614...
     ```
     This isn't just algebra; it performs a **unit scaling transformation**. It uses the numerical values and dimensional relationships of `e`, `h`, and `c` (inherent in the SI system via the terms `e^2` and `Hz_kg * c`) to scale the SI-based `amp_force` (μ₀/4π).
 
