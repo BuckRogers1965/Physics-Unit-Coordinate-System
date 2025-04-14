@@ -51,7 +51,7 @@ Now:
 **Full Cancellation:**
 1. `amp_force` = 10⁻⁷ N/A² = 10⁻⁷ kg·m/(s²A²)  
 2. Divide by denominator (kg·m):  
-   → 10⁻⁷ / (s²·A²)  
+   → 4.524438335443e+34 / (s²·A²)  
 3. Multiply by e² (A²·s² in SI charge units):  
    → (A²s²) × (1/s²A²) =  dimensionless 
 4. Final scaling:  
