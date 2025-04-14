@@ -58,10 +58,6 @@ Now:
    - pure **dimensionless ratio**.
 
 
-### Key Insight
-α isn't magic—it's **the Ampère force's natural-unit value** scaled by 2π, revealed by stripping away SI's arbitrary conventions.
-``` 
-
 ---
 
 ### Natural Unit Interpretation & Explanation of α
