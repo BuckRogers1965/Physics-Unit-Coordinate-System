@@ -57,17 +57,46 @@ Now:
 4. Final scaling:  
    - pure **dimensionless ratio**.
 
-**Natural Unit Interpretation:**
-- When `c = h = e = 1`, the ratio simplifies to:  
-  ```math
-  \text{amp\_force}_{\text{natural}} = 0.001161...
-  ```
-- `α` is just this value × 2π, exposing it as a **unit conversion factor**. 
-- `α` is just the natural unit value of the amp_force scaled to natural units were c=h=e=1.
-
----
 
 ### Key Insight
 α isn't magic—it's **the Ampère force's natural-unit value** scaled by 2π, revealed by stripping away SI's arbitrary conventions.
 ``` 
 
+---
+
+### Natural Unit Interpretation & Explanation of α
+
+1.  **The Calculation as Scaling:** The calculation derived from the standard definition:
+    ```math
+    unit_ratio = (e^2 * amp_force) / (Hz_kg * c) ≈ 0.0011614...
+    ```
+    This isn't just algebra; it performs a **unit scaling transformation**. It uses the numerical values and dimensional relationships of `e`, `h`, and `c` (inherent in the SI system via the terms `e^2` and `Hz_kg * c`) to scale the SI-based `amp_force` (μ₀/4π).
+
+2.  **The Resultant Value:** The dimensionless result, `unit_ratio`, is precisely the numerical value that the Ampère force constant **must take** in a coordinate system (unit system) where the fundamental scales of action (`h`), speed (`c`), and charge (`e`) are set to unity. Let's denote this as `amp_force_natural(h=c=e=1)`.
+    ```math
+    amp_force_natural(h=c=e=1) = (e^2 * amp_force) / (Hz_kg * c) ≈ 0.0011614...
+    ```
+
+3.  **Identifying Alpha:** We know experimentally and definitionally that the fine-structure constant `α` is related to this ratio by:
+    ```math
+    α = unit_ratio * 2 * pi
+    ```
+
+4.  **The Explanation:** Substituting the meaning of `unit_ratio`, we arrive at the core identity:
+    ```math
+    α = 2 * pi * amp_force_natural(h=c=e=1)
+    ```
+
+    This provides a direct, structural explanation for alpha's value: **α *is* exactly 2π times the necessary value of the magnetic force constant when measured in the natural units defined by h=1, c=1, and e=1.**
+
+---
+
+### Key Insight & Moving the Mystery
+
+*   **α Explained:** Alpha isn't an arbitrary, magic number disconnected from physical scales. It is **identified** as **2π times the value of the Ampère force constant (`amp_force`) expressed in natural units where h=c=e=1.** This identity is revealed by treating the SI definitions/values of `e`, `h`, and `c` not as fundamental properties themselves, but as **scaling factors** inherent in the SI coordinate system that allow translation to the `h=c=e=1` framework.
+
+*   **Mystery Relocated:** This understanding **resolves the question** of *why alpha has its specific value* by equating it to this scaled natural force constant. Consequently, the fundamental mystery is **reframed and moved** to its rightful place:
+    *   Why does the universe require `amp_force_natural(h=c=e=1)` to have the specific value ≈ 0.0011614...?
+    *   More physically: Why does the intrinsic strength of the electromagnetic interaction, represented by `amp_force`, scale in this particular way relative to the natural units defined by action (`h`), speed (`c`), and charge (`e`)?
+
+This shift moves the inquiry from interpreting a dimensionless ratio (`α`) to questioning the fundamental magnitude of a force constant (`amp_force_natural`) within a physically motivated unit system.
