@@ -1,12 +1,13 @@
-Here's the clean, step-by-step breakdown in Markdown:
+Here's the clean, step-by-step breakdown of Alpha, the fine structure constant:
 
-```markdown
 ### Deriving α from Fundamental Constants
 
 **1. Start with the standard definition of α:**
 ```math
 \alpha = \frac{e^2}{4 \pi \epsilon_0 \hbar c}
 ```
+
+We know that this formula is dimensionless, so whenever we replace anything with its definition it will still be dimensionless.
 
 **2. Replace ε₀ using μ₀'s definition (c²ε₀μ₀ = 1):**
 ```math
@@ -43,8 +44,8 @@ Now:
 
 **Denominator (Hz_kg · c):**
 - `Hz_kg` = h/c² → kg/Hz  
-- Multiply by `c` → kg·m/s  
-- **Natural scaling**: Forces (kg·m/s²) divided by (kg·m/s) → 1/s  
+- Multiply by `c` → kg·m  
+- **Natural scaling**: Forces (kg·m/s²) divided by (kg·m) → 1/s^2  
   *(But wait! The Newton in amp_force has kg·m/s² too...)*
 
 **Full Cancellation:**
@@ -52,16 +53,17 @@ Now:
 2. Divide by denominator (kg·m/s):  
    → 10⁻⁷ / (s·A²)  
 3. Multiply by e² (A²·s² in SI charge units):  
-   → (A²s²) × (1/sA²) = s  
+   → (A²s²) × (1/s²A²) =  dimensionless 
 4. Final scaling:  
-   - The `s` cancels with hidden time units in `Hz_kg`, leaving pure **dimensionless ratio**.
+   - pure **dimensionless ratio**.
 
 **Natural Unit Interpretation:**
 - When `c = h = e = 1`, the ratio simplifies to:  
   ```math
   \text{amp\_force}_{\text{natural}} = 0.001161...
   ```
-- `α` is just this value × 2π, exposing it as a **unit conversion factor**.
+- `α` is just this value × 2π, exposing it as a **unit conversion factor**. 
+- `α` is just the natural unit value of the amp_force scaled to natural units were c=h=e=1.
 
 ---
 
@@ -69,4 +71,3 @@ Now:
 α isn't magic—it's **the Ampère force's natural-unit value** scaled by 2π, revealed by stripping away SI's arbitrary conventions.
 ``` 
 
-This keeps it concise while walking through both the math and unit analysis clearly. Let me know if you'd like any adjustments!
