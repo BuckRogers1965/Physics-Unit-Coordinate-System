@@ -229,6 +229,13 @@ grouped_constants = {
             "pronunciation": "amp force",
             "comment": "in natural units where e = squart(alpha), amp_force = α/2π where e=1, amp_force = α/2π",
         },
+        "Amp force scaled in alpha": {
+            "value": 1e-7,
+            "units": [("kg", 1), ("m", 1), ("s", -2), ("A_old", -2)],
+            "symbol": "A",
+            "pronunciation": "amp force",
+            "comment": "in natural units where e = squart(alpha), amp_force = α/2π where e=1, amp_force = α/2π",
+        },
         "1 J": {
             "value": 1, 
             "units": [("kg", 1), ("m", 2), ("s", -2)],

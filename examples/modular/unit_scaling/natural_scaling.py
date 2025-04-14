@@ -6,8 +6,8 @@ def calculate_scaling_factors(constants):
     k = constants["Core Scaling Constants"]["boltzmann_constant_k"]["value"]
     e = constants["Units of Measure"]["elementary_charge_e"]["value"]
     Na = constants["Units of Measure"]["avogadro_constant_Na"]["value"]
-    #e_rescale = e
-    e_rescale = e / 0.0072973525693**(1/2)
+    e_rescale = e
+    #e_rescale = e / 0.0072973525693**(1/2)
     
     rescale_factors = [
         {"symbol": "s",  "factor": 1.0,        "swap_with": "s_n"},

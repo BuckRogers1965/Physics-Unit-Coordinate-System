@@ -1,11 +1,16 @@
 import math
 def calculate_scaling_factors(constants):
+    c = constants["Core Scaling Constants"]["speed_of_light_c"]["value"]
+    h = constants["Core Scaling Constants"]["planck_constant_h"]["value"]
+
     rescale_factors = [
         {"symbol": "s",  "factor": 1.0, "swap_with": "s"},
         {"symbol": "m",  "factor": 1.0, "swap_with": "m"},
+#        {"symbol": "kg", "factor": h*c**4, "swap_with": "kg"},
         {"symbol": "kg", "factor": 1.0, "swap_with": "kg"},
         {"symbol": "K",  "factor": 1.0, "swap_with": "K"},
         {"symbol": "C",  "factor": 1.0, "swap_with": "C"},
+#        {"symbol": "mol","factor": h*c**4, "swap_with": "mol"},
         {"symbol": "mol","factor": 1.0, "swap_with": "mol"},
         {"symbol": "pi", "factor": 1.0, "swap_with": "pi"},
         {"symbol": "Hz", "factor": 1.0, "swap_with": "Hz"},
