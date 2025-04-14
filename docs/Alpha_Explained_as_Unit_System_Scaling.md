@@ -66,7 +66,7 @@ Now:
     ```math
     unit\_ratio = (e^2 * amp\_force) / (Hz_kg * c) ≈ 0.0011614...
     ```
-    This isn't just algebra; it performs a **unit scaling transformation**. It uses the numerical values and dimensional relationships of `e`, `h`, and `c` (inherent in the SI system via the terms `e^2` and `Hz_kg * c`) to scale the SI-based `amp_force` (μ₀/4π).
+    This isn't just algebra; it performs a **unit scaling transformation**. It uses the numerical values and dimensional relationships of `e`, `h`, and `c` (inherent in the SI system via the terms `e^2` and `Hz_kg * c`) to scale the units of measure of the SI-based `amp_force` (μ₀/4π).
 
 2.  **The Resultant Value:** The dimensionless result, `unit_ratio`, is precisely the numerical value that the Ampère force constant **must take** in a coordinate system (unit system) where the fundamental scales of action (`h`), speed (`c`), and charge (`e`) are set to unity. Let's denote this as `amp_force_natural(h=c=e=1)`.
     ```math
