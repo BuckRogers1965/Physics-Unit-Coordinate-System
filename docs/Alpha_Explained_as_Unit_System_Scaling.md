@@ -64,23 +64,23 @@ Now:
 
 1.  **The Calculation as Scaling:** The calculation derived from the standard definition:
     ```math
-    unit_ratio = (e^2 * amp_force) / (Hz_kg * c) ≈ 0.0011614...
+    unit_ratio = (e^2 * amp\_force) / (Hz_kg * c) ≈ 0.0011614...
     ```
     This isn't just algebra; it performs a **unit scaling transformation**. It uses the numerical values and dimensional relationships of `e`, `h`, and `c` (inherent in the SI system via the terms `e^2` and `Hz_kg * c`) to scale the SI-based `amp_force` (μ₀/4π).
 
 2.  **The Resultant Value:** The dimensionless result, `unit_ratio`, is precisely the numerical value that the Ampère force constant **must take** in a coordinate system (unit system) where the fundamental scales of action (`h`), speed (`c`), and charge (`e`) are set to unity. Let's denote this as `amp_force_natural(h=c=e=1)`.
     ```math
-    amp_force_natural(h=c=e=1) = (e^2 * amp_force) / (Hz_kg * c) ≈ 0.0011614...
+    amp\_force\_natural(h=c=e=1) = (e^2 * amp\_force) / (Hz_kg * c) ≈ 0.0011614...
     ```
 
 3.  **Identifying Alpha:** We know experimentally and definitionally that the fine-structure constant `α` is related to this ratio by:
     ```math
-    α = unit_ratio * 2 * pi
+    α = unit\_ratio * 2 * pi
     ```
 
 4.  **The Explanation:** Substituting the meaning of `unit_ratio`, we arrive at the core identity:
     ```math
-    α = 2 * pi * amp_force_natural(h=c=e=1)
+    α = 2 * pi * amp\_force\_natural(h=c=e=1)
     ```
 
     This provides a direct, structural explanation for alpha's value: **α *is* exactly 2π times the necessary value of the magnetic force constant when measured in the natural units defined by h=1, c=1, and e=1.**
