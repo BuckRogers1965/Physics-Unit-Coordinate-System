@@ -1,16 +1,21 @@
 import argparse
+import re
 
 # Argument parsing setup
 parser = argparse.ArgumentParser(
     description="Rescale physical constants and output in various formats.",
     epilog="Examples:\n"
+           "  python converter.py --format=c\n"
            "  python converter.py --format=json\n"
-           "  python converter.py --format=xml\n"
+           "  python converter.py --format=latex\n"
+           "  python converter.py --format=markdown\n"
            "  python converter.py --format=python\n"
            "  python converter.py --format=text\n"
-           "  python converter.py --format=c\n"
+           "  python converter.py --format=xml\n"
+
 )
-parser.add_argument('--format', choices=['json', 'xml', 'python', 'text', 'c'], default='json',
+parser.add_argument('--format', choices=['json', 'xml', 'python', 'text', 'c', 'latex', 'markdown'], default='json',
+#parser.add_argument('--format', choices=['json', 'xml', 'python', 'text', 'c'], default='json',
                    help='Output format (json, xml, python, text, or c)')
 parser.add_argument('--suffix', default='', help='Suffix to append to symbol names')
 args = parser.parse_args()
@@ -47,7 +52,16 @@ def print_outputs(grouped_constants, rescale_factors, rescale_value_by_units):
         print("*/")
         print()
         print()
+
+    elif args.format == 'latex':
+        print(r"\documentclass{article}")
+        print(r"\usepackage{amsmath, amssymb, geometry}")
+        print(r"\begin{document}")
+        print(r"\section*{Physics Unit Coordinate System Constants}")
     
+    elif args.format == 'markdown':
+        print("# Physics Unit Coordinate System Constants")
+        print("```")
     
     for group_name, group_data in grouped_constants.items():
         for name, data in group_data.items():
@@ -80,17 +94,35 @@ def print_outputs(grouped_constants, rescale_factors, rescale_value_by_units):
     
             elif args.format == 'c':
                 print(f"#define {symbol:<8}  {rescaled_value:30} /* {name:<30} {units_str} */")
+
+            elif args.format == 'latex':
+                #safe_units = units_str.replace("^", "^").replace(" ", r" \cdot ")
+                #print (f"   {symbol}   {rescaled_value}    {units_str}    {safe_units}")
+                safe_units = re.sub(r"\^(-?\d+)", r"^{\1}", units_str.replace(" ", r" \cdot "))
+                print(rf"\[{symbol} = {rescaled_value} \quad \text{{({name})}} \quad \mathrm{{{safe_units}}}\]")
+            
+            elif args.format == 'markdown':
+                print(f"{symbol} = {rescaled_value}   # {name} {units_str}")
     
     # Close structured formats
     if args.format == 'json':
         print("\n}")
+
     elif args.format == 'xml':
         print("</constants>")
+
     elif args.format == 'python':
         print("\n# Import all constants:")
         print(f"# from your_module import {', '.join(symbols)}")
+
     elif args.format == 'c':
         print("\n#endif /* PUCS PHYSICS_CONSTANTS_H */")
+
+    elif args.format == 'latex':
+        print(r"\end{document}")
+
+    elif args.format == 'markdown':
+        print("```")
 
 
 
