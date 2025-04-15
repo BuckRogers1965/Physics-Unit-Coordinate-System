@@ -1,6 +1,7 @@
 import math
 
 def calculate_scaling_factors(constants):
+    # Beware, here be dragons! 
     c = constants["Core Scaling Constants"]["speed_of_light_c"]["value"]
     h = constants["Core Scaling Constants"]["planck_constant_h"]["value"]
     k = constants["Core Scaling Constants"]["boltzmann_constant_k"]["value"]
