@@ -1,0 +1,68 @@
+<constants>
+  <constant name="speed_of_light_c" value="1.0" units="m_n s_n^-1"/>
+  <constant name="planck_constant_h" value="1.0" units="kg_n m_n^2 s_n^-1"/>
+  <constant name="Hz_kg" value="0.9999999999996326" units="kg_n Hz_n"/>
+  <constant name="boltzmann_constant_k" value="0.9999999999999998" units="kg_n m_n^2 s_n^-2 K_n^-1"/>
+  <constant name="K_Hz" value="1.0000000000001164" units="Hz_n K_n^-1"/>
+  <constant name="molar_gas_constant_R" value="0.9999999999815693" units="kg_n m_n^2 s_n^-2 mol_n^-1 K_n^-1"/>
+  <constant name="klitzing_constant_Rk" value="0.9999999996395389" units="kg_n m_n^2 s_n^-1 C_n^-2"/>
+  <constant name="magnetic_flux_quantum_Phi0" value="0.499999999888306" units="kg_n m_n^2 s_n^-1 C_n^-1"/>
+  <constant name="faraday_constant_F" value="0.9999999999656941" units="mol_n^-1 C_n"/>
+  <constant name="josephson_constant_KJ" value="1.9999999999297615" units="kg_n^-1 m_n^-2 s_n C_n"/>
+  <constant name="conductance_quantum_G0" value="1.9999999997770679" units="kg_n^-1 m_n^-2 s_n C_n^2"/>
+  <constant name="first radiation constant" value="1.9999999998969695" units="kg_n m_n^4 s_n^-3 pi_n"/>
+  <constant name="first radiation constant sr" value="1.999999999333041" units="kg_n m_n^4 s_n^-3"/>
+  <constant name="second_radiation_constant_c2" value="1.0000000000667695" units="m_n K_n"/>
+  <constant name="1 kg" value="1.356392489652132e+50" units="kg_n"/>
+  <constant name="1 meter" value="3.3356409519815204e-09" units="m_n"/>
+  <constant name="1 second" value="1.0" units="s_n"/>
+  <constant name="1 Hz" value="1.0" units="s_n^-1"/>
+  <constant name="Amp force" value="0.0011614097322526476" units="kg_n m_n s_n^-2 A_n^-2"/>
+  <constant name="Amp force scaled in alpha" value="4.524438335443822e+34" units="kg_n m_n s_n^-2 A_old^-2"/>
+  <constant name="1 J" value="1.5091901796421518e+33" units="kg_n m_n^2 s_n^-2"/>
+  <constant name="elementary_charge_e" value="1.0" units="C_n"/>
+  <constant name="avogadro_constant_Na" value="0.9999999999999999" units="mol_n^-1"/>
+  <constant name="electron_mass_me" value="1.235589963807414e+20" units="kg_n"/>
+  <constant name="pion_charged_mass_pi_pm" value="3.3747966133045517e+22" units="kg_n"/>
+  <constant name="pion_neutral_mass_pi0" value="3.263724752029665e+22" units="kg_n"/>
+  <constant name="muon_mass_mu" value="2.554808152885061e+22" units="kg_n"/>
+  <constant name="tau_mass_tau" value="4.2963325191984383e+23" units="kg_n"/>
+  <constant name="lambda_baryon_mass_Lambda0" value="2.6970236985745062e+23" units="kg_n"/>
+  <constant name="proton_mass_mp" value="2.2687318153206176e+23" units="kg_n"/>
+  <constant name="neutron_mass_mn" value="2.271859079053292e+23" units="kg_n"/>
+  <constant name="atomic_mass_unit_u" value="2.2523427187102014e+23" units="kg_n"/>
+  <constant name="Higgs_boson_mass_H" value="3.027522292603145e+25" units="kg_n"/>
+  <constant name="Z_boson_mass_Z" value="2.204910939403816e+25" units="kg_n"/>
+  <constant name="W_boson_mass_W" value="1.9432899559997127e+25" units="kg_n"/>
+  <constant name="planck_length_lP" value="5.391246366844893e-44" units="m_n"/>
+  <constant name="planck_time" value="5.391247e-44" units="s_n"/>
+  <constant name="planck_mass" value="2.9520987318235486e+42" units="kg_n"/>
+  <constant name="planck_temperature" value="2.9520988588024534e+42" units="K_n"/>
+  <constant name="stoney_length_lS" value="4.603184513734498e-42" units="m_n"/>
+  <constant name="stoney_time_tS" value="4.6e-43" units="s_n"/>
+  <constant name="stoney_mass_mS" value="2.5093261058564442e+41" units="kg_n"/>
+  <constant name="stoney_temperature_TS" value="3.000473153759171e+42" units="K_n"/>
+  <constant name="electronvolts_to_energy_EeV" value="1.602176634e-19" units="J"/>
+  <constant name="natural_length_ln" value="9.399637152312884e-24" units="m_n"/>
+  <constant name="natural_time_tn" value="9.3132257462e-24" units="s_n"/>
+  <constant name="gravitational_constant_G" value="1.8262416298105014e-86" units="m_n^3 kg_n^-1 s_n^-2"/>
+  <constant name="coulombs_constant_k_e" value="0.0011614097322050704" units="kg_n m_n^3 s_n^-2 C_n^-2"/>
+  <constant name="vacuum_permittivity_epsilon0" value="68.51799954205417" units="C_n^2 kg_n^-1 m_n^-3 s_n^2"/>
+  <constant name="vacuum_permeability_mu0" value="0.014594705138555429" units="kg_n m_n s_n^-2 C_n^-2"/>
+  <constant name="character impedance vacuum" value="0.01459470512868229" units="kg_n m_n^2 s_n^-1 C_n^-2"/>
+  <constant name="atomic unit of permittivity" value="5.673566034269007e-73" units="m_n^-3 kg_n^-1 s_n^-4 C_n^-2"/>
+  <constant name="hartree_energy_Eh" value="6579683920296256.0" units="kg_n m_n^2 s_n^-2"/>
+  <constant name="bohr_magneton_muB" value="6.440443340944591e-22" units="m_n^2 s_n^-1 C_n"/>
+  <constant name="nuclear_magneton_muN" value="3.5075750694120227e-25" units="m_n^2 s_n^-1 C_n"/>
+  <constant name="electron_compton_wavelength" value="8.093299794319709e-21" units="m_n"/>
+  <constant name="neutron Compton wavelength" value="4.401681465282225e-24" units="m_n"/>
+  <constant name="Wien wl d law" value="0.20140523525977205" units="m_n K_n"/>
+  <constant name="rydberg infinite" value="3289841960250881.0" units="m_n^-1"/>
+  <constant name="electron_radius_re" value="9.399637152312884e-24" units="m_n"/>
+  <constant name="bohr_radius_a0" value="1.7651451755434086e-19" units="m_n"/>
+  <constant name="Angstrom star" value="3.3356908198137523e-19" units="m_n"/>
+  <constant name="stefan_boltzmann_constant_sigma" value="40.802624636710405" units="kg_n s_n^-3 K_n^-4"/>
+  <constant name="standard_gravity_g0" value="3.271146334174958e-08" units="m_n s_n^-2"/>
+  <constant name="quantum of circulation" value="4.0466498916998256e-21" units="m_n^2 s_n^-1"/>
+  <constant name="cosmological_constant_Lambda" value="9.803621489661207e-36" units="m_n^-2"/>
+</constants>
