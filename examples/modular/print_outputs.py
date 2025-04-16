@@ -83,7 +83,7 @@ def print_outputs(grouped_constants, rescale_factors, rescale_value_by_units):
                 print(f"{symbol} {rescaled_value} {units_str}")
             
             elif args.format == 'json':
-                print(f'  "{symbol}": {{"name": "{name}", "value": {rescaled_value}, "units": "{units_str}"}}', end='')
+                print(f'  "{symbol}": {{"name": "{name}", "value": {rescaled_value}, "units": "{units_applied}"}}', end='')
             
             elif args.format == 'xml':
                 print(f'  <constant name="{name}" value="{rescaled_value}" units="{units_str}"/>')
