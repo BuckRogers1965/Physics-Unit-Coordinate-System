@@ -1,0 +1,593 @@
+
+--- Periodic Table ---
+
+Element: Hydrogen (H)
+Group: 1 Alkali Metals, Period: 1, Atomic Number: 1
+atomic_mass    2.2703615e+23      kg_n          Weighted average of isotopes.
+density        3.2848122e+74      kg_n m_n⁻³    Gas at STP.
+melting_point  2.8817044e+11      K_n           Under pressure.
+boiling_point  4.2237911e+11      K_n           At 1 atm.
+
+Element: Helium (He)
+Group: 18 Noble Gases, Period: 1, Atomic Number: 2
+atomic_mass    9.0152315e+23      kg_n          Stable isotope He-4.
+density        6.5272304e+74      kg_n m_n⁻³    Gas at STP.
+boiling_point  8.7972206e+10      K_n           Lowest boiling point of any element.
+
+Element: Lithium (Li)
+Group: 1 Alkali Metals, Period: 2, Atomic Number: 3
+atomic_mass    1.5631258e+24      kg_n          Weighted average of isotopes.
+density        1.9515907e+75      kg_n m_n⁻³    Lowest density of all metals.
+melting_point  9.4533657e+12      K_n           Metallic state.
+boiling_point  3.34011e+13        K_n           Metallic state.
+
+Element: Beryllium (Be)
+Group: 2 Alkaline Earth Metals, Period: 2, Atomic Number: 4
+atomic_mass    2.0298563e+24      kg_n          Stable isotope Be-9.
+density        6.7611289e+75      kg_n m_n⁻³    Lightweight metal.
+melting_point  3.2505126e+13      K_n           High melting point.
+boiling_point  5.713401e+13       K_n           High boiling point.
+
+Element: Boron (B)
+Group: 13 Boron (Icosagens), Period: 2, Atomic Number: 5
+atomic_mass    2.4347825e+24      kg_n          Weighted average of isotopes.
+density        8.5519143e+75      kg_n m_n⁻³    At room temperature.
+melting_point  4.8945218e+13      K_n           High melting point for a metalloid.
+boiling_point  8.75138e+13        K_n           Extremely high due to strong covalent bonds.
+
+Element: Carbon (C)
+Group: 14 Carbon (Crystallogens), Period: 2, Atomic Number: 6
+atomic_mass    2.7052888e+24      kg_n          Weighted average of isotopes.
+density        8.2851239e+75      kg_n m_n⁻³    For graphite form.
+melting_point  8.5430138e+13      K_n           Sublimation temperature.
+boiling_point  8.9597462e+13      K_n           Depends on the form (e.g., diamond, graphite).
+
+Element: Nitrogen (N)
+Group: 15 Nitrogen (Pnictogens), Period: 2, Atomic Number: 7
+atomic_mass    3.1548564e+24      kg_n          Dominated by isotope N-14.
+density        4.5705231e+75      kg_n m_n⁻³    Gas at STP.
+melting_point  1.3158325e+12      K_n           Solidifies under low temperature.
+boiling_point  1.6118167e+12      K_n           At 1 atm.
+
+Element: Oxygen (O)
+Group: 16 Oxygen (Chalcogens), Period: 2, Atomic Number: 8
+atomic_mass    3.6035231e+24      kg_n          Dominated by isotope O-16.
+density        5.2225152e+75      kg_n m_n⁻³    Gas at STP.
+melting_point  1.1326786e+12      K_n           Solidifies under low temperature.
+boiling_point  1.879213e+12       K_n           At 1 atm.
+
+Element: Fluorine (F)
+Group: 17 Halogens, Period: 2, Atomic Number: 9
+atomic_mass    4.2790007e+24      kg_n          Isotope F-19 dominates.
+density        6.1983106e+75      kg_n m_n⁻³    Gas at STP.
+melting_point  1.1143424e+12      K_n           Solidifies under low temperature.
+boiling_point  1.7717377e+12      K_n           At 1 atm.
+
+Element: Neon (Ne)
+Group: 18 Noble Gases, Period: 2, Atomic Number: 10
+atomic_mass    4.5452276e+24      kg_n          Dominated by isotope Ne-20.
+density        3.2899288e+75      kg_n m_n⁻³    Gas at STP.
+melting_point  5.1174737e+11      K_n           Solidifies under low temperature.
+boiling_point  5.6404728e+11      K_n           At 1 atm.
+
+Element: Sodium (Na)
+Group: 1 Alkali Metals, Period: 3, Atomic Number: 11
+atomic_mass    5.1780839e+24      kg_n          Stable isotope Na-23.
+density        3.537715e+75       kg_n m_n⁻³    At room temperature.
+melting_point  7.7276769e+12      K_n           Soft metallic solid.
+boiling_point  2.4087132e+13      K_n           Low boiling point for a metal.
+
+Element: Magnesium (Mg)
+Group: 2 Alkaline Earth Metals, Period: 3, Atomic Number: 12
+atomic_mass    5.474319e+24       kg_n          Weighted average of isotopes.
+density        6.3518065e+75      kg_n m_n⁻³    Light metal.
+melting_point  1.9232199e+13      K_n           Metallic solid.
+boiling_point  2.8400312e+13      K_n           Useful for casting alloys.
+
+Element: Aluminum (Al)
+Group: 13 Boron (Icosagens), Period: 3, Atomic Number: 13
+atomic_mass    6.0771671e+24      kg_n          Stable isotope Al-27.
+density        9.8675935e+75      kg_n m_n⁻³    Lightweight metal.
+melting_point  1.9450359e+13      K_n           Metallic solid.
+boiling_point  5.7154846e+13      K_n           High boiling point for practical applications.
+
+Element: Silicon (Si)
+Group: 14 Carbon (Crystallogens), Period: 3, Atomic Number: 14
+atomic_mass    6.3257045e+24      kg_n          Weighted average of isotopes.
+density        8.5153677e+75      kg_n m_n⁻³    At room temperature.
+melting_point  3.5151376e+13      K_n           High melting point for semiconductors.
+boiling_point  7.3719958e+13      K_n           Useful for electronics and alloys.
+
+Element: Phosphorus (P)
+Group: 15 Nitrogen (Pnictogens), Period: 3, Atomic Number: 15
+atomic_mass    6.9763527e+24      kg_n          Stable isotope P-31.
+density        6.6514889e+75      kg_n m_n⁻³    For white phosphorus form.
+melting_point  6.6114592e+12      K_n           For white phosphorus form.
+boiling_point  1.1460141e+13      K_n           Highly reactive element.
+
+Element: Sulfur (S)
+Group: 16 Oxygen (Chalcogens), Period: 3, Atomic Number: 16
+atomic_mass    7.2210108e+24      kg_n          Weighted average of isotopes.
+density        7.554191e+75       kg_n m_n⁻³    For solid at room temperature.
+melting_point  8.0921094e+12      K_n           Solid sulfur transitions to liquid.
+boiling_point  1.4956525e+13      K_n           Boils into gaseous form.
+
+Element: Chlorine (Cl)
+Group: 17 Halogens, Period: 3, Atomic Number: 17
+atomic_mass    7.9845549e+24      kg_n          Weighted average of isotopes Cl-35 and Cl-37.
+density        1.1746091e+76      kg_n m_n⁻³    Gas at STP.
+melting_point  3.5755638e+12      K_n           Solid under very low temperature.
+boiling_point  4.982244e+12       K_n           Gaseous at room temperature.
+
+Element: Argon (Ar)
+Group: 18 Noble Gases, Period: 3, Atomic Number: 18
+atomic_mass    8.9976587e+24      kg_n          Dominated by isotope Ar-40.
+density        6.519921e+75       kg_n m_n⁻³    Gas at STP.
+melting_point  1.746317e+12       K_n           Solidifies under low temperature.
+boiling_point  1.8190368e+12      K_n           At 1 atm.
+
+Element: Potassium (K)
+Group: 1 Alkali Metals, Period: 4, Atomic Number: 19
+atomic_mass    8.8062771e+24      kg_n          Stable isotope K-39.
+density        3.1503206e+75      kg_n m_n⁻³    Soft metallic solid.
+melting_point  7.0121474e+12      K_n           Low melting point for a metal.
+boiling_point  2.1503391e+13      K_n           Used in heat transfer applications.
+
+Element: Calcium (Ca)
+Group: 2 Alkaline Earth Metals, Period: 4, Atomic Number: 20
+atomic_mass    9.0269391e+24      kg_n          Stable isotope Ca-40 dominates.
+density        5.6647296e+75      kg_n m_n⁻³    Soft metal at room temperature.
+melting_point  2.323283e+13       K_n           Higher melting point for reactive metals.
+boiling_point  3.660994e+13       K_n           Metallic vapor at high temperatures.
+
+Element: Scandium (Sc)
+Group: 3 Scandium, Period: 4, Atomic Number: 21
+atomic_mass    1.0125611e+25      kg_n          Stable isotope Sc-45.
+density        1.0909173e+76      kg_n m_n⁻³    Metal at room temperature.
+melting_point  3.7797627e+13      K_n           Metallic solid.
+boiling_point  6.4781049e+13      K_n           High boiling point for transition metals.
+
+Element: Titanium (Ti)
+Group: 4 Titanium, Period: 4, Atomic Number: 22
+atomic_mass    1.0781289e+25      kg_n          Dominated by isotope Ti-48.
+density        1.6592176e+76      kg_n m_n⁻³    Metal at room temperature.
+melting_point  4.0443878e+13      K_n           High melting point for lightweight metals.
+boiling_point  7.4178364e+13      K_n           Extremely high boiling point.
+
+Element: Vanadium (V)
+Group: 5 Vanadium, Period: 4, Atomic Number: 23
+atomic_mass    1.1473772e+25      kg_n          Dominated by isotope V-51.
+density        2.2329999e+76      kg_n m_n⁻³    Metal at room temperature.
+melting_point  4.548634e+13       K_n           Used for high-temperature applications.
+boiling_point  7.6678758e+13      K_n           Transition metal with high stability.
+
+Element: Chromium (Cr)
+Group: 6 Chromium, Period: 4, Atomic Number: 24
+atomic_mass    1.1711304e+25      kg_n          Dominated by isotope Cr-52.
+density        2.6277036e+76      kg_n m_n⁻³    Hard metal at room temperature.
+melting_point  4.542383e+13       K_n           Important for refractory applications.
+boiling_point  6.1343007e+13      K_n           Highly resistant to corrosion.
+
+Element: Manganese (Mn)
+Group: 7 Manganese, Period: 4, Atomic Number: 25
+atomic_mass    1.237393e+25       kg_n          Stable isotope Mn-55.
+density        2.6350129e+76      kg_n m_n⁻³    Metal at room temperature.
+melting_point  3.1650824e+13      K_n           Used in steelmaking.
+boiling_point  4.8632669e+13      K_n           Transition metal with wide applications.
+
+Element: Iron (Fe)
+Group: 8 Iron, Period: 4, Atomic Number: 26
+atomic_mass    1.2578208e+25      kg_n          Dominated by isotope Fe-56.
+density        2.8776826e+76      kg_n m_n⁻³    Metal at room temperature.
+melting_point  3.7735117e+13      K_n           Used widely in metallurgy.
+boiling_point  6.5301964e+13      K_n           Essential in manufacturing and construction.
+
+Element: Cobalt (Co)
+Group: 9 Cobalt, Period: 4, Atomic Number: 27
+atomic_mass    1.3273775e+25      kg_n          Stable isotope Co-59.
+density        3.2526512e+76      kg_n m_n⁻³    Metal at room temperature.
+melting_point  3.6839143e+13      K_n           Used in high-temperature applications.
+boiling_point  6.6677181e+13      K_n           Transition metal with versatile uses.
+
+Element: Nickel (Ni)
+Group: 10 Nickel, Period: 4, Atomic Number: 28
+atomic_mass    1.3219765e+25      kg_n          Dominated by isotope Ni-58.
+density        3.2555749e+76      kg_n m_n⁻³    Metal at room temperature.
+melting_point  3.6005678e+13      K_n           Highly corrosion-resistant.
+boiling_point  6.6385469e+13      K_n           Widely used in industrial applications.
+
+Element: Copper (Cu)
+Group: 11 Copper, Period: 4, Atomic Number: 29
+atomic_mass    1.4312737e+25      kg_n          Weighted average of isotopes Cu-63 and Cu-65.
+density        3.2745792e+76      kg_n m_n⁻³    Metal at room temperature.
+melting_point  2.8291336e+13      K_n           Important for electrical conductivity.
+boiling_point  5.9071815e+13      K_n           High conductivity for industrial use.
+
+Element: Zinc (Zn)
+Group: 12 Zinc, Period: 4, Atomic Number: 30
+atomic_mass    1.4725817e+25      kg_n          Dominated by isotope Zn-64.
+density        2.6094303e+76      kg_n m_n⁻³    Metal at room temperature.
+melting_point  1.4433109e+13      K_n           Low melting point for a metal.
+boiling_point  2.4587211e+13      K_n           Used for galvanization.
+
+Element: Gallium (Ga)
+Group: 13 Boron (Icosagens), Period: 4, Atomic Number: 31
+atomic_mass    1.5704009e+25      kg_n          Weighted average of isotopes Ga-69 and Ga-71.
+density        2.1599066e+76      kg_n m_n⁻³    Liquid at slightly above room temperature.
+melting_point  6.3116203e+12      K_n           Melts in the palm of your hand.
+boiling_point  5.1612306e+13      K_n           Useful for high-temperature applications.
+
+Element: Germanium (Ge)
+Group: 14 Carbon (Crystallogens), Period: 4, Atomic Number: 32
+atomic_mass    1.6358765e+25      kg_n          Isotopes include Ge-70 and Ge-74.
+density        1.9442814e+76      kg_n m_n⁻³    A metalloid at room temperature.
+melting_point  2.524148e+13       K_n           High melting point for electronic applications.
+boiling_point  6.4718539e+13      K_n           Useful for semiconductors.
+
+Element: Arsenic (As)
+Group: 15 Nitrogen (Pnictogens), Period: 4, Atomic Number: 33
+atomic_mass    1.6874912e+25      kg_n          Dominated by isotope As-75.
+density        2.0941226e+76      kg_n m_n⁻³    A metalloid at room temperature.
+melting_point  2.2711915e+13      K_n           Sublimates rather than melts under normal pressure.
+
+Element: Selenium (Se)
+Group: 16 Oxygen (Chalcogens), Period: 4, Atomic Number: 34
+atomic_mass    1.7786976e+25      kg_n          Dominated by isotope Se-80.
+density        1.7578935e+76      kg_n m_n⁻³    Non-metal at room temperature.
+melting_point  1.029329e+13       K_n           Low melting point for a non-metal.
+boiling_point  1.9961481e+13      K_n           Used in glass production and electronics.
+
+Element: Bromine (Br)
+Group: 17 Halogens, Period: 4, Atomic Number: 35
+atomic_mass    1.7997119e+25      kg_n          Dominated by isotopes Br-79 and Br-81.
+density        1.1402552e+76      kg_n m_n⁻³    Liquid at room temperature.
+melting_point  5.5383734e+12      K_n           Low melting point for a halogen.
+boiling_point  6.9177575e+12      K_n           Used in flame retardants and photography.
+
+Element: Krypton (Kr)
+Group: 18 Noble Gases, Period: 4, Atomic Number: 36
+atomic_mass    1.8874182e+25      kg_n          Dominated by isotope Kr-84.
+density        1.3704991e+76      kg_n m_n⁻³    Gas at room temperature.
+melting_point  2.4170478e+12      K_n           Low melting point for a noble gas.
+boiling_point  2.4989357e+12      K_n           Used in lighting and photography.
+
+Element: Rubidium (Rb)
+Group: 1 Alkali Metals, Period: 5, Atomic Number: 37
+atomic_mass    1.9250278e+25      kg_n          Dominated by isotope Rb-85.
+density        5.5916363e+75      kg_n m_n⁻³    Soft alkali metal.
+melting_point  6.51061e+12        K_n           Low melting point for a metal.
+boiling_point  2.0023991e+13      K_n           Highly reactive in air and water.
+
+Element: Strontium (Sr)
+Group: 2 Alkaline Earth Metals, Period: 5, Atomic Number: 38
+atomic_mass    1.9735027e+25      kg_n          Dominated by isotope Sr-88.
+density        9.6483136e+75      kg_n m_n⁻³    Soft alkaline earth metal.
+melting_point  2.187845e+13       K_n           Used in fireworks for red coloration.
+boiling_point  3.4380422e+13      K_n           Reacts strongly with water.
+
+Element: Yttrium (Y)
+Group: 3 Scandium, Period: 5, Atomic Number: 39
+atomic_mass    2.0024453e+25      kg_n          Dominated by isotope Y-89.
+density        1.6336349e+76      kg_n m_n⁻³    Transition metal with high strength.
+melting_point  3.7485078e+13      K_n           Useful for high-temperature applications.
+boiling_point  7.5199358e+13      K_n           Used in superconductors and lasers.
+
+Element: Zirconium (Zr)
+Group: 4 Titanium, Period: 5, Atomic Number: 40
+atomic_mass    2.0546771e+25      kg_n          Dominated by isotope Zr-90.
+density        2.3828411e+76      kg_n m_n⁻³    Corrosion-resistant metal.
+melting_point  4.4340325e+13      K_n           Used in nuclear reactors.
+boiling_point  9.7473704e+13      K_n           Extremely high melting and boiling points.
+
+Element: Niobium (Nb)
+Group: 5 Vanadium, Period: 5, Atomic Number: 41
+atomic_mass    2.0925615e+25      kg_n          Dominated by isotope Nb-93.
+density        3.1320473e+76      kg_n m_n⁻³    Transition metal with high strength.
+melting_point  5.7300703e+13      K_n           Used in superconducting magnets.
+boiling_point  1.0453732e+14      K_n           Extremely high temperature tolerance.
+
+Element: Molybdenum (Mo)
+Group: 6 Chromium, Period: 5, Atomic Number: 42
+atomic_mass    2.1611228e+25      kg_n          Dominated by isotope Mo-98.
+density        3.7350669e+76      kg_n m_n⁻³    Dense transition metal.
+melting_point  6.0342849e+13      K_n           High melting point suitable for alloys.
+boiling_point  1.0234947e+14      K_n           Used in extreme-temperature environments.
+
+Element: Technetium (Tc)
+Group: 7 Manganese, Period: 5, Atomic Number: 43
+atomic_mass    2.2072959e+25      kg_n          Only synthetic isotopes; unstable.
+density        4.2028639e+76      kg_n m_n⁻³    Radioactive and dense.
+melting_point  5.0632984e+13      K_n           Used in nuclear medicine.
+boiling_point  9.4556578e+13      K_n           Rarely occurs in nature.
+
+Element: Ruthenium (Ru)
+Group: 8 Iron, Period: 5, Atomic Number: 44
+atomic_mass    2.2764428e+25      kg_n          Dominated by isotope Ru-102.
+density        4.5208197e+76      kg_n m_n⁻³    Hard, corrosion-resistant metal.
+melting_point  5.4321066e+13      K_n           Used in electrical contacts.
+boiling_point  9.2160366e+13      K_n           Maintains stability at high temperatures.
+
+Element: Rhodium (Rh)
+Group: 9 Cobalt, Period: 5, Atomic Number: 45
+atomic_mass    2.3177733e+25      kg_n          Dominated by isotope Rh-103.
+density        4.5354383e+76      kg_n m_n⁻³    Highly reflective transition metal.
+melting_point  4.6611517e+13      K_n           Ideal for high-temperature applications.
+boiling_point  8.2679705e+13      K_n           Corrosion-resistant under extreme conditions.
+
+Element: Palladium (Pd)
+Group: 10 Nickel, Period: 5, Atomic Number: 46
+atomic_mass    2.3969431e+25      kg_n          Dominated by isotope Pd-106.
+density        4.3929064e+76      kg_n m_n⁻³    Soft, ductile transition metal.
+melting_point  3.8090382e+13      K_n           Useful in hydrogen storage.
+boiling_point  6.7427299e+13      K_n           Highly versatile in catalytic processes.
+
+Element: Silver (Ag)
+Group: 11 Copper, Period: 5, Atomic Number: 47
+atomic_mass    2.429557e+25       kg_n          Dominated by isotope Ag-107.
+density        3.8337428e+76      kg_n m_n⁻³    High conductivity among metals.
+melting_point  2.5731766e+13      K_n           Used in jewelry and industrial applications.
+boiling_point  5.0737168e+13      K_n           Useful in electronics and photography.
+
+Element: Cadmium (Cd)
+Group: 12 Zinc, Period: 5, Atomic Number: 48
+atomic_mass    2.5319485e+25      kg_n          Dominated by isotope Cd-114.
+density        3.1612846e+76      kg_n m_n⁻³    Soft, toxic metal.
+melting_point  1.2381536e+13      K_n           Used in coatings and alloys.
+boiling_point  2.1670084e+13      K_n           Moderate boiling point for industrial use.
+
+Element: Indium (In)
+Group: 13 Boron (Icosagens), Period: 5, Atomic Number: 49
+atomic_mass    2.5860949e+25      kg_n          Dominated by isotope In-115.
+density        2.6715596e+76      kg_n m_n⁻³    Soft, malleable metal.
+melting_point  8.9545371e+12      K_n           Melts easily for industrial use.
+boiling_point  4.8861872e+13      K_n           Used in semiconductors and alloys.
+
+Element: Tin (Sn)
+Group: 14 Carbon (Crystallogens), Period: 5, Atomic Number: 50
+atomic_mass    2.673756e+25       kg_n          Dominated by isotope Sn-120.
+density        2.6642502e+76      kg_n m_n⁻³    Soft metal with low toxicity.
+melting_point  1.052416e+13       K_n           Low melting point for soldering.
+boiling_point  5.990528e+13       K_n           Common in alloys.
+
+Element: Antimony (Sb)
+Group: 15 Nitrogen (Pnictogens), Period: 5, Atomic Number: 51
+atomic_mass    2.7424525e+25      kg_n          Dominated by isotope Sb-121.
+density        2.4413157e+76      kg_n m_n⁻³    Metalloid with high density.
+melting_point  1.883172e+13       K_n           Used in flame retardants.
+boiling_point  3.8756112e+13      K_n           Useful for heat-resistant applications.
+
+Element: Tellurium (Te)
+Group: 16 Oxygen (Chalcogens), Period: 5, Atomic Number: 52
+atomic_mass    2.8739893e+25      kg_n          Dominated by isotope Te-130.
+density        2.2805105e+76      kg_n m_n⁻³    Brittle metalloid.
+melting_point  1.5057791e+13      K_n           Used in thermoelectric devices.
+boiling_point  2.6274977e+13      K_n           Useful for semiconductors and alloys.
+
+Element: Iodine (I)
+Group: 17 Halogens, Period: 5, Atomic Number: 53
+atomic_mass    2.858313e+25       kg_n          Dominated by isotope I-127.
+density        1.8017495e+76      kg_n m_n⁻³    Solid halogen at room temperature.
+melting_point  8.0606461e+12      K_n           Used in medical applications.
+boiling_point  9.5306696e+12      K_n           Essential for thyroid health.
+
+Element: Xenon (Xe)
+Group: 18 Noble Gases, Period: 5, Atomic Number: 54
+atomic_mass    2.9571683e+25      kg_n          Dominated by isotope Xe-132.
+density        2.1562519e+76      kg_n m_n⁻³    Noble gas at room temperature.
+melting_point  3.3630303e+12      K_n           Used in lighting and medical imaging.
+boiling_point  3.4386673e+12      K_n           Rare and inert gas.
+
+Element: Cesium (Cs)
+Group: 1 Alkali Metals, Period: 6, Atomic Number: 55
+atomic_mass    2.9934761e+25      kg_n          Dominated by isotope Cs-133.
+density        7.053502e+75       kg_n m_n⁻³    Soft, highly reactive alkali metal.
+melting_point  6.284116e+12       K_n           Melts at a temperature near room temperature.
+boiling_point  1.9669768e+13      K_n           Used in atomic clocks.
+
+Element: Barium (Ba)
+Group: 2 Alkaline Earth Metals, Period: 6, Atomic Number: 56
+atomic_mass    3.0930747e+25      kg_n          Dominated by isotope Ba-138.
+density        1.3229885e+76      kg_n m_n⁻³    Soft alkaline earth metal.
+melting_point  2.0836619e+13      K_n           Used in drilling fluids and radiology.
+boiling_point  4.4131959e+13      K_n           Useful for fireworks and electronics.
+
+Element: Lanthanum (La)
+Group: 3 Scandium, Period: 6, Atomic Number: 57
+atomic_mass    3.1286167e+25      kg_n          Dominated by isotope La-139.
+density        2.2476185e+76      kg_n m_n⁻³    Soft, ductile rare-earth metal.
+melting_point  2.4858087e+13      K_n           Useful in hydrogen storage and lighting.
+boiling_point  7.7866446e+13      K_n           High temperature tolerance.
+
+Element: Cerium (Ce)
+Group: 19 Lanthanides, Period: 6, Atomic Number: 58
+atomic_mass    3.1558925e+25      kg_n          Dominated by isotope Ce-140.
+density        2.4742077e+76      kg_n m_n⁻³    Reactive rare-earth metal.
+melting_point  2.2253509e+13      K_n           Used in catalytic converters.
+boiling_point  7.7428877e+13      K_n           Useful in glass polishing and metallurgy.
+
+Element: Praseodymium (Pr)
+Group: 19 Lanthanides, Period: 6, Atomic Number: 59
+atomic_mass    3.1737086e+25      kg_n          Dominated by isotope Pr-141.
+density        2.4742077e+76      kg_n m_n⁻³    Soft, malleable rare-earth metal.
+melting_point  2.5170636e+13      K_n           Used in high-strength alloys.
+boiling_point  7.9033296e+13      K_n           Applications in lighting and magnets.
+
+Element: Neodymium (Nd)
+Group: 19 Lanthanides, Period: 6, Atomic Number: 60
+atomic_mass    3.2488242e+25      kg_n          Dominated by isotope Nd-142.
+density        2.5619196e+76      kg_n m_n⁻³    Hard, rare-earth metal.
+melting_point  2.7025095e+13      K_n           Essential for modern magnets.
+boiling_point  6.9740164e+13      K_n           Useful for lasers and glass coloring.
+
+Element: Promethium (Pm)
+Group: 19 Lanthanides, Period: 6, Atomic Number: 61
+atomic_mass    3.2658969e+25      kg_n          Only radioactive isotopes exist.
+density        2.6532862e+76      kg_n m_n⁻³    Radioactive rare-earth metal.
+melting_point  2.7400154e+13      K_n           Used in luminous paints.
+boiling_point  6.8198254e+13      K_n           Rare and used in specialized applications.
+
+Element: Samarium (Sm)
+Group: 19 Lanthanides, Period: 6, Atomic Number: 62
+atomic_mass    3.3866225e+25      kg_n          Dominated by isotope Sm-152.
+density        2.7483075e+76      kg_n m_n⁻³    Dense rare-earth metal.
+melting_point  2.8025253e+13      K_n           Useful for magnets and nuclear applications.
+boiling_point  4.3069292e+13      K_n           Applications in high-performance alloys.
+
+Element: Europium (Eu)
+Group: 19 Lanthanides, Period: 6, Atomic Number: 63
+atomic_mass    3.4227501e+25      kg_n          Dominated by isotope Eu-153.
+density        1.9150441e+76      kg_n m_n⁻³    Soft rare-earth metal.
+melting_point  2.2899444e+13      K_n           Used in phosphorescent materials.
+boiling_point  3.7547588e+13      K_n           Applications in display technologies.
+
+Element: Gadolinium (Gd)
+Group: 19 Lanthanides, Period: 6, Atomic Number: 64
+atomic_mass    3.5418089e+25      kg_n          Dominated by isotope Gd-158.
+density        2.8871848e+76      kg_n m_n⁻³    Magnetic rare-earth metal.
+melting_point  3.3026041e+13      K_n           Used in MRI contrast agents.
+boiling_point  7.3886651e+13      K_n           Applications in nuclear reactors and alloys.
+
+Element: Terbium (Tb)
+Group: 19 Lanthanides, Period: 6, Atomic Number: 65
+atomic_mass    3.5795357e+25      kg_n          Dominated by isotope Tb-159.
+density        3.0077887e+76      kg_n m_n⁻³    Rare-earth metal with high density.
+melting_point  3.3942853e+13      K_n           Useful for phosphors and magnets.
+boiling_point  7.2928167e+13      K_n           Applications in electronic devices.
+
+Element: Dysprosium (Dy)
+Group: 19 Lanthanides, Period: 6, Atomic Number: 66
+atomic_mass    3.6600569e+25      kg_n          Dominated by isotope Dy-164.
+density        3.1210833e+76      kg_n m_n⁻³    Soft, lustrous rare-earth metal.
+melting_point  3.500552e+13       K_n           Used in magnetic applications.
+boiling_point  5.9175998e+13      K_n           Applications in high-performance magnets.
+
+Element: Holmium (Ho)
+Group: 19 Lanthanides, Period: 6, Atomic Number: 67
+atomic_mass    3.7147888e+25      kg_n          Dominated by isotope Ho-165.
+density        3.2161045e+76      kg_n m_n⁻³    Magnetic rare-earth metal.
+melting_point  3.6130698e+13      K_n           Used in magnets and nuclear control rods.
+boiling_point  6.2364001e+13      K_n           Applications in magnetic devices and lasers.
+
+Element: Erbium (Er)
+Group: 19 Lanthanides, Period: 6, Atomic Number: 68
+atomic_mass    3.7672459e+25      kg_n          Dominated by isotope Er-166.
+density        3.3111258e+76      kg_n m_n⁻³    Rare-earth metal with moderate density.
+melting_point  3.7547588e+13      K_n           Used in lasers and nuclear technology.
+boiling_point  6.5447821e+13      K_n           Applications in optical fibers and alloys.
+
+Element: Thulium (Tm)
+Group: 19 Lanthanides, Period: 6, Atomic Number: 69
+atomic_mass    3.8049726e+25      kg_n          Dominated by isotope Tm-169.
+density        3.4061471e+76      kg_n m_n⁻³    Dense, lustrous rare-earth metal.
+melting_point  3.7880974e+13      K_n           Used in portable X-ray devices.
+boiling_point  4.6319804e+13      K_n           Applications in nuclear technology.
+
+Element: Ytterbium (Yb)
+Group: 19 Lanthanides, Period: 6, Atomic Number: 70
+atomic_mass    3.8975665e+25      kg_n          Dominated by isotope Yb-174.
+density        2.5217183e+76      kg_n m_n⁻³    Soft, rare-earth metal.
+melting_point  2.2857771e+13      K_n           Applications in atomic clocks and lasers.
+boiling_point  3.0608993e+13      K_n           Useful in alloy production and electronics.
+
+Element: Lutetium (Lu)
+Group: 19 Lanthanides, Period: 6, Atomic Number: 71
+atomic_mass    3.940834e+25       kg_n          Dominated by isotope Lu-175.
+density        3.5961896e+76      kg_n m_n⁻³    Hard, dense rare-earth metal.
+melting_point  4.0339695e+13      K_n           Used in catalysts and nuclear applications.
+boiling_point  7.6574575e+13      K_n           Applications in medical imaging.
+
+Element: Hafnium (Hf)
+Group: 4 Titanium, Period: 6, Atomic Number: 72
+atomic_mass    4.0202065e+25      kg_n          Dominated by isotope Hf-180.
+density        4.8643581e+76      kg_n m_n⁻³    Dense transition metal.
+melting_point  5.2216568e+13      K_n           Used in nuclear control rods.
+boiling_point  1.0159935e+14      K_n           Applications in high-temperature alloys.
+
+Element: Tantalum (Ta)
+Group: 5 Vanadium, Period: 6, Atomic Number: 73
+atomic_mass    4.0755466e+25      kg_n          Dominated by isotope Ta-181.
+density        6.0996346e+76      kg_n m_n⁻³    Dense, corrosion-resistant metal.
+melting_point  6.8552477e+13      K_n           Used in electronics and medical implants.
+boiling_point  1.1941466e+14      K_n           Useful in extreme-temperature environments.
+
+Element: Tungsten (W)
+Group: 6 Chromium, Period: 6, Atomic Number: 74
+atomic_mass    4.1407069e+25      kg_n          Dominated by isotope W-184.
+density        7.0352287e+76      kg_n m_n⁻³    Extremely dense and strong metal.
+melting_point  7.6991308e+13      K_n           Highest melting point of any metal.
+boiling_point  1.2143582e+14      K_n           Useful in high-temperature applications.
+
+Element: Rhenium (Re)
+Group: 7 Manganese, Period: 6, Atomic Number: 75
+atomic_mass    4.1940198e+25      kg_n          Dominated by isotope Re-187.
+density        7.6821043e+76      kg_n m_n⁻³    Third densest element.
+melting_point  7.2073866e+13      K_n           Useful in high-temperature turbine blades.
+boiling_point  1.2229012e+14      K_n           Applications in extreme heat environments.
+
+Element: Osmium (Os)
+Group: 8 Iron, Period: 6, Atomic Number: 76
+atomic_mass    4.2846316e+25      kg_n          Dominated by isotope Os-192.
+density        8.2558865e+76      kg_n m_n⁻³    Densest natural element.
+melting_point  6.8885863e+13      K_n           Used in specialized high-strength alloys.
+boiling_point  1.1012153e+14      K_n           Useful for durable industrial applications.
+
+Element: Iridium (Ir)
+Group: 9 Cobalt, Period: 6, Atomic Number: 77
+atomic_mass    4.3293856e+25      kg_n          Dominated by isotope Ir-193.
+density        8.2449226e+76      kg_n m_n⁻³    Second densest element.
+melting_point  5.6654767e+13      K_n           Useful for high-temperature environments.
+boiling_point  9.7952946e+13      K_n           Applications in durable alloys.
+
+Element: Platinum (Pt)
+Group: 10 Nickel, Period: 6, Atomic Number: 78
+atomic_mass    4.3939603e+25      kg_n          Dominated by isotope Pt-195.
+density        7.8392548e+76      kg_n m_n⁻³    Dense, corrosion-resistant metal.
+melting_point  4.2535874e+13      K_n           Widely used in jewelry and catalysts.
+boiling_point  8.5388465e+13      K_n           Applications in electronics and medicine.
+
+Element: Gold (Au)
+Group: 11 Copper, Period: 6, Atomic Number: 79
+atomic_mass    4.4363719e+25      kg_n          Dominated by isotope Au-197.
+density        7.0608113e+76      kg_n m_n⁻³    Dense, malleable metal.
+melting_point  2.7865436e+13      K_n           Used in electronics and jewelry.
+boiling_point  6.5197781e+13      K_n           Corrosion-resistant under high temperatures.
+
+Element: Mercury (Hg)
+Group: 12 Zinc, Period: 6, Atomic Number: 80
+atomic_mass    4.5180193e+25      kg_n          Dominated by isotope Hg-202.
+density        4.9447607e+76      kg_n m_n⁻³    Liquid at room temperature.
+melting_point  4.8824366e+12      K_n           Low melting point for metals.
+boiling_point  1.312457e+13       K_n           Used in thermometers and barometers.
+
+Element: Thallium (Tl)
+Group: 13 Boron (Icosagens), Period: 6, Atomic Number: 81
+atomic_mass    4.603338e+25       kg_n          Dominated by isotope Tl-205.
+density        4.3307771e+76      kg_n m_n⁻³    Soft and highly toxic metal.
+melting_point  1.2022729e+13      K_n           Low melting point for a heavy metal.
+boiling_point  3.6047351e+13      K_n           Applications in electronics and optics.
+
+Element: Lead (Pb)
+Group: 14 Carbon (Crystallogens), Period: 6, Atomic Number: 82
+atomic_mass    4.6668541e+25      kg_n          Dominated by isotope Pb-208.
+density        4.1443893e+76      kg_n m_n⁻³    Dense and soft metal.
+melting_point  1.2514682e+13      K_n           Low melting point for a heavy metal.
+boiling_point  4.2131644e+13      K_n           Applications in batteries and radiation shielding.
+
+Element: Bismuth (Bi)
+Group: 15 Nitrogen (Pnictogens), Period: 6, Atomic Number: 83
+atomic_mass    4.7069458e+25      kg_n          Dominated by isotope Bi-209.
+density        3.5742616e+76      kg_n m_n⁻³    Brittle, lustrous metal.
+melting_point  1.1349706e+13      K_n           Used in low-melting-point alloys.
+boiling_point  3.8276869e+13      K_n           Applications in medical and industrial uses.
+
+   --- Scaling Factors Used ---
+   s          -> 1.00000000000000000000e+00 -> s_n       
+   m          -> 2.99792458000000000000e+08 -> m_n       
+   kg         -> 7.37249732381270843547e-51 -> kg_n      
+   K          -> 4.79924307336622100516e-11 -> K_n       
+   C          -> 1.60217663399999989376e-19 -> C_n       
+   A          -> 1.60217663399999989376e-19 -> A_n       
+   mol        -> 1.66053906717384659585e-24 -> mol_n     
+   pi         -> 3.14159265358979311600e+00 -> pi_n      
+   Hz         -> 1.00000000000000000000e+00 -> Hz_n      
+   amu        -> 4.43982166520664990202e-24 -> kg_n      
