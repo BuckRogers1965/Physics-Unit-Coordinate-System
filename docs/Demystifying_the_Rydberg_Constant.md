@@ -154,11 +154,13 @@ This final equation highlights a deep geometric truth:
 
 ## Simplified Formula for the Rydberg Constant
 
-Starting with the simplified expression for the Rydberg constant `R∞` in natural units:
+Starting with the simplified expression for the Rydberg constant `R∞` in natural units we can scale it back up to SI units of measure:
 
 ```
 R∞ = (α^2 / 2) * m_e * (kg_Hz / c)
 ```
+
+What is is simply doing is taking the mass m_e and unit converting to a frequency, then to an inverse wavelength, scaled by the geometric factor (α^2 / 2). 
 
 ### Unit Analysis
 
