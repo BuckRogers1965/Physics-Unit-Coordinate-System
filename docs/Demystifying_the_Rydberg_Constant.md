@@ -114,13 +114,13 @@ From previous derivations:
 Thus:
 
 ```
-10^-7 = α / (2π)
+0.0011614097323 = α / (2π)
 ```
 
 Squaring both sides:
 
 ```
-(10^-7)^2 = (α / 2π)^2 = α^2 / (4π^2)
+(0.0011614097323)^2 = (α / 2π)^2 = α^2 / (4π^2)
 ```
 
 This allows us to rewrite the expression for `R∞` in terms of `α^2`.
