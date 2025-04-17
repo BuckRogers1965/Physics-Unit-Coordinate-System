@@ -10,7 +10,7 @@ In this paper, we explore the Rydberg constant `R∞` and demonstrate that its c
 The Rydberg constant in SI units is traditionally written as:
 
 ```
-R∞ = (α^2 * m_e * c) / (4 * π * ħ)
+R∞ = (m_e * e^4) / (8 * ε₀² * h³ * c)
 ```
 
 Where:
