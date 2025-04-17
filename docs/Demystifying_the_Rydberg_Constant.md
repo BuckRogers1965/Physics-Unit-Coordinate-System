@@ -10,15 +10,25 @@ In this paper, we explore the Rydberg constant `R∞` and demonstrate that its c
 The Rydberg constant in SI units is traditionally written as:
 
 ```
-R∞ = (e^4 * 2 * π^2 * m_e * (10^-7)^2) / (Hz_kg^3 * c^3)
+R∞ = (α^2 * m_e * c) / (4 * π * ħ)
 ```
 
 Where:
 - `e` is the elementary charge  
 - `m_e` is the electron mass  
 - `c` is the speed of light  
-- `h = Hz_kg * c^2`  
+
+We can expand out the formula to:
+
+```
+R∞ = (e^4 * 2 * π^2 * m_e * (10^-7)^2) / (Hz_kg^3 * c^3)
+```
+
+-
+
+Where
 - `10^-7` comes from `μ₀ / 4π = 10^-7 N/A^2`, the Ampère force constant
+- `h = Hz_kg * c^2`  
 
 ---
 
