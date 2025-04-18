@@ -34,7 +34,7 @@ grouped_constants = {
         },
         "Hz_kg": {
             "value": 7.37249732381e-51,
-            "units": [("kg", 1), ("Hz", 1)],
+            "units": [("kg", 1), ("Hz", -1)],
             "symbol": "Hz_kg",
             "formula": "h / c**2",
             "pronunciation": "Hz to kg unit conversion",
