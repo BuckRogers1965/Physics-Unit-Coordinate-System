@@ -22,7 +22,7 @@ print(f"   K_Hz  = {K_Hz:.12e} Hz/K     Hz_K = {Hz_K:.12g} K/Hz")
 print(f"   K_Hz exists because there are {K_Hz} Hz in each Kelvin.")
 print()
 print(f"        In SI units: {1/K_Hz:.12g} K = 1 Hz = {Hz_kg:.12g} kg = {Hz_J:.12g} J")
-print(f"   In natural units:        1 K          = 1 Hz =         1 kg         =         1 J")
+print(f"   In natural units:        1 K_n        = 1 Hz =        1 kg_n        =         1 J_n")
 print()
 print(f"   The constants (c, h, k) have the values they do because SI units are defined far")
 print(f"   from natural units, where these scaling factors would be unity.") # Clarified to include h and k

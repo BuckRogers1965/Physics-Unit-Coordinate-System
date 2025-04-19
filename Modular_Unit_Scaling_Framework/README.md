@@ -130,7 +130,7 @@ This framework not only simplifies calculations but also redefines how constants
    K_Hz exists because there are 20836619123.327576 Hz in each Kelvin.
 
         In SI units: 4.79924307337e-11 K = 1 Hz = 7.37249732381e-51 kg = 6.62607015e-34 J
-   In natural units:        1 K          = 1 Hz =         1 kg         =         1 J
+   In natural units:        1 K_n        = 1 Hz =        1 kg_n        =         1 J_n
 
    The constants (c, h, k) have the values they do because SI units are defined far
    from natural units, where these scaling factors would be unity.
