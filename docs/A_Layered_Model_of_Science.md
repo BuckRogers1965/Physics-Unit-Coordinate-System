@@ -4,6 +4,8 @@
 
 We propose a four-layer epistemological model that distinguishes inherent physical relationships from the numerical artifacts introduced by measurement systems, clarifying the conceptual role perception, of the role of physical constants and derived units.  Starting from an objective, unit-independent physical reality (Layer 1), we describe the subsequent layers built upon it: human perception and categorization (Layer 2), the development of measurement systems based on base units and primary dimensionful constants (Layer 3), and finally, the formulation of physical laws, theories, and derived concepts/units (Layer 4). This model highlights the crucial distinction between inherent reality and our human-centric descriptive tools. We argue that misunderstandings about the function of elements in intermediate layers, particularly misinterpreting the numerical values of dimensionful physical constants as fundamental Layer 1 properties rather than as scaling factors quantifying Layer 1/2 proportionalities relative to arbitrary Layer 3 base units, can impede progress in Layer 4. Frameworks like the Physics Unit Coordinate System (PUCS) are presented as examples that operate by clarifying the relationship between Layer 3 and the inherent structure of Layer 1, as filtered through Layer 2.
 
+[A notebooklm audio file of this paper.](https://www.youtube.com/watch?v=kpnmXmrVIr8)
+
 ## 1. Introduction
 
 The fundamental goal of science is to understand physical reality. However, our understanding is always mediated by our tools, senses, and conceptual frameworks.
