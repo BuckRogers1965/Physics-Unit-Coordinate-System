@@ -41,7 +41,7 @@ def format_units_with_ascii_exponents(units):
 
 def promote_exponents(unit_string):
     # Mapping for ASCII superscripts
-    superscripts = { "0": "⁰", "1": "¹", "2": "²", "3": "³", "4": "⁴", "5": "⁵", "6": "⁶", "7": "⁷", "8": "⁸", "9": "⁹", "-": "⁻"
+    superscripts = { "0": "⁰", "1": "¹", "2": "²", "3": "³", "4": "⁴", "5": "⁵", "6": "⁶", "7": "⁷", "8": "⁸", "9": "⁹", "-": "⁻", ".": "⋅"
     }
     
     # Split the string into parts to process

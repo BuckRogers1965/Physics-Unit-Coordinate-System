@@ -530,6 +530,17 @@ grouped_constants = {
         }
     },
     "Electromagnetic & Atomic": {
+        "gravitational_G_Newtons": {
+            "value": 6.67430e-11,
+            "units": [("m", 1), ("kg", 1), ("s", -2)],
+            "symbol": "G_newton",
+            "pronunciation": "Gravitational constant",
+            "date": "1798",
+            "name": "Henry Cavendish",
+            "origin": "Defines the strength of the gravitational force between masses, first measured using a torsion balance.",
+            "comment": "1.06921e-09 * 32.174 = 3.43979e-8   Key to Newtonian gravitation and general relativity.",
+            "reference": "Defined by CODATA 2018."
+        },
         "gravitational_constant_G": {
             "value": 6.67430e-11,
             "units": [("m", 3), ("kg", -1), ("s", -2)],
@@ -788,5 +799,247 @@ grouped_constants = {
             "visualization": "Often modeled as curvature effects in spacetime diagrams or expansion rate plots of the universe."
         }
     },
+    "Material Properties": {
+        "youngs_modulus_steel": {
+            "value": 2.00e11,
+            "units": [("kg", 1), ("m", -1), ("s", -2)],  # Base units: kg/(m·s²)
+            "symbol": "E",
+            "pronunciation": "Young's modulus",
+            "date": "1807",
+            "name": "Thomas Young",
+            "origin": "Defined as stress (force/area) divided by strain (dimensionless).",
+            "formula": "E = (F/A) / (ΔL/L)",
+            "comment": "Quantifies stiffness. Steel's high value indicates atomic bond strength.",
+            "application": [
+                "Beam deflection calculations",
+                "Spring design",
+                "Seismic wave propagation"
+            ],
+            "reference": "ISO 6892-1",
+            "dimensionless_form": "E_n = 1.25e-5 (kgₙ·mₙ⁻¹·sₙ⁻²)",
+            "visualization": "Linear slope of stress-strain curve"
+        },
+
+        "thermal_conductivity_copper": {
+            "value": 401.0,
+            "units": [("kg", 1), ("m", 1), ("s", -3), ("K", -1)],  # kg·m/(s³·K)
+            "symbol": "k",
+            "pronunciation": "Thermal conductivity",
+            "date": "1822",
+            "name": "Jean-Baptiste Biot",
+            "origin": "Relates heat flux to temperature gradient via Fourier's law.",
+            "formula": "k = (Q·d)/(A·t·ΔT)",
+            "comment": "High value due to free electron contribution.",
+            "application": [
+                "Heat sink design",
+                "Building insulation",
+                "Cryogenic systems"
+            ],
+            "reference": "ASTM D5470",
+            "dimensionless_form": "k_n = 9.33e-3 (kgₙ·mₙ·sₙ⁻³·Kₙ⁻¹)",
+            "visualization": "Heat flow rate through a unit cross-section"
+        },
+
+        "resistivity_silicon": {
+            "value": 2.3e3,
+            "units": [("kg", 1), ("m", 3), ("s", -3), ("A", -2)],  # kg·m³/(s³·A²)
+            "symbol": "ρ",
+            "pronunciation": "Rho",
+            "date": "1954",
+            "name": "Bell Labs",
+            "origin": "Derived from Ohm's law and material geometry.",
+            "formula": "ρ = R·A/L",
+            "comment": "Doping-dependent semiconductor property.",
+            "application": [
+                "Transistor fabrication",
+                "Thermistor design",
+                "Radiation detectors"
+            ],
+            "reference": "SEMI MF84-02",
+            "dimensionless_form": "ρ_n = 4.11e-18 (kgₙ·mₙ³·sₙ⁻³·Aₙ⁻²)",
+            "visualization": "Resistance vs. doping concentration curve"
+        },
+        "fracture_toughness_alumina": {
+            "value": 3.5,
+            #"units": [("kg", 1), ("m", -1), ("s", -2)],
+            "units": [("kg", 1), ("m", -0.5), ("s", -2)],
+            "symbol": "K_IC",
+            "pronunciation": "Kay one see",
+            "date": "1961",
+            "name": "A.A. Griffith",
+            "origin": "Fracture mechanics testing",
+            "formula": "K_IC = σ√(πa)",
+            "comment": "Critical stress intensity for crack propagation",
+            "application": [
+                "Ceramic armor",
+                "Cutting tools",
+                "Biomedical implants"
+            ],
+            "reference": "ASTM C1421",
+            "dimensionless_form": "K_IC_n = 1.42e-35 (kgₙ·mₙ⁻⁰·⁵·sₙ⁻²)",
+            "visualization": "Crack growth resistance curve"
+        },
+
+        "curie_temperature_iron": {
+            "value": 1043,
+            "units": [("K", 1)],
+            "symbol": "T_C",
+            "pronunciation": "Tee see",
+            "date": "1895",
+            "name": "Pierre Curie",
+            "origin": "Magnetic susceptibility measurements",
+            "formula": "M(T_C) = 0",
+            "comment": "Transition from ferromagnetic to paramagnetic",
+            "application": [
+                "Transformer cores",
+                "Magnetic storage",
+                "Temperature sensors"
+            ],
+            "reference": "IEEE Magnetics Society",
+            "dimensionless_form": "T_C_n = 3.61e22 (Kₙ)",
+            "visualization": "Magnetization vs. temperature plot"
+        },
+
+        "thermal_conductivity_copper": {
+            "value": 401,
+            "units": [("kg", 1), ("m", 1), ("s", -3), ("K", -1)],
+            "symbol": "k",
+            "pronunciation": "kay",
+            "date": "1822",
+            "name": "Jean-Baptiste Joseph Fourier",
+            "origin": "Heat transfer experiments",
+            "formula": "q = -k∇T",
+            "comment": "Highest conductivity among common metals",
+            "application": [
+                "Heat exchangers",
+                "Electrical wiring",
+                "Thermal management"
+            ],
+            "reference": "NIST SRD 100",
+            "dimensionless_form": "k_n = 1.63e-25 (kgₙ·mₙ·sₙ⁻³·Kₙ⁻¹)",
+            "visualization": "Temperature gradient decay"
+        },
+
+        "surface_tension_water": {
+            "value": 0.0728,
+            "units": [("kg", 1), ("s", -2)],
+            "symbol": "γ",
+            "pronunciation": "gamma",
+            "date": "1805",
+            "name": "Thomas Young",
+            "origin": "Capillary rise experiments",
+            "formula": "γ = F/L",
+            "comment": "Decreases with temperature",
+            "application": [
+                "Microfluidics",
+                "Coating technologies",
+                "Lung surfactant"
+            ],
+            "reference": "IUPAC Technical Report",
+            "dimensionless_form": "γ_n = 2.96e-36 (kgₙ·sₙ⁻²)",
+            "visualization": "Meniscus formation"
+        },
+            "mobility_silicon": {
+                "value": 0.15,
+                #"units": [("m", 2), ("s", -1), ("V", -1)],
+                "units": [("kg", -1), ("m", 0), ("s", 4), ("A", 1)],  # V⁻¹ → kg⁻¹·m⁻²·s³·A¹
+                "symbol": "μ_n",
+                "pronunciation": "mu sub n",
+                "date": "1954",
+                "name": "William Shockley",
+                "origin": "Hall effect measurements",
+                "formula": "μ = v_d/E",
+                "comment": "Electron mobility in intrinsic silicon at 300K",
+                "application": [
+                    "Semiconductor devices",
+                    "Solar cells",
+                    "Transistors"
+                ],
+                "reference": "IEEE Standard 1620",
+                "dimensionless_form": "μ_n_n = 5.84e-24 (mₙ²·sₙ⁻¹·Vₙ⁻¹)",
+                "visualization": "Drift velocity vs. electric field"
+            },
+
+            "compressibility_diamond": {
+                "value": 2.0e-12,
+                "units": [("kg", -1), ("m", 1), ("s", 2)],
+                "symbol": "β",
+                "pronunciation": "beta",
+                "date": "1915",
+                "name": "Percy Bridgman",
+                "origin": "High-pressure X-ray diffraction",
+                "formula": "β = -(1/V)(∂V/∂P)",
+                "comment": "Lowest compressibility of any known material",
+                "application": [
+                    "Anvil cells",
+                    "Ultrasonic transducers",
+                    "High-pressure research"
+                ],
+                "reference": "NIST SRD 74",
+                "dimensionless_form": "β_n = 8.12e-81 (kgₙ⁻¹·mₙ·sₙ²)",
+                "visualization": "Volume vs. pressure isotherm"
+            },
+
+            "reflectivity_aluminum": {
+                "value": 0.92,
+                "units": [],
+                "symbol": "R",
+                "pronunciation": "are",
+                "date": "1871",
+                "name": "James Clerk Maxwell",
+                "origin": "Optical interferometry",
+                "formula": "R = I_r/I_i",
+                "comment": "At 500nm wavelength, normal incidence",
+                "application": [
+                    "Mirror coatings",
+                    "Solar reflectors",
+                    "Radiative cooling"
+                ],
+                "reference": "Handbook of Optics Vol. 4",
+                "dimensionless_form": "R_n = 0.92 (dimensionless)",
+                "visualization": "Reflectance spectrum"
+            },
+
+            "piezoelectric_coefficient_quartz": {
+                "value": 2.3e-12,
+                #"units": [("m", 1), ("V", -1)],
+                "units": [("kg", -1), ("m", -1), ("s", 3), ("A", 1)],
+                "symbol": "d_11",
+                "pronunciation": "dee one one",
+                "date": "1880",
+                "name": "Jacques and Pierre Curie",
+                "origin": "Direct piezoelectric effect measurements",
+                "formula": "d = ∂x/∂E",
+                "comment": "Fundamental mode of alpha-quartz",
+                "application": [
+                    "Oscillators",
+                    "Pressure sensors",
+                    "Frequency control"
+                ],
+                "reference": "IEEE Std 176",
+                "dimensionless_form": "d_11_n = 8.95e-37 (mₙ·Vₙ⁻¹)",
+                "visualization": "Strain vs. applied voltage"
+            },
+
+            "thermal_expansion_invar": {
+                "value": 1.2e-6,
+                "units": [("K", -1)],
+                "symbol": "α",
+                "pronunciation": "alpha",
+                "date": "1896",
+                "name": "Charles Édouard Guillaume",
+                "origin": "Dilatometry experiments",
+                "formula": "α = (1/L)(∂L/∂T)",
+                "comment": "Near-zero expansion nickel-iron alloy",
+                "application": [
+                    "Precision instruments",
+                    "Clock pendulums",
+                    "Space telescopes"
+                ],
+                "reference": "ASTM E228",
+                "dimensionless_form": "α_n = 4.15e23 (Kₙ⁻¹)",
+                "visualization": "Length vs. temperature curve"
+            }
+    }
 }
 
