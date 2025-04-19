@@ -2,6 +2,8 @@
 
 The **Physics Unit Coordinate System** is a groundbreaking framework that redefines how physical constants and measurement systems are understood and utilized. By applying coordinate scaling to physical constants, this system transforms them into simple, elegant ratios derived directly from the interrelationships between mass, length, charge, temperature, and other units. It reveals physics' inherent simplicity, breaking down traditional interpretations into elegant interrelations.
 
+[A notebooklm audio of the PUCS framework.](https://youtu.be/xSAoo8HRqMs)
+
 ## Key Features
 - **Coordinate Scaling of Constants**  
   Rescales physical constants, exposing their relationships to unit definitions and revealing the underlying simplicity in the laws of physics.
