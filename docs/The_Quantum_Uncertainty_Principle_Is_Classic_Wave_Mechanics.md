@@ -2,7 +2,7 @@
 
 The PUCS framework continues here by exploring how the numerical values of physical constants in the SI system reflect deeply embedded relationships between units. As in prior chapters, we focus on scalar relationships between quantities such as energy, mass, and frequency, treating constants as coordinate  transformations within the PUCS structure.
 
-(This is a NotebookLM audio presentation of this analysis.)[https://www.youtube.com/watch?v=cnimJK4zN94]
+[This is a NotebookLM audio presentation of this analysis.](https://www.youtube.com/watch?v=cnimJK4zN94)
 
 ## Abstract
 
