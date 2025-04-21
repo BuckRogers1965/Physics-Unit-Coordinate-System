@@ -219,4 +219,4 @@ This example demonstrates how the classical uncertainty product Δx · Δp for a
 
 ## Conclusion
 
-The uncertainty principle is a dimensionless, geometric property of wave mechanics, independent of `h`. The "quantum" form simply disguises a universal wave relationship under SI units. Quantum physics is just classical wave mechanics expressed in awkward units.
+The uncertainty principle is a dimensionless, geometric property of wave mechanics, independent of `h`. The "quantum" form simply disguises a universal wave relationship under SI units. Quantum uncertainty is just classical wave mechanics expressed in awkward units.
