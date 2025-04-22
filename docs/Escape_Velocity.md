@@ -46,7 +46,7 @@ $$
 Substitute these scaled forms into the standard escape velocity formula:
 
 $$
-v_e = \sqrt{\frac{2 \cdot \left(G_n \frac{c^3}{Hz_{\rm kg}}\right) \cdot \left(m_n \cdot Hz_{\rm kg}\right)}{r_n\c}}
+v_e = \sqrt{\frac{2 \cdot \left(G_n \frac{c^3}{Hz_{\rm kg}}\right) \cdot \left(m_n \cdot Hz_{\rm kg}\right)}{r_n \cdot c}}
 $$
 
 Simplify the terms under the square root:
@@ -78,16 +78,16 @@ $$
 v_e = \sqrt{\frac{2 \cdot G_n \cdot m_n}{r_n}} \;\times\; c
 $$
 
-The term $\(\sqrt{\frac{2\,G_n\,m_n}{r_n}}\)$ has units $\(\sqrt{\mathrm{s^2 \cdot Hz / s}} = \sqrt{\mathrm{s^2 \cdot s^{-1} / s}} = \sqrt{\mathrm{1}}\)$, making it **dimensionless**. Let's call this universal dimensionless ratio $\(\beta\):$
+The term $\(\sqrt{\frac{2 \cdot G_n  \cdot m_n}{r_n}}\)$ has units $\(\sqrt{\mathrm{s^2 \cdot Hz / s}} = \sqrt{\mathrm{s^2 \cdot s^{-1} / s}} = \sqrt{\mathrm{1}}\)$, making it **dimensionless**. Let's call this universal dimensionless ratio $\(\beta\):$
 
 $$
-\beta = \sqrt{\frac{2\,G_n\,m_n}{r_n}}
+\beta = \sqrt{\frac{2 \cdot G_n \cdot m_n}{r_n}}
 $$
 
 The equation then becomes:
 
 $$
-v_e = \beta \;\times\; c
+v_e = \beta \times c
 $$
 
 
