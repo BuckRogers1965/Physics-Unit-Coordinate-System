@@ -26,9 +26,9 @@ Now, let’s apply the redefined \( G \) in terms of natural units:
 
 $$ G = G_n \cdot \frac{c^3}{\text{Hz}_\text{kg}} $$
 
-$Hz\_kg$ is just an equivalence between kg and  Hz scaled to SI units of measure
+$Hz\_\text{kg}$ is just an equivalence between kg and  Hz scaled to SI units of measure
 
-$$ Hz\_kg = \frac{h}{c^2} $$
+$$ Hz\_\text{kg} = \frac{h}{c^2} $$
 
 Substituting this definition into the Einstein field equations, we get:
 
