@@ -235,6 +235,7 @@ which is identical to the original SI formula when you re‑expand $G_n$ and $m_
 ## 6. Key Takeaway
 
 - SI's $G$ is  
+
 $$  G_{\rm SI} = G_n \,\frac{c^3}{Hz_{\rm kg}}. $$
   
 - SI's $M$ is  
