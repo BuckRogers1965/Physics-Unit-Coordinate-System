@@ -26,6 +26,10 @@ Now, let’s apply the redefined \( G \) in terms of natural units:
 
 $$ G = G_n \cdot \frac{c^3}{\text{Hz}_\text{kg}} $$
 
+$Hz\_kg$ is just an equivalence between kg and  Hz scaled to SI units of measure
+
+$$ Hz\_kg = \frac{h}{c^2} $$
+
 Substituting this definition into the Einstein field equations, we get:
 
 $$
@@ -42,7 +46,7 @@ $$
 
 In this new formulation:
 - \( $G_n$ \) is now the "natural" gravitational constant.
-- The factors of \( c \) and \( \text{Hz}_\text{kg} \) act to scale the tensor values to the natural units of mass and length.
+- The factors of \( c \) and \( \text{Hz}\_\text{kg} \) act to scale the tensor values to the natural units of mass and length.
 - The result is that the Einstein tensor and the stress-energy tensor are scaled by these conversion factors, simplifying the interpretation of the equation in natural units.
 
 ### Key Insight
