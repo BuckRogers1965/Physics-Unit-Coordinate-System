@@ -62,7 +62,7 @@ $$ T_H = f_M \cdot Hz_K $$
 
 shows it's just:
 1. **A characteristic frequency** ($f_M$) of the system
-2. **Scaled to temperature units** via the universal quantum-thermal conversion factor $h/k_B$
+2. **Scaled to temperature units** via the frequency to K unit conversion factor $h/k_B$
 
 
 This derivation shows that the standard Hawking formula is mathematically equivalent to stating that the Hawking temperature is simply the characteristic frequency $f_M$ of the mass $M$, scaled by the factor $Hz_K$ which converts frequency units to temperature units in the SI system.
