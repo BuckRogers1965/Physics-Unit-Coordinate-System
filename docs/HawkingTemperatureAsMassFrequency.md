@@ -247,6 +247,9 @@ $$ M_{\rm SI} = m_n \times Hz_{\rm kg}. $$
 $$ f_M = \frac{1}{16 \pi^2\,G_n\,m_n}, $$
 
   a pure geometric frequency in natural units.
+
+$$ H_T \;\propto\; f_M \;\propto\; \frac{1}{G_n\,m_n} $$
+
 - Temperature then follows by multiplying by $h/k_B$.
 
 Thus, Hawking temperature is simply the natural‑unit oscillation frequency of a curved spacetime mass, expressed in kelvins by our SI choice of units.
