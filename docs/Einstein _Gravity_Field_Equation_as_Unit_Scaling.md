@@ -24,21 +24,15 @@ Where:
 
 Now, let’s apply the redefined \( G \) in terms of natural units:
 
-$$
-G = G_n \cdot \frac{c^3}{\text{Hz}_\text{kg}}
-$$
+$$ G = G_n \cdot \frac{c^3}{\text{Hz}_\text{kg}} $$
 
 Substituting this definition into the Einstein field equations, we get:
 
-$$
-G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8 \pi G_n \cdot c^3}{\text{Hz}_\text{kg} \cdot c^4} T_{\mu\nu}
-$$
+$$ G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8 \pi G_n \cdot c^3}{\text{Hz}_\text{kg} \cdot c^4} T_{\mu\nu} $$
 
 Simplifying the right-hand side:
 
-$$
-G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8 \pi G_n}{\text{Hz}_\text{kg} \cdot c} T_{\mu\nu}
-$$
+$$ G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8 \pi G_n}{\text{Hz}_\text{kg} \cdot c} T_{\mu\nu} $$
 
 ### What This Means
 
