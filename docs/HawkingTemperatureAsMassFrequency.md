@@ -145,111 +145,114 @@ Thus, c³/(GM) is an inherent frequency scale set by Mass, Gravity, and Spacetim
 
 ---
 
-# Hawking Temperature as Natural‑Unit Frequency in SI
+# Hawking Temperature as Natural-Unit Frequency in SI
 
 ## Abstract
 
-In the standard SI expression for Hawking temperature,
-\[
-T_H = \frac{\hbar\,c^3}{8\pi\,G\,M\,k_B},
-\]
-both Newton’s constant \(G\) and the black‑hole mass \(M\) are implicitly converted into their **natural‑unit** forms.  Once these conversions are made explicit, the formula collapses to a **pure geometric frequency** times the SI frequency‑to‑temperature bridge \(h/k_B\).  This document shows the single, consistent derivation.
+In the standard SI expression for Hawking temperature,  
+$$
+T_H = \frac{\hbar c^3}{8 \pi G M k_B},
+$$  
+both Newton's constant $G$ and the black-hole mass $M$ are implicitly converted into their natural‑unit forms. Once those conversions are made explicit, the formula reduces to a pure geometric frequency times the SI frequency‑to‑temperature bridge $h/k_B$.
 
 ---
 
-## 1. SI Formula and Goal
+## 1. SI Formula and Objective
 
-The usual SI form mixes quantum, relativistic, gravitational, and thermal constants:
-\[
-T_H = \frac{\hbar\,c^3}{8\pi\,G\,M\,k_B}\,.
-\]
-Our goal is to expose how
-1. \(G_{\rm SI}\) carries a factor \(c^3/Hz_{\rm kg}\),  
-2. \(M_{\rm SI}\) carries a factor \(Hz_{\rm kg}\),  
-3. both cancel, leaving a **natural** frequency law.
+The usual SI form mixes quantum, relativistic, gravitational, and thermal constants:  
+$$
+T_H = \frac{\hbar c^3}{8 \pi G M k_B}.
+$$  
+We will show how:  
+1. $G_{\rm SI}$ carries a factor $c^3/Hz_{\rm kg}$,  
+2. $M_{\rm SI}$ carries a factor $Hz_{\rm kg}$,  
+3. those factors cancel, leaving a natural frequency law.
 
 ---
 
 ## 2. Define Conversion Factors
 
 1. **Mass ↔ Frequency**  
-   \[
-   Hz_{\rm kg} \;\equiv\;\frac{h}{c^2}\quad(\text{kg}\to\text{Hz})
-   \]
+   $$
+   Hz_{\rm kg} \equiv \frac{h}{c^2} \quad (\text{kg} \to \text{Hz})
+   $$
 
 2. **Frequency ↔ Temperature**  
-   \[
-   Hz_{K} \;\equiv\;\frac{h}{k_B}\quad(\text{Hz}\to\text{K})
-   \]
+   $$
+   Hz_{K} \equiv \frac{h}{k_B} \quad (\text{Hz} \to \text{K})
+   $$
 
 3. **Natural‑Unit Gravity**  
-   Introduce \(G_n\) (units: s²) so that in SI
-   \[
-   G_{\rm SI}
-   = G_n\;\frac{c^3}{Hz_{\rm kg}}
-   \quad\Bigl[\mathrm{m^3\,kg^{-1}\,s^{-2}}\Bigr].
-   \]
+   Introduce $G_n$ (units: s^2) so that in SI  
+   $$
+   G_{\rm SI} = G_n \,\frac{c^3}{Hz_{\rm kg}}
+   \quad [\mathrm{m^3\,kg^{-1}\,s^{-2}}].
+   $$
 
 ---
 
 ## 3. Convert \(G\) and \(M\)
 
-- **Mass**:  
-  \[
-  M_{\rm SI} = m_n \;\times\; Hz_{\rm kg}
-  \]
-  where \(m_n\) is the dimensionless mass in natural units.
+- **Mass**  
+  $$
+  M_{\rm SI} = m_n \times Hz_{\rm kg},
+  $$
+  where $m_n$ is the mass in natural units.
 
-- **Gravity**:  
-  \[
-  G_{\rm SI} = G_n \;\times\; \frac{c^3}{Hz_{\rm kg}}.
-  \]
+- **Gravity**  
+  $$
+  G_{\rm SI} = G_n \times \frac{c^3}{Hz_{\rm kg}}.
+  $$
 
 ---
 
 ## 4. Derive the Natural Frequency
 
-Start from the SI characteristic frequency,
-\[
-f_M
-= \frac{c^3}{16\,\pi^2\,G_{\rm SI}\,M_{\rm SI}}.
-\]
-Substitute the scaled forms:
-\[
+Start from the SI characteristic frequency,  
+$$
+f_M = \frac{c^3}{16 \pi^2\,G_{\rm SI}\,M_{\rm SI}}.
+$$  
+Substitute the natural‑unit forms:  
+$$
 f_M
 = \frac{c^3}
-       {16\pi^2 \,\bigl(G_n\frac{c^3}{Hz_{\rm kg}}\bigr)\,\bigl(m_n\,Hz_{\rm kg}\bigr)}
-= \frac{1}{16\pi^2\,G_n\,m_n}.
-\]
-All factors of \(c^3\) and \(Hz_{\rm kg}\) cancel, leaving the **pure natural** result.
+       {16 \pi^2 \bigl(G_n\,\tfrac{c^3}{Hz_{\rm kg}}\bigr)\,\bigl(m_n\,Hz_{\rm kg}\bigr)}
+= \frac{1}{16 \pi^2\,G_n\,m_n}.
+$$  
+All factors of $c^3$ and $Hz_{\rm kg}$ cancel, leaving the pure natural result.
 
 ---
 
 ## 5. Convert to Temperature
 
-Finally, convert that frequency back into kelvins via
-\[
-Hz_{K} = \frac{h}{k_B},
-\]
-so
-\[
-T_H
-= f_M \;\times\; Hz_K
-= \frac{1}{16\pi^2\,G_n\,m_n}\;\times\;\frac{h}{k_B},
-\]
-which is algebraically identical to the original SI formula.
+Convert that frequency back into kelvins via  
+$$
+Hz_K = \frac{h}{k_B},
+$$  
+so  
+$$
+T_H = f_M \times Hz_K
+     = \frac{1}{16 \pi^2\,G_n\,m_n} \times \frac{h}{k_B},
+$$  
+which is identical to the original SI formula when you re‑expand $G_n$ and $m_n$.
 
 ---
 
 ## 6. Key Takeaway
 
-- **SI’s \(G\)** is simply  
-  \(\displaystyle G_n\;\frac{c^3}{Hz_{\rm kg}}\).  
-- **SI’s \(M\)** is simply  
-  \(\displaystyle m_n\;\times\;Hz_{\rm kg}\).  
+- SI's $G$ is  
+  $$
+  G_{\rm SI} = G_n \,\frac{c^3}{Hz_{\rm kg}}.
+  $$
+- SI's $M$ is  
+  $$
+  M_{\rm SI} = m_n \times Hz_{\rm kg}.
+  $$
 - When both are converted, you recover  
-  \(\displaystyle f_M = \tfrac{1}{16\pi^2\,G_n\,m_n}\),  
-  a pure geometric frequency in natural units.  
-- **Temperature** then follows by multiplying by \(h/k_B\).
+  $$
+  f_M = \frac{1}{16 \pi^2\,G_n\,m_n},
+  $$
+  a pure geometric frequency in natural units.
+- Temperature then follows by multiplying by $h/k_B$.
 
-Thus **Hawking temperature** is nothing mystical—it is the **natural‑unit oscillation frequency** of a curved spacetime mass, expressed in kelvins by the SI choice of units.
+Thus, Hawking temperature is simply the natural‑unit oscillation frequency of a curved spacetime mass, expressed in kelvins by our SI choice of units.
