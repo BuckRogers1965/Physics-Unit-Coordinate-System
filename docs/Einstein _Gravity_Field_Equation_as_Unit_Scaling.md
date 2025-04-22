@@ -47,6 +47,6 @@ In this new formulation:
 
 ### Key Insight
 
-This approach shows that the gravitational constant \( G \) is not an independent fundamental constant in the traditional sense, but rather a scaled quantity that emerges from the natural units structure. This allows for a more unified view of the constants and helps clarify how they fit together in the framework of general relativity.
+This approach shows that the gravitational constant \( G \) is an not independent fundamental constant in a unit scaling sense, like c, h, k, or e are, but rather a scaled fundamental proportion of reality that emerges from the natural units structure. This allows for a more unified view of the constants and helps clarify how they fit together in the framework of general relativity.
 
 By reinterpreting the Einstein field equations in terms of these scaled constants, we move away from the idea that \( G \) is an isolated mystery and instead view it as a result of unit scaling.
