@@ -24,19 +24,19 @@ Using the relationships from our unit scaling framework:
 -   Mass $\(M_{\rm SI}\)$ in SI (kg) relates to its natural value $\(m_n\)$ (Hz) via our constant $\(Hz_{\rm kg}\)$:
     
 $$
-M_{\rm SI} = m_n \;\times\; Hz_{\rm kg} \quad \Bigl[ \mathrm{kg} \Bigr]
+M_{\rm SI} = m_n \times Hz_{\rm kg} \quad \Bigl[ \mathrm{kg} \Bigr]
 $$
 
 -   Newton's Constant $\(G_{\rm SI}\)$ in SI $(\(\mathrm{m^3\,kg^{-1}\,s^{-2}}\))$ relates to its natural value $\(G_n\) (\(\mathrm{s^2}\))$ via \(c\) and $\(Hz_{\rm kg}\)$:
 
 $$
-G_{\rm SI} = G_n \;\times\; \frac{c^3}{Hz_{\rm kg}} \quad \Bigl[\mathrm{m^3\,kg^{-1}\,s^{-2}}\Bigr]
+G_{\rm SI} = G_n \times \frac{c^3}{Hz_{\rm kg}} \quad \Bigl[\mathrm{m^3\,kg^{-1}\,s^{-2}}\Bigr]
 $$
 
 -   Radius $\(r_{\rm SI}\)$ in SI (m) relates to its natural length/time value $\(r_n\)$ (s) via \(c\):
 
 $$
-r_{\rm SI} = r_n \;\times\; c \quad \Bigl[\mathrm{m}\Bigr]
+r_{\rm SI} = r_n \times c \quad \Bigl[\mathrm{m}\Bigr]
 $$
 
 ---
@@ -46,7 +46,7 @@ $$
 Substitute these scaled forms into the standard escape velocity formula:
 
 $$
-v_e = \sqrt{\frac{2\,\left(G_n \frac{c^3}{Hz_{\rm kg}}\right)\,\left(m_n\,Hz_{\rm kg}\right)}{r_n\,c}}
+v_e = \sqrt{\frac{2 \cdot \left(G_n \frac{c^3}{Hz_{\rm kg}}\right) \cdot \left(m_n \cdot Hz_{\rm kg}\right)}{r_n\c}}
 $$
 
 Simplify the terms under the square root:
