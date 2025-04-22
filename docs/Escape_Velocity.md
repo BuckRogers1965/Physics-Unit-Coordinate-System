@@ -11,7 +11,7 @@ The standard formula for escape velocity hides a fundamental, dimensionless rati
 The familiar formula for escape velocity is given in SI units as:
 
 $$
-v_e = \sqrt{\frac{2\,G_{\rm SI}\,M_{\rm SI}}{r_{\rm SI}}}
+v_e = \sqrt{\frac{2 \cdot G_{\rm SI} \cdot M_{\rm SI}}{r_{\rm SI}}}
 $$
 
 Our goal is to reveal that this formula is equivalent to a dimensionless universal speed ratio ($\beta$) multiplied by the speed of light ($c$).
@@ -27,7 +27,7 @@ $$
 M_{\rm SI} = m_n \times Hz_{\rm kg} \quad \Bigl[ \mathrm{kg} \Bigr]
 $$
 
--   Newton's Constant $\(G_{\rm SI}\)$ in SI $(\(\mathrm{m^3\,kg^{-1}\,s^{-2}}\))$ relates to its natural value $\(G_n\) (\(\mathrm{s^2}\))$ via \(c\) and $\(Hz_{\rm kg}\)$:
+-   Newton's Constant $\(G_{\rm SI}\)$ in SI $(\(\mathrm{m^3 \cdot kg^{-1} \cdot s^{-2}}\))$ relates to its natural value $\(G_n\) (\(\mathrm{s^2}\))$ via \(c\) and $\(Hz_{\rm kg}\)$:
 
 $$
 G_{\rm SI} = G_n \times \frac{c^3}{Hz_{\rm kg}} \quad \Bigl[\mathrm{m^3\,kg^{-1}\,s^{-2}}\Bigr]
@@ -75,7 +75,7 @@ $$
 Take $\(c^2\)$ out of the square root:
 
 $$
-v_e = \sqrt{\frac{2 \cdot G_n \cdot m_n}{r_n}} \;\times\; c
+v_e = \sqrt{\frac{2 \cdot G_n \cdot m_n}{r_n}} \times c
 $$
 
 The term $\(\sqrt{\frac{2 \cdot G_n  \cdot m_n}{r_n}}\)$ has units $\(\sqrt{\mathrm{s^2 \cdot Hz / s}} = \sqrt{\mathrm{s^2 \cdot s^{-1} / s}} = \sqrt{\mathrm{1}}\)$, making it **dimensionless**. Let's call this universal dimensionless ratio $\(\beta\):$
