@@ -253,3 +253,49 @@ $$ H_T \propto f_M \propto \frac{1}{G_n\,m_n} $$
 - Temperature then follows by multiplying by $h/k_B$.
 
 Thus, Hawking temperature is simply the natural‑unit oscillation frequency of a curved spacetime mass, expressed in kelvins by our SI choice of units.
+
+
+## Appendix of code output for  python hawkingtemp01.py :
+
+```
+--- Hawking Temperature Calculation via Scaled Frequency ---
+Using fundamental constants:
+  c  = 299792458.0 m/s
+  G  = 6.6743e-11 m^3 kg^-1 s^-2
+  h  = 6.62607015e-34 J s
+  kB = 1.380649e-23 J/K
+--------------------------------------------------
+Enter black hole mass in kilograms (e.g., 1e12 for 10^12 kg): 1e24
+
+Input Black Hole Mass (M): 1e+24 kg
+--------------------------------------------------
+
+--- Step 1: Calculate Components for Characteristic Frequency (f_M) ---
+  c^3: 2.694400241737399e+25 m^3/s^3
+  16 * pi^2: 157.91367041742973 (dimensionless)
+  G * M: 66742999999999.99 m^3/s^2
+  G * Hz_kg / c**3: 1.8262416298105014e-86  natural G with units of s^2
+  M / Hz_kg: 1.356392489652132e+74 Hz Natural value of M
+  1 / ( 16*pi* natural_G * natural_M) : 2556446197.532272  Hz 
+  c**3 / ( 16*pi* G * M) : 2556446197.5322723  Hz
+  Denominator (16 * pi^2 * G * M): 1.0539632104670512e+16 m^3/s^2
+
+--- Step 2: Calculate Characteristic Frequency (f_M) ---
+  Characteristic Frequency (f_M): 2556446197.5322723 Hz (or s^-1)
+  This is the fundamental frequency scale associated with mass M in this context.
+
+--- Step 3: Calculate Frequency to Temperature Scaling Factor (Hz_K) ---
+  Hz_K (h / kB): 4.799243073366221e-11 K/Hz (or K s)
+  This is the universal factor to convert a frequency value in Hz to a temperature value in K in the SI system.
+
+--- Step 4: Calculate Hawking Temperature (T_H) ---
+  Hawking Temperature (T_H): 0.12269006705940172 K
+  This is the characteristic frequency scaled to temperature units.
+
+--- Verification: Calculate T_H using Original Formula ---
+  Original Formula Result (T_H): 0.1226900670594017 K
+
+Results match! The scaled frequency approach is mathematically equivalent to the original formula.
+--------------------------------------------------
+
+```
