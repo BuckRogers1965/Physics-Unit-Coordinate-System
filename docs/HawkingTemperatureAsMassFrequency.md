@@ -274,10 +274,13 @@ Input Black Hole Mass (M): 1e+24 kg
   c^3: 2.694400241737399e+25 m^3/s^3
   16 * pi^2: 157.91367041742973 (dimensionless)
   G * M: 66742999999999.99 m^3/s^2
+
+  natural units
   G * Hz_kg / c**3: 1.8262416298105014e-86  natural G with units of s^2
+  G_N = 1.8262416298105014e-86    G_N * c^3 / Hz_kg =  6.674300000000001e-11 Hz
   M / Hz_kg: 1.356392489652132e+74 Hz Natural value of M
   1 / ( 16*pi* natural_G * natural_M) : 2556446197.532272  Hz 
-  c**3 / ( 16*pi* G * M) : 2556446197.5322723  Hz
+
   Denominator (16 * pi^2 * G * M): 1.0539632104670512e+16 m^3/s^2
 
 --- Step 2: Calculate Characteristic Frequency (f_M) ---
