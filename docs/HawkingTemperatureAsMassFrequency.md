@@ -59,9 +59,8 @@ Substituting our definitions of $f_M$ and $Hz_K$:
 $$ T_H = f_M \cdot Hz_K $$
 
 
-<div align="center">
-  ![](./HawkingFrequency.png)
-</div>
+
+                ![](./HawkingFrequency.png)
 
 shows it's just:
 1. **A characteristic frequency** ($f_M$) of the system
