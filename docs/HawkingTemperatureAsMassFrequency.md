@@ -60,7 +60,7 @@ $$ T_H = f_M \cdot Hz_K $$
 
 
 
-                ![](./HawkingFrequency.png)
+                ![](https://github.com/BuckRogers1965/Physics-Unit-Coordinate-System/blob/main/docs/HawkingFrequency.png)
 
 shows it's just:
 1. **A characteristic frequency** ($f_M$) of the system
