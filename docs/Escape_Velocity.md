@@ -30,7 +30,7 @@ $$
 -   Newton's Constant $\(G_{\rm SI}\)$ in SI $(\(\mathrm{m^3 \cdot kg^{-1} \cdot s^{-2}}\))$ relates to its natural value $\(G_n\) (\(\mathrm{s^2}\))$ via \(c\) and $\(Hz_{\rm kg}\)$:
 
 $$
-G_{\rm SI} = G_n \times \frac{c^3}{Hz_{\rm kg}} \quad \Bigl[\mathrm{m^3\,kg^{-1}\,s^{-2}}\Bigr]
+G_{\rm SI} = G_n \times \frac{c^3}{Hz_{\rm kg}} \quad \Bigl[\mathrm{m^3 \cdot kg^{-1} \cdot s^{-2}}\Bigr]
 $$
 
 -   Radius $\(r_{\rm SI}\)$ in SI (m) relates to its natural length/time value $\(r_n\)$ (s) via \(c\):
