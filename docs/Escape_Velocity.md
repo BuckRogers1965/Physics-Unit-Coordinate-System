@@ -10,9 +10,9 @@ The standard formula for escape velocity hides a fundamental, dimensionless rati
 
 The familiar formula for escape velocity is given in SI units as:
 
-\[
+$$
 v_e = \sqrt{\frac{2\,G_{\rm SI}\,M_{\rm SI}}{r_{\rm SI}}}
-\]
+$$
 
 Our goal is to reveal that this formula is equivalent to a dimensionless universal speed ratio ($\beta$) multiplied by the speed of light ($c$).
 
