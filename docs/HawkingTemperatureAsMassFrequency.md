@@ -150,7 +150,7 @@ Thus, c³/(GM) is an inherent frequency scale set by Mass, Gravity, and Spacetim
 ## Abstract
 
 In the standard SI expression for Hawking temperature,  
-$$ T_H = \frac{\hbar c^3}{8 \pi G M k_B}, $$  
+$$ T_H = \frac{\hbar c^3}{8 \pi G M k_B} $$,  
 both Newton's constant $G$ and the black-hole mass $M$ are implicitly converted into their natural‑unit forms. Once those conversions are made explicit, the formula reduces to a pure geometric frequency times the SI frequency‑to‑temperature bridge $h/k_B$.
 
 ---
