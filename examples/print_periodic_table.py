@@ -25,7 +25,9 @@ from load_mods import load_module
 
 #scaling_choice = "si" 
 #scaling_choice = "imperial" 
-scaling_choice = "natural" 
+#scaling_choice = "natural" 
+scaling_choice = "planck_h" 
+#scaling_choice = "planck" 
 #scaling_choice = "atomic_electron" 
 #scaling_choice = "galactic" 
 

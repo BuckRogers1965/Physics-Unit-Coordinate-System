@@ -88,7 +88,10 @@ def print_rescaling (grouped_constants, rescale_factors, rescale_value_by_units)
                  rescaled_value_str = f"{rescaled_value:.10e}" # Use scientific notation here too
                  units_applied_str = " ".join(units_applied)
     
-                 print(f"   {data['symbol']:<8} {name:<32} {original_value_str:<16} {rescaled_value_str:<16} {promote_exponents(units_applied_str):<29} {original_value/ rescaled_value:8.8e}")
+                 if rescaled_value == 0 :
+                     print(f"   {data['symbol']:<8} {name:<32} {original_value_str:<16} {rescaled_value_str:<16} {promote_exponents(units_applied_str):<29} ERROR 0")
+                 else:
+                     print(f"   {data['symbol']:<8} {name:<32} {original_value_str:<16} {rescaled_value_str:<16} {promote_exponents(units_applied_str):<29} {original_value/ rescaled_value:8.8e}")
 
                  # Loop through fields dynamically based on args or print all if --all flag is present
                  indent = " " * 11 
