@@ -23,7 +23,7 @@ Within the unit scaling framework, $G\_{SI}$ is related to a more fundamental, "
 $$ G\_{SI} = G\_n \cdot \frac{c^3}{\text{Hz}\_\text{kg}} $$
 
 Here:
-- \( $G\_n$ \) is the natural gravitational coupling constant. Based on dimensional analysis making quantities like $ \sqrt{G\_n m\_n / r\_n} $ dimensionless, $\( G\_n \)$ has fundamental dimensions of \( $[\text{Time}^2]$ \).
+- \( $G\_n$ \) is the natural gravitational coupling constant. Based on dimensional analysis making quantities like $\sqrt{G\_n m\_n / r\_n}$ dimensionless, $\( G\_n \)$ has fundamental dimensions of \( $[\text{Time}^2]$ \).
 - \( c \) is the speed of light, the scaling factor bridging natural Length and Time units (and SI m and s).
 - $\( \text{Hz}_\text{kg} = h/c^2 \)$ is the scaling factor bridging SI Mass (kg) and natural Frequency/Mass/Energy units (Hz equivalent).
 
