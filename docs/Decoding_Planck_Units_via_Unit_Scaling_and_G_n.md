@@ -2,7 +2,7 @@
 
 ## Abstract
 
-Standard formulas for Planck units appear as complex combinations of fundamental constants $\( \hbar \)$, \( c \), and \( G \). This document shows how, within the unit scaling framework, these complexities dissolve. By defining the "natural" gravitational constant $\( G_n \)$, we demonstrate that the \( h \)-based Planck units (Length, Time, Mass, Temperature) emerge as simple expressions involving $ \sqrt{G_n} $ and the framework's core unit scaling factors \( c \), $\( \text{Hz}_\text{kg} \)$, and $\( \text{K}_\text{Hz} \)$. This reveals $\( G_n \)$ as the fundamental scaling parameter for the Planck scale and clarifies the role of other constants as conversion bridges.
+Standard formulas for Planck units appear as complex combinations of fundamental constants $\( \hbar \)$, \( c \), and \( G \). This document shows how, within the unit scaling framework, these complexities dissolve. By defining the "natural" gravitational constant \( $G\_n$ \), we demonstrate that the \( h \)-based Planck units (Length, Time, Mass, Temperature) emerge as simple expressions involving $\sqrt{G\_n}$ and the framework's core unit scaling factors \( c \), $\( \text{Hz}\_\text{kg} \)$, and $\( \text{K}_\text{Hz} \)$. This reveals $\( G\_n \)$ as the fundamental scaling parameter for the Planck scale and clarifies the role of other constants as conversion bridges.
 
 ---
 
