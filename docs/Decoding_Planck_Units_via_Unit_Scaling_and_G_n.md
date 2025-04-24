@@ -87,11 +87,11 @@ The unit scaling framework, by defining a natural gravitational constant $\( G\_
 In this framework, **time** emerges as the core axis from which all other physical dimensions are derived. The natural gravitational constant $\( G_n \)$, with dimensions of $\( [\text{Time}^2] \)$, establishes the foundational unit of duration at the Planck scale. From this root, all other units are extended through conversion factors:
 
 - **Length** scales from time via the speed of light \( c \):  
-  $\( \text{Length} = \text{Time} \cdot c \)$
-- **Mass** and **energy** scale inversely with time via $\( \text{Hz}_\text{kg} \)$:  
-  $\( \text{Mass} = \frac{1}{\text{Time}} \cdot \text{Hz}_\text{kg} \)$
-- **Temperature** also scales inversely with time, but via $\( \text{K}_\text{Hz} \)$:  
-  $\( \text{Temperature} = \frac{1}{\text{Time}} \cdot \frac{1}{\text{K}_\text{Hz}} \)$
+  \( $\text{Length} = \text{Time} \cdot c$ \)
+- **Mass** and **energy** scale inversely with time via \( $\text{Hz}_\text{kg}$ \):  
+  \( $\text{Mass} = \frac{1}{\text{Time}} \cdot \text{Hz}_\text{kg}$ \)
+- **Temperature** also scales inversely with time, but via \( $\text{K}_\text{Hz}$ \):  
+  \( $\text{Temperature} = \frac{1}{\text{Time}} \cdot \frac{1}{\text{K}_\text{Hz}}$ \)
 
 This structure unifies all Planck units as **time-scaled expressions**, reinforcing the idea that time is the primary dimensional seed in this naturalized unit system.
 
