@@ -66,7 +66,7 @@ A crucial insight from PUCS is the necessity of categorizing constants by their 
 *   **Category 2: Interaction Coupling Constants (`G`, `k_e`, etc.):** Quantify the strength of specific forces. Their roles are physically distinct from Category 1.
 *   **Category 3: Counting/Collective Factors (`N_A`):** Link counts to collective units.
 
-The PUCS framework argues that only Category 1 constants should be used to define the fundamental rescaling in a coordinate transformation between valid physical representations. In reviewing the units of G_n, it appears that stripped of SI length and mass, G in natural units defines a time scale.  This makes it central in defining the time scale of not just time, but also the mass, length, and temperature scales so they align in natural units. It imposes relationships not derived from the primary scaling structure, improperly mixes interaction strengths with dimensional scaling, or uses conventional forms (`ħ`) instead of primary ones (`h`).
+The PUCS framework argues that only Category 1 constants should be used to define the fundamental rescaling in a coordinate transformation between valid physical representations. In reviewing the units of G_n, it appears that stripped of SI length and mass, G in natural units defines a time scale.  This makes it central in defining the time scale of not just time, but also the mass, length, and temperature scales so they align in natural units.
 
 Therefore, `c=ħ=G=1`) is reachable from SI units of measure.  I was unaware how how gravity set a time scale, so this is kind of shocking to me. 
 
