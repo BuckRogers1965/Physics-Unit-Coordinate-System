@@ -1,0 +1,115 @@
+
+
+
+   Symbol   Constant Name                    Original Value   Rescaled Value   Units Applied                 Ratio
+   -----------------------------------------------------------------------------------------------------------------------------
+
+   --- Core Scaling Constants ---
+   c        speed_of_light_c                 2.9979245800e+08 1.0000000000e+00 l_P t_P⁻¹                     2.99792458e+08
+   h        planck_constant_h                6.6260701500e-34 1.0000000000e+00 m_P l_P² t_P⁻¹                6.62607015e-34
+   Hz_kg    Hz_kg                            7.3724973238e-51 1.0000000000e+00 m_P Hz⁻¹                      7.37249732e-51
+   k        boltzmann_constant_k             1.3806490000e-23 1.0000000000e+00 m_P l_P² t_P⁻² T_P⁻¹          1.38064900e-23
+   K_Hz     K_Hz                             2.0836619123e+10 1.0000000000e+00 Hz T_P⁻¹                      2.08366191e+10
+   R        molar_gas_constant_R             8.3144626180e+00 6.0221407599e+23 m_P l_P² t_P⁻² mol⁻¹ T_P⁻¹    1.38064900e-23
+   R_K      klitzing_constant_Rk             2.5812807450e+04 8.6102257616e+02 m_P l_P² t_P⁻¹ C_P⁻²          2.99792458e+01
+   Φ₀       magnetic_flux_quantum_Phi0       2.0678338480e-15 1.4671593098e+01 m_P l_P² t_P⁻¹ C_P⁻¹          1.40941330e-16
+   F        faraday_constant_F               9.6485332120e+04 2.0523131736e+22 mol⁻¹ C_P                     4.70129673e-18
+   K_J      josephson_constant_KJ            4.8359784840e+14 6.8158924058e-02 m_P⁻¹ l_P⁻² t_P C_P           7.09515086e+15
+   G₀       conductance_quantum_G0           7.7480917290e-05 2.3228194642e-03 m_P⁻¹ l_P⁻² t_P C_P²          3.33564095e-02
+   c_1      first radiation constant         3.7417718520e-16 6.2831853069e+00 m_P l_P⁴ t_P⁻³ pi             5.95521486e-17
+   c_1L     first radiation constant sr      1.1910429720e-16 1.9999999993e+00 m_P l_P⁴ t_P⁻³                5.95521486e-17
+   c_2      second_radiation_constant_c2     1.4387768776e-02 1.0000000001e+00 l_P T_P                       1.43877688e-02
+
+   --- Units of Measure ---
+   1 kg     1 kg                             1.0000000000e+00 1.8330085708e+07 m_P                           5.45551186e-08
+   1 m      1 meter                          1.0000000000e+00 2.4683127005e+34 l_P                           4.05135054e-35
+   1 s      1 second                         1.0000000000e+00 7.3998153159e+42 t_P                           1.35138508e-43
+   Hz       1 Hz                             1.0000000000e+00 1.3513850783e-43 t_P⁻¹                         7.39981532e+42
+   A        Amp force                        1.0000000000e-07 1.8262416298e-86 m_P l_P t_P⁻² A_P⁻²           5.47572667e+78
+   A        Amp force scaled in alpha        1.0000000000e-07 8.2627176397e-52 m_P l_P t_P⁻² A_old⁻²         1.21025556e+44
+   J        1 J                              1.0000000000e+00 2.0394970891e-10 m_P l_P² t_P⁻²                4.90316954e+09
+   e        elementary_charge_e              1.6021766340e-19 3.4079462030e-02 C_P                           4.70129673e-18
+   Na       avogadro_constant_Na             6.0221407600e+23 6.0221407600e+23 mol⁻¹                         1.00000000e+00
+
+   --- Masses ---
+   me       electron_mass_me                 9.1093837015e-31 1.6697578400e-23 m_P                           5.45551186e-08
+   m_{π^±}  pion_charged_mass_pi_pm          2.4880679000e-28 4.5606497855e-21 m_P                           5.45551186e-08
+   m_{π^0}  pion_neutral_mass_pi0            2.4061802000e-28 4.4105489295e-21 m_P                           5.45551186e-08
+   m_μ      muon_mass_mu                     1.8835316270e-28 3.4525296157e-21 m_P                           5.45551186e-08
+   m_τ      tau_mass_tau                     3.1674700000e-27 5.8059996578e-20 m_P                           5.45551186e-08
+   m_{Λ^0}  lambda_baryon_mass_Lambda0       1.9883800000e-27 3.6447175820e-20 m_P                           5.45551186e-08
+   mp       proton_mass_mp                   1.6726219237e-27 3.0659303219e-20 m_P                           5.45551186e-08
+   mn       neutron_mass_mn                  1.6749274980e-27 3.0701564594e-20 m_P                           5.45551186e-08
+   u        atomic_mass_unit_u               1.6605390666e-27 3.0437823412e-20 m_P                           5.45551186e-08
+   m_H      Higgs_boson_mass_H               2.2320400000e-25 4.0913484504e-18 m_P                           5.45551186e-08
+   m_Z      Z_boson_mass_Z                   1.6255700000e-25 2.9796837425e-18 m_P                           5.45551186e-08
+   m_W      W_boson_mass_W                   1.4326900000e-25 2.6261330493e-18 m_P                           5.45551186e-08
+
+   --- Planck Units ---
+   l_P      planck_length_lP                 1.6162550000e-35 3.9894227437e-01 l_P                           4.05135054e-35
+   t_P      planck_time                      5.3912470000e-44 3.9894232123e-01 t_P                           1.35138508e-43
+   m_P      planck_mass                      2.1764340000e-08 3.9894221758e-01 m_P                           5.45551186e-08
+   T_P      planck_temperature               1.4167840000e+32 3.9894223474e-01 T_P                           3.55135124e+32
+
+   --- Stoney Units ---
+   l_S      stoney_length_lS                 1.3800000000e-33 3.4062715267e+01 l_P                           4.05135054e-35
+   t_S      stoney_time_tS                   4.6000000000e-43 3.4039150453e+00 t_P                           1.35138508e-43
+   m_S      stoney_mass_mS                   1.8500000000e-09 3.3910658560e-02 m_P                           5.45551186e-08
+   T_S      stoney_temperature_TS            1.4400000000e+32 4.0547946478e-01 T_P                           3.55135124e+32
+
+   --- Other Natural Unit Systems ---
+   eV       electronvolts_to_energy_EeV      1.6021766340e-19 1.6021766340e-19 J                             1.00000000e+00
+   l_n      natural_length_ln                2.8179403262e-15 6.9555578964e+19 l_P                           4.05135054e-35
+   t_n      natural_time_tn                  9.3132257462e-24 6.8916150517e+19 t_P                           1.35138508e-43
+
+   --- Electromagnetic & Atomic ---
+   G_newton gravitational_G_Newtons          6.6743000000e-11 5.5147856343e-55 l_P m_P t_P⁻²                 1.21025556e+44
+   G        gravitational_constant_G         6.6743000000e-11 1.0000000000e+00 l_P³ m_P⁻¹ t_P⁻²              6.67430000e-11
+   k_e      coulombs_constant_k_e            8.9875517870e+09 9.9999999996e-01 m_P l_P³ t_P⁻² C_P⁻²          8.98755179e+09
+   ε₀       vacuum_permittivity_epsilon0     8.8541878128e-12 7.9577471503e-02 C_P² m_P⁻¹ l_P⁻³ t_P²         1.11265006e-10
+   μ₀       vacuum_permeability_mu0          1.2566370621e-06 2.2949229164e-85 m_P l_P t_P⁻² C_P⁻²           5.47572667e+78
+   Z_0      character impedance vacuum       3.7673031341e+02 1.2566370613e+01 m_P l_P² t_P⁻¹ C_P⁻²          2.99792458e+01
+   [ε₀]_au  atomic unit of permittivity      1.1126500560e-10 0.0000000000e+00 l_P⁻³ m_P⁻¹ t_P⁻⁴ C_P⁻²       ERROR 0
+   E_h      hartree_energy_Eh                4.3597447221e-18 8.8916866697e-28 m_P l_P² t_P⁻²                4.90316954e+09
+   μ_B      bohr_magneton_muB                9.2740100783e-24 1.6241621120e+20 l_P² t_P⁻¹ C_P                5.71002735e-44
+   μ_N      nuclear_magneton_muN             5.0507837461e-27 8.8454633188e+16 l_P² t_P⁻¹ C_P                5.71002735e-44
+
+   --- Wavelengths & Diameters ---
+   λ_e_C    electron_compton_wavelength      2.4263102387e-12 5.9888923774e+22 l_P                           4.05135054e-35
+   λ_n_C    neutron Compton wavelength       1.3195909058e-15 3.2571629923e+19 l_P                           4.05135054e-35
+   b        Wien wl d law                    2.8977719550e-03 2.0140523526e-01 l_P T_P                       1.43877688e-02
+   R_inf    rydberg infinite                 1.0973731568e+07 4.4458433350e-28 l_P⁻¹                         2.46831270e+34
+   r_e      electron_radius_re               2.8179403262e-15 6.9555578964e+19 l_P                           4.05135054e-35
+   a₀       bohr_radius_a0                   5.2917721090e-11 1.3061748305e+24 l_P                           4.05135054e-35
+   Å_star   Angstrom star                    1.0000149500e-10 2.4683496018e+24 l_P                           4.05135054e-35
+
+   --- Thermodynamic & Other ---
+   σ        stefan_boltzmann_constant_sigma  5.6703744190e-08 4.0802624637e+01 m_P t_P⁻³ T_P⁻⁴               1.38970825e-09
+   g₀       standard_gravity_g0              9.8066500000e+00 4.4205783449e-51 l_P t_P⁻²                     2.21840882e+51
+   κ        quantum of circulation           3.6369475467e-04 2.9944461847e+22 l_P² t_P⁻¹                    1.21456434e-26
+   Λ        cosmological_constant_Lambda     1.0908000000e-52 1.7903781687e-121 l_P⁻²                         6.09256759e+68
+
+   --- Material Properties ---
+   E        youngs_modulus_steel             2.0000000000e+11 2.7123926066e-102 m_P l_P⁻¹ t_P⁻²               7.37356382e+112
+   k        thermal_conductivity_copper      4.0100000000e+02 1.5901570950e-52 m_P l_P t_P⁻³ T_P⁻¹           2.52176342e+54
+   ρ        resistivity_silicon              2.3000000000e+03 3.4583229711e-50 m_P l_P³ t_P⁻³ A_P⁻²          6.65062234e+52
+   K_IC     fracture_toughness_alumina       3.5000000000e+00 7.4574558262e-96 m_P l_P⁻⁰⋅⁵ t_P⁻²             4.69328962e+95
+   T_C      curie_temperature_iron           1.0430000000e+03 2.9369102900e-30 T_P                           3.55135124e+32
+   γ        surface_tension_water            7.2800000000e-02 2.4369920555e-80 m_P t_P⁻²                     2.98728918e+78
+   μ_n      mobility_silicon                 1.5000000000e-01 5.2190640087e+180 m_P⁻¹ l_P⁰ t_P⁴ A_P           2.87407857e-182
+   β        compressibility_diamond          2.0000000000e-12 1.4747127648e+101 m_P⁻¹ l_P t_P²                1.35619630e-113
+   R        reflectivity_aluminum            9.2000000000e-01 9.2000000000e-01                               1.00000000e+00
+   d_11     piezoelectric_coefficient_quartz 2.3000000000e-12 4.3813519554e+92 m_P⁻¹ l_P⁻¹ t_P³ A_P          5.24952121e-105
+   α        thermal_expansion_invar          1.2000000000e-06 4.2616214879e+26 T_P⁻¹                         2.81582962e-33
+
+   --- Scaling Factors Used ---
+   s          -> 1.35138507828468394032e-43 -> t_P       
+   m          -> 4.05135054323487799835e-35 -> l_P       
+   kg         -> 5.45551186133462110058e-08 -> m_P       
+   K          -> 3.55135123991298665864e+32 -> T_P       
+   C          -> 4.70129672995040157985e-18 -> C_P       
+   A          -> 4.70129672995040157985e-18 -> A_P       
+   mol        -> 1.00000000000000000000e+00 -> mol       
+   pi         -> 1.00000000000000000000e+00 -> pi        
+   Hz         -> 7.39981531592240326513e+42 -> Hz        
+   amu        -> 6.02214076208112286439e+26 -> kg        
