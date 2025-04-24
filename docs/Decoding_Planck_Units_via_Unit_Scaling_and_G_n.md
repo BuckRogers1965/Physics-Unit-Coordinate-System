@@ -101,6 +101,6 @@ Traditional Planck units obscure this simplicity by combining multiple dimension
 
 ### Toward a Modular Interpretation of Nature
 
-This insight supports a **modular** rather than monolithic view of physics, where constants like \( h \), \( c \), and \( $k_B$ \) are not mysterious absolutes but **scaling bridges**—tools for translating between dimensions anchored in time. Under this lens, Planck units are no longer curiosities or endpoints, but simply **coordinates in a time-centric unit space** governed by the geometry of natural dimensional conversion.
+This insight supports a **modular** rather than monolithic view of physics, where constants like \( h \), \( c \), \( G \), and \( $k_B$ \) are not mysterious absolutes but **scaling bridges**—tools for translating between dimensions anchored in time. Under this lens, Planck units are no longer curiosities or endpoints, but simply **coordinates in a time-centric unit space** governed by the geometry of natural dimensional conversion.
 
 
