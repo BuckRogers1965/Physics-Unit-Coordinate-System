@@ -97,7 +97,7 @@ This structure unifies all Planck units as **time-scaled expressions**, reinforc
 
 ### The Illusion of Dimensional Complexity
 
-Traditional Planck units obscure this simplicity by combining multiple dimensional constants (e.g., $\( \hbar \)$, \( c \), and \( G \)) in a tangled way. These constants are not independently fundamental, but rather encode unit relationships. Once these relationships are modularized as scaling ratios (e.g., $\( h = \text{Hz}_\text{kg} \cdot c^2 \)$), the formulas collapse to elegant expressions rooted in $\( \sqrt{G_n} \)$.
+Traditional Planck units obscure this simplicity by combining multiple dimensional constants (e.g., $\( \hbar \)$, \( c \), and \( G \)) in a tangled way. These constants are not independently fundamental, but rather encode unit relationships. Once these relationships are modularized as scaling ratios (e.g., \( $h = \text{Hz}_\text{kg} \cdot c^2$ \)), the formulas collapse to elegant expressions rooted in $\( \sqrt{G_n} \)$.
 
 ### Toward a Modular Interpretation of Nature
 
