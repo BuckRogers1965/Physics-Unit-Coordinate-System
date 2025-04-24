@@ -80,3 +80,27 @@ These simple formulas define the \( h \)-based Planck units using $\( G\_n \)$ a
 
 The unit scaling framework, by defining a natural gravitational constant $\( G\_n \)$ with dimensions of $\( [\text{Time}^2] \)$, simplifies the derivation and interpretation of Planck units. The \( h \)-based Planck length, time, mass, and temperature are revealed as direct products of $\sqrt{G\_n}$ (the fundamental time scale) and the core unit scaling factors \( c \), $\( \text{Hz}\_\text{kg} \)$, and $\( \text{K}\_\text{Hz} \)$. This demonstrates that the Planck scale is fundamentally set by $\( G\_n \)$, and the other constants merely act as conversion factors to express this scale across different dimensions (Length, Mass, Temperature) within our arbitrary SI unit system. This perspective demystifies Planck units and reinforces the framework's view of fundamental constants as the essential bridges between our units and the universe's inherent proportionalities.
 
+## Additional Insights
+
+### Time as the Fundamental Scaling Axis
+
+In this framework, **time** emerges as the core axis from which all other physical dimensions are derived. The natural gravitational constant $\( G_n \)$, with dimensions of $\( [\text{Time}^2] \)$, establishes the foundational unit of duration at the Planck scale. From this root, all other units are extended through conversion factors:
+
+- **Length** scales from time via the speed of light \( c \):  
+  $\( \text{Length} = \text{Time} \cdot c \)$
+- **Mass** and **energy** scale inversely with time via $\( \text{Hz}_\text{kg} \)$:  
+  $\( \text{Mass} = \frac{1}{\text{Time}} \cdot \text{Hz}_\text{kg} \)$
+- **Temperature** also scales inversely with time, but via $\( \text{K}_\text{Hz} \)$:  
+  $\( \text{Temperature} = \frac{1}{\text{Time}} \cdot \frac{1}{\text{K}_\text{Hz}} \)$
+
+This structure unifies all Planck units as **time-scaled expressions**, reinforcing the idea that time is the primary dimensional seed in this naturalized unit system.
+
+### The Illusion of Dimensional Complexity
+
+Traditional Planck units obscure this simplicity by combining multiple dimensional constants (e.g., $\( \hbar \)$, \( c \), and \( G \)) in a tangled way. These constants are not independently fundamental, but rather encode unit relationships. Once these relationships are modularized as scaling ratios (e.g., $\( h = \text{Hz}_\text{kg} \cdot c^2 \)$), the formulas collapse to elegant expressions rooted in $\( \sqrt{G_n} \)$.
+
+### Toward a Modular Interpretation of Nature
+
+This insight supports a **modular** rather than monolithic view of physics, where constants like \( h \), \( c \), and \( $k_B$ \) are not mysterious absolutes but **scaling bridges**—tools for translating between dimensions anchored in time. Under this lens, Planck units are no longer curiosities or endpoints, but simply **coordinates in a time-centric unit space** governed by the geometry of natural dimensional conversion.
+
+
