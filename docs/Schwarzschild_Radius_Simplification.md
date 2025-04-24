@@ -25,15 +25,19 @@ Where:
 Within the Modular Unit Scaling Framework, we redefine the SI constants and quantities in terms of more fundamental, 'natural' components and unit scaling factors:
 
 *   **Gravitational Constant:** $G_{SI}$ is expressed using the natural gravitational constant $G_n$ (with dimensions of $\text{[Time}^2]$) and the scaling factors $c$ and $\text{Hz}\_\text{kg}$:
-    $$
-    G_{SI} = G_n \cdot \frac{c^3}{\text{Hz}\_\text{kg}} \quad \Bigl[\mathrm{m^3 \cdot kg^{-1} \cdot s^{-2}}\Bigr]
-    $$
+
+$$
+G_{SI} = G_n \cdot \frac{c^3}{\text{Hz}\_\text{kg}} \quad \Bigl[\mathrm{m^3 \cdot kg^{-1} \cdot s^{-2}}\Bigr]
+$$
+
     (Note: $\text{Hz}\_\text{kg} = h/c^2$ is the scaling factor bridging mass (kg) and frequency (Hz), effectively $\text{kg/Hz}$).
 
 *   **Mass:** $M_{SI}$ (mass in kg) can be expressed as an equivalent frequency ($f_M$) scaled by $\text{Hz}\_\text{kg}$:
-    $$
-    M_{SI} = f_M \cdot \text{Hz}\_\text{kg} \quad \Bigl[\mathrm{kg}\Bigr]
-    $$
+
+$$
+M_{SI} = f_M \cdot \text{Hz}\_\text{kg} \quad \Bigl[\mathrm{kg}\Bigr]
+$$
+
     ($f_M$ represents the mass $M$ in units of Hz-equivalent mass).
 
 ---
@@ -70,7 +74,7 @@ Now, let's express the Schwarzschild radius and the mass using their numerical v
 *   Let $M_{PU}$ be the numerical value of the mass when measured in Planck Masses ($m_P$). The physical mass is $M = M_{PU} \cdot m_P$.
 
 From the framework ($h$-based Planck units):
-*   $l_P = \sqrt{G_n} \cdot c \implies G_n \cdot c = l_P / \sqrt{G_n} \cdot \sqrt{G_n} = l_P / \sqrt{G_n}$ -- No, this is getting circular. Let's use the direct relationships defined: $G_n = t_P^2$, $c = l_P/t_P$, $m_P = \text{Hz}\_\text{kg}/t_P$.
+*   $G_n = t_P^2$, $c = l_P/t_P$, $m_P = \text{Hz}\_\text{kg}/t_P$.
 *   The mass $M_{SI}$ relates to $M_{PU}$ by $M_{SI} = M_{PU} \cdot m_P$.
 *   The frequency equivalent of mass $f_M = M_{SI} / \text{Hz}\_\text{kg} = (M_{PU} \cdot m_P) / \text{Hz}\_\text{kg}$.
 
