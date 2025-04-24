@@ -68,7 +68,7 @@ A crucial insight from PUCS is the necessity of categorizing constants by their 
 
 The PUCS framework argues that only Category 1 constants should be used to define the fundamental rescaling in a coordinate transformation between valid physical representations. In reviewing the units of G_n, it appears that stripped of SI length and mass, G in natural units defines a time scale.  This makes it central in defining the time scale of not just time, but also the mass, length, and temperature scales so they align in natural units.
 
-Therefore, `c=ħ=G=1`) is reachable from SI units of measure.  I was unaware how how gravity set a time scale, so this is kind of shocking to me. 
+Therefore, `c=ħ=G=1`) is reachable from SI units of measure.  I was unaware of how gravity set a time scale, so this is kind of shocking to me. 
 
 ## 8. Conclusion: Seeing the Forest for the Trees
 
