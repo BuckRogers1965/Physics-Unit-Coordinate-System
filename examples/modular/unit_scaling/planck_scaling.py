@@ -1,13 +1,32 @@
 import math
+
+# Define standard CODATA 2018 values for necessary constants in SI
+G   = 6.67430e-11
+e   = 1.602176634e-19
+c   = 299792458.0
+k_B = 1.380649e-23
+h   = 6.62607015e-34 
+k   = 1.3806490000e-23
+pi  = 3.141592653589793238
+
+Hz_kg = h / c**2
+K_Hz  = k / h
+G_n   = G * Hz_kg / c**3
+t_P   = (G_n )**(1/2) 
+e_scaling = (  1e7 * Hz_kg * c  )**(1/2)
+tps = (2*pi) ** (1/2)
+
+
+
 def calculate_scaling_factors(constants):
 
     rescale_factors = [
-        {"symbol": "s",  "factor": 5.391247E-44, "swap_with": "t_P"},
-        {"symbol": "m",  "factor": 1.616255E-35, "swap_with": "l_P"},
-        {"symbol": "kg", "factor": 2.176434E-8, "swap_with": "m_P"},
-        {"symbol": "K",  "factor": 1.416784E+32, "swap_with": "T_P"},
-        {"symbol": "C",  "factor": 3.2043532679e-19, "swap_with": "C_P"},
-        {"symbol": "A",  "factor": 3.2043532679e-19, "swap_with": "A_P"},
+        {"symbol": "s",  "factor": t_P/tps, "swap_with": "t_P"},
+        {"symbol": "m",  "factor": t_P * c /tps, "swap_with": "l_P"},
+        {"symbol": "kg", "factor": Hz_kg/(t_P * tps), "swap_with": "m_P"},
+        {"symbol": "K",  "factor": 1/(t_P *  K_Hz * tps), "swap_with": "T_P"},
+        {"symbol": "C",  "factor": e_scaling, "swap_with": "C_P"},
+        {"symbol": "A",  "factor": e_scaling, "swap_with": "A_P"},
         {"symbol": "mol","factor": 1.0, "swap_with": "mol"},
         {"symbol": "pi", "factor": 1.0, "swap_with": "pi"},
         {"symbol": "Hz", "factor": 1.0, "swap_with": "Hz"},
