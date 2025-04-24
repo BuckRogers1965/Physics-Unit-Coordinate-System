@@ -88,10 +88,10 @@ In this framework, **time** emerges as the core axis from which all other physic
 
 - **Length** scales from time via the speed of light \( c \):  
   \( $\text{Length} = \text{Time} \cdot c$ \)
-- **Mass** and **energy** scale inversely with time via \( $\text{Hz}_\text{kg}$ \):  
-  \( $\text{Mass} = \frac{1}{\text{Time}} \cdot \text{Hz}_\text{kg}$ \)
-- **Temperature** also scales inversely with time, but via \( $\text{K}_\text{Hz}$ \):  
-  \( $\text{Temperature} = \frac{1}{\text{Time}} \cdot \frac{1}{\text{K}_\text{Hz}}$ \)
+- **Mass** and **energy** scale inversely with time via \( $\text{Hz}\_\text{kg}$ \):  
+  \( $\text{Mass} = \frac{1}{\text{Time}} \cdot \text{Hz}\_\text{kg}$ \)
+- **Temperature** also scales inversely with time, but via \( $\text{K}\_\text{Hz}$ \):  
+  \( $\text{Temperature} = \frac{1}{\text{Time}} \cdot \frac{1}{\text{K}\_\text{Hz}}$ \)
 
 This structure unifies all Planck units as **time-scaled expressions**, reinforcing the idea that time is the primary dimensional seed in this naturalized unit system.
 
