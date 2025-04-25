@@ -31,8 +31,8 @@ in another, based on the underlying equivalences.
 But what this means is that h, k, e, and G become unit scaling of these equivalences between units based on the set of individual unit scalings that define them. They are composite values whose factors can be found and used to simplify calculations by substitution. 
 
 - h    = $m/f c^2 = Hz\_kg c^2$  and this shows that m = f $Hz\_kg$
-- $k\_B =  K\_Hz Hz\_kg c^2$ because $K_Hz$ = h/k and so f = T $K\_Hz$
-- G    = $G\_n c^3 / Hz\_kg$, this is the unit scaling from a natural unit system were G is a dimensionless 1.  
+- $k\_B =  K\_\text{Hz} Hz\_\text{kg} c^2$ because $K_Hz$ = h/k and so f = T $K\_Hz$
+- G    = $G\_n c^3 / Hz\_\text{kg}$, this is the unit scaling from a natural unit system were G is a dimensionless 1.  
 
 Changing from one unit system (like SI) to another (like a Planck system or
 any other valid system) is NOT describing a different reality. It is performing
@@ -74,7 +74,7 @@ The PUCS framework offers a distinct perspective compared to the traditional way
 
 *   **Unit Systems as Coordinate Bases:** PUCS reframes unit systems as explicit *coordinate representations* of a single reality. SI, Planck, etc., are just different choices of *basis vectors* (the units themselves) in the multi-dimensional space of physical quantities. This clarifies their relationship beyond simple numerical conversion.
 *   **Constants as Coordinate Scaling Factors:** PUCS explicitly defines dimensionful constants as the *scaling factors* or *transformation rules* between the scales of these different coordinate bases, according to the universe's inherent proportionalities. Their numerical values in SI are seen as artifacts of *our* choice of SI scales relative to those fundamental ratios. This removes the perceived mystery from their values – they are necessary map features, not inherent territory numbers.
-*   **Modular Unit Scaling:** Inside the SI unit system you can just perform conversions between units simply using $Hz_kg, K\_Hz, c^2, or G\_n$.
+*   **Modular Unit Scaling:** Inside the SI unit system you can just perform conversions between units simply using $Hz_\text{kg}, K\_\text{Hz}, c^2, or G\_n$.
 *   **Demystification:** Constants are no longer arbitrary numbers; they are the comprehensible metrics that quantify the fundamental links between dimensions (L-T, E-f-m-T, etc.) within our chosen measurement system.
 *   **Unified Understanding:** All valid unit systems are revealed as mathematically equivalent descriptions related by coordinate transformations derived from the measured constants. SI is shown to be a complete 'natural' system because its constants encode all the necessary relationships. The "Planck scale" is understood as the magnitude of the coordinate basis defined by the constants, not an independent scale of nature.
 *   **Clarified Interpretation of Laws:** Complex formulas become clearer by revealing the constants' role as dimensional translators. Phenomena attributed to constants (like h 'causing' uncertainty or setting a 'quantum scale') are re-interpreted as properties of waves and geometry quantified using h as a scaling factor.
