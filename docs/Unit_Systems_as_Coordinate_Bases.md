@@ -32,7 +32,7 @@ But what this means is that h, k, e, and G become unit scaling of these equivale
 
 - h    = $m/f c^2 = Hz\_kg c^2$  and this shows that m = f $Hz\_kg$
 - $k\_B =  K\_\text{Hz} Hz\_\text{kg} c^2$ because $K_Hz$ = h/k and so f = T $K\_Hz$
-- G    = $G\_n c^3 / Hz\_\text{kg}$, this is the unit scaling from a natural unit system were G is a dimensionless 1.  
+- G    = $G\_n c^3 / Hz\_\text{kg}$, this is the unit scaling from a natural unit system where G is a dimensionless 1.  
 
 Changing from one unit system (like SI) to another (like a Planck system or
 any other valid system) is NOT describing a different reality. It is performing
