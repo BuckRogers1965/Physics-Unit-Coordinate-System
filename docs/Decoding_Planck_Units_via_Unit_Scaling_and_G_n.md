@@ -75,6 +75,7 @@ These simple formulas define the \( h \)-based Planck units using $\( G\_n \)$ a
 - **Constants as Multipliers:** \( c \), $\( \text{Hz}\_\text{kg} \)$, and $\( \text{K}\_\text{Hz} \)$ are the necessary scaling factors to convert the base time scale $\sqrt{G\_n}$ into corresponding scales of length, mass, and temperature within our chosen (SI) unit system.
 - **Simplicity Revealed:** The standard Planck unit formulas appear complex because they mix $\( G\_{SI} \)$ (a composite scalar) with $\( \hbar \)$ (a composite scalar) and \( c \). By using $\( G\_n \)$ (a base scalar) and the other scaling factors, the structure becomes simple.
 - **Dimensional Consistency:** The derivations ensure that the units cancel perfectly within the framework's definitions, resulting in the expected SI units for each Planck quantity.
+- **Two Layers of Scaling** The SI unit scaling is just removing the SI definitions from our units of measure to make a system where c=h=k=e=1.  The second level of unit scaling is applying the time scale of the non reduced $t\_P$ against every unit of measurement.  The first layer of scaling removes SI unit scaling, the second layer applies the same $t_P$ unit scaling to every unit of measurement, just just the seconds.  This is two changes of basis of the unit system, first from SI to natural units and a second change of basis to planck units with a fixed offset of time to every unit of measure.
 
 ---
 
