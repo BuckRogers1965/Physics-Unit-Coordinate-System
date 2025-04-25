@@ -30,8 +30,8 @@ in another, based on the underlying equivalences.
 
 But what this means is that h, k, e, and G become unit scaling of these equivalences between units based on their unit scaling. They are composite values whose factors can be found and used to simplify calculations by substitution. 
 
-- h    = m/f c^2 = $Hz\_kg$ c^2  and this shows that m = f $Hz\_kg$
-- $k\_B =  K\_Hz Hz\_kg$ c^2 because $K_Hz$ = h/k and so f = T $K\_Hz$
+- h    = $m/f c^2 = Hz\_kg c^2$  and this shows that m = f $Hz\_kg$
+- $k\_B =  K\_Hz Hz\_kg c^2$ because $K_Hz$ = h/k and so f = T $K\_Hz$
 - G    = $G\_n c^3 / Hz\_kg$, this is the unit scaling from a natural unit system were G is a dimensionless 1.  
 
 Changing from one unit system (like SI) to another (like a Planck system or
