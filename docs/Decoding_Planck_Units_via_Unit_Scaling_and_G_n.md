@@ -29,6 +29,8 @@ Here:
 
 This definition means $\( G\_n = G\_{SI} \cdot \frac{\text{Hz}\_\text{kg}}{c^3} \)$. Calculating its value using SI constants gives $\( G\_n \approx 2.903 \times 10^{-87} \, \text{s}^2 \)$.
 
+How this works is that at Planck units F = m1m2/r^2 and so the value for G is just that dimensionless force of 1 scaled into units of G at the SI defintion of length, time, and  mass.  The length scales by a power of 3 because curvature propagates at 1/r^3. the time scales by  non reduced t_P because Newton has two units of time, and the mass scales by the SI scaling from where it would be scaled in natural units with the time already corrected. 
+
 ---
 
 ## 3. Other Core Unit Scaling Factors
