@@ -28,7 +28,7 @@ in another, based on the underlying equivalences.
 - 'k' scales Temperature units to Energy units (J/K) because E ~ T.
 - Etc.
 
-But what this means is that h, k, e, and G become unit scaling of these equivalences between units based on their unit scaling. They are composite values whose factors can be found and used to simplify calculations by substitution. 
+But what this means is that h, k, e, and G become unit scaling of these equivalences between units based on the set of individual unit scalings that define them. They are composite values whose factors can be found and used to simplify calculations by substitution. 
 
 - h    = $m/f c^2 = Hz\_kg c^2$  and this shows that m = f $Hz\_kg$
 - $k\_B =  K\_Hz Hz\_kg c^2$ because $K_Hz$ = h/k and so f = T $K\_Hz$
