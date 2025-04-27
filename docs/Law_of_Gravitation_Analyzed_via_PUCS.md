@@ -24,9 +24,9 @@ Within the PUCS framework, SI quantities are expressed in terms of their natural
 
 -   Gravitational Constant \( $G\_{\rm SI}$ \) (units \( $\mathrm{m^3\,kg^{-1}\,s^{-2}}$ \)):
 
-    $$
-    G\_{\rm SI} = G\_n \cdot \frac{c^3}{\text{Hz}\_\text{kg}} = (t\_P^h)^2 \cdot \frac{c^3}{\text{Hz}\_\text{kg}}
-    $$
+$$
+G\_{\rm SI} = G\_n \cdot \frac{c^3}{\text{Hz}\_\text{kg}} = (t\_P^h)^2 \cdot \frac{c^3}{\text{Hz}\_\text{kg}}
+$$
 
     \( $G\_n$ \) (or \( ($t\_P^h)^2$ \)) represents the fundamental gravitational time-squared constant (units \( $\mathrm{s^2}$ \)).
     \( $c^3 / \text{Hz}\_\text{kg}$ \) are the scaling factors bridging natural units to SI dimensions.
@@ -34,9 +34,9 @@ Within the PUCS framework, SI quantities are expressed in terms of their natural
 -   Mass $\( m\_{\rm SI} \) (units \( \mathrm{kg} \))$:
     In the Energy/Mass/Frequency equivalence, mass can be represented by frequency scaled by \( $\text{Hz}\_\text{kg}$ \):
 
-    $$
-    m\_{\rm SI} = f\_m \cdot \text{Hz}\_\text{kg}
-    $$
+$$
+m\_{\rm SI} = f\_m \cdot \text{Hz}\_\text{kg}
+$$
 
     \( $f\_m$ \) is the mass expressed as an equivalent frequency (units \( $\mathrm{Hz}$ \) or \( $\mathrm{s^{-1}}$ \)).
     \( $\text{Hz}\_\text{kg}$ \) is the mass-per-frequency scaling factor (units \( $\mathrm{kg\,s}$ \)).
@@ -44,9 +44,9 @@ Within the PUCS framework, SI quantities are expressed in terms of their natural
 -   Radius \( $r\_{\rm SI}$ \) (units \( $\mathrm{m}$ \)):
     In the Length/Time equivalence, length can be represented by time scaled by \( c \):
 
-    $$
-    r\_{\rm SI} = r\_t \cdot c
-    $$
+$$
+r\_{\rm SI} = r\_t \cdot c
+$$
 
     \( $r\_t$ \) is the radius expressed as an equivalent time (units \( \mathrm{s} \)).
     \( c \) is the length-per-time scaling factor (units \( \mathrm{m/s} \)).
