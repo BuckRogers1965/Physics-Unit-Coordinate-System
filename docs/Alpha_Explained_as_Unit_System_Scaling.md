@@ -96,3 +96,58 @@ Now:
     *   More physically: Why does the intrinsic strength of the electromagnetic interaction, represented by `amp_force`, scale in this particular way relative to the natural units defined by action (`h`), speed (`c`), and charge (`e`)?
 
 This shift moves the inquiry from interpreting a dimensionless ratio (`α`) to questioning the fundamental magnitude of a force constant (`amp_force_natural`) within a physically motivated unit system.
+
+
+
+### Apendix: The simple way to calculate e:
+
+```
+
+cat e_calculated_unit_Scaling.py 
+
+from scipy.constants import h, c, e, mu_0, pi
+from math import sqrt
+
+# PRECISION CALCULATIONS (NO APPROXIMATIONS):
+Hz_kg = h / c**2  # Exact mass-per-frequency (kg/Hz)
+amp_force = 1e-7               # μ₀/(4π) in N/A² (exact by SI definition)
+amp_force_natural = (e ** 2) * amp_force / (Hz_kg * c)  # ≈ 0.0011614
+# this is what remains after you remove unit scaling for e, kg, and meter in the SI unit system
+
+# Fine-structure constant
+alpha = 2 * pi * amp_force_natural  # ≈ 1/137
+
+# CALCULATE e 
+e_calculated = 1 / sqrt( amp_force / (Hz_kg * c * amp_force_natural))
+# all Hz_kg and c do is remove the unit scaling of kg and meter from the amp_force
+
+# RESULTS
+print("Formula for e :")
+print(f"e = 1/sqrt({amp_force:.5e} / ({Hz_kg:.5e} * {c:.0f} * {amp_force_natural:.5e}))")
+print(f"amp_force with meter and kg SI units removed: ({amp_force:.5e} / ({Hz_kg:.5e} * {c:.0f})  = {amp_force / (Hz_kg * c)}")
+print("\nCALCULATED e:")
+print(f"{e_calculated:.15e} C ")
+
+print("\nOFFICIAL CODATA e:")
+print(f"{e:.15e} C")
+
+print("\nRELATIVE DIFFERENCE:")
+print(f"{abs(e_calculated - e)/e:.1e}% (machine precision limit)")
+
+
+$ python e_calculated_unit_Scaling.py 
+
+Formula for e :
+e = 1/sqrt(1.00000e-07 / (7.37250e-51 * 299792458 * 1.16141e-03))
+amp_force with meter and kg SI units removed: (1.00000e-07 / (7.37250e-51 * 299792458)  = 4.524438335443822e+34
+
+CALCULATED e:
+1.602176634000000e-19 C 
+
+OFFICIAL CODATA e:
+1.602176634000000e-19 C
+
+RELATIVE DIFFERENCE:
+0.0e+00% (machine precision limit)
+
+```
