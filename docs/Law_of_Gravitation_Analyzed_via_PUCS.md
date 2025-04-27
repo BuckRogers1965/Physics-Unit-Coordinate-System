@@ -100,7 +100,7 @@ The unit cancellation reveals the roles: the \( $\mathrm{s^2}$ \) from \( ($t\_P
 
 ## 5. Key Insights: The Role of \( $G\_{\rm SI}$ \) as a Unit Scaler
 
-This decomposition reveals exactly what the complex value of \( G\_{\rm SI} \) in the standard formula is doing:
+This decomposition reveals exactly what the complex value of \( $G\_{\rm SI}$ \) in the standard formula is doing:
 
 -   \( $G\_{\rm SI}$ \) is not an isolated, fundamental property of reality in the way that \( $G\_n$ \) (the time-squared constant), \( c \) (Length-Time scaler), or \( $\text{Hz}\_\text{kg}$ \) (Mass-Frequency scaler) are within the PUCS framework.
 -   Instead, \( $G\_{\rm SI}$ \) serves as a necessary **composite unit scaling factor** for the SI system. Its numerical value \( $\approx 6.674 \times 10^{-11}$ \) is precisely the product of the numerical value of \( G\_n \) (1 in its natural \( $\mathrm{s^2}$ \) unit) and the scaling factors \( $c^3$ \) and \( $1/\text{Hz}\_\text{kg}$ \) needed to reconcile the arbitrary scales of the SI meter, kilogram, and second with the fundamental gravitational proportionality governed by \( G\_n \).
