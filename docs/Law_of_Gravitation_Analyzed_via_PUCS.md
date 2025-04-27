@@ -43,6 +43,7 @@ $$
 
 -   Radius \( $r\_{\rm SI}$ \) (units \( $\mathrm{m}$ \)):
     In the Length/Time equivalence, length can be represented by time scaled by \( c \):
+This is true because in natural units of mass, it is mathematically the identical value of frequency because f ~ m in this universe.
 
 $$
 r\_{\rm SI} = r\_t \cdot c
@@ -50,6 +51,7 @@ $$
 
 \( $r\_t$ \) is the radius expressed as an equivalent time (units \( \mathrm{s} \)).
 \( c \) is the length-per-time scaling factor (units \( \mathrm{m/s} \)).
+This is true because in natural units of length, it is mathematically the identical value of time because length ~ time in this universe.
 
 ---
 
