@@ -85,7 +85,7 @@ $$
 
 The formula \( $F = (t\_P^h)^2 \cdot (c \cdot \text{Hz}\_\text{kg}) \cdot \frac{f\_{m1} f\_{m2}}{r\_t^2}$ \) breaks down the force into components whose units and roles are clearer:
 
--   \( $(t\_P^h)^2$ \): This represents the fundamental gravitational scale, the time-squared constant \( $G\_n$ \). It provides the necessary \( \mathrm{s^2} \) dimension and the fundamental numerical value of the gravitational coupling (1 in its natural units). Units: \( \mathrm{s^2} \).
+-   \( $(t\_P^h)^2$ \): This represents the fundamental gravitational scale, the time-squared constant \( $G\_n$ \). It provides the necessary \( $\mathrm{s^2}$ \) dimension and the fundamental numerical value of the gravitational coupling (1 in its natural units). Units: \( $\mathrm{s^2}$ \).
 -   \( $c \cdot \text{Hz}\_\text{kg}$ \): This is a composite unit scaling factor. Units: \( $(\mathrm{m/s}) \cdot (\mathrm{kg/Hz}) = (\mathrm{m/s}) \cdot (\mathrm{kg \cdot s}) = \mathrm{m \cdot kg}$ \). This factor brings in the specific scales of the SI meter and kilogram to the force calculation.
 -   \( $f\_{m1} f\_{m2}$ \): The product of the masses expressed as frequencies. Units: \( $\mathrm{Hz^2}$ \) or \( $\mathrm{s^{-2}}$ \).
 -   \( $r\_t^2$ \): The square of the radius expressed as time. Units: \( $\mathrm{s^2}$ \).
