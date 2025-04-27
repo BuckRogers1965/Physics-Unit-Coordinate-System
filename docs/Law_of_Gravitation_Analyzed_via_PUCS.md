@@ -22,7 +22,7 @@ Where \( $G\_{\rm SI}$ \) is the gravitational constant in SI, \( $m\_{\rm SI}$ 
 
 Within the PUCS framework, SI quantities are expressed in terms of their natural counterparts and the unit scaling factors \( c \), \( $\text{Hz}\_\text{kg}$ \), and \( $G\_n$ \) (represented by \( $t\_P^h = \sqrt{G\_n}$ \)):
 
--   Gravitational Constant \( G\_{\rm SI} \) (units \( \mathrm{m^3\,kg^{-1}\,s^{-2}} \)):
+-   Gravitational Constant \( $G\_{\rm SI}$ \) (units $\( \mathrm{m^3\,kg^{-1}\,s^{-2}} \)$):
 
     $$
     G\_{\rm SI} = G\_n \cdot \frac{c^3}{\text{Hz}\_\text{kg}} = (t\_P^h)^2 \cdot \frac{c^3}{\text{Hz}\_\text{kg}}
