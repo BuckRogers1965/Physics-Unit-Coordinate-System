@@ -71,7 +71,7 @@ $$
 F = (t\_P^h)^2 \frac{c^3 (\text{Hz}\_\text{kg})^2 f\_{m1} f\_{m2}}{ \text{Hz}\_\text{kg} r\_t^2 c^2}
 $$
 
-Cancel terms (\( $c^3/c^2 = c$ \), $\( (\text{Hz}\_\text{kg})^2 / \text{Hz}\_\text{kg} = \text{Hz}\_\text{kg} \)$):
+Cancel terms (\( $c^3/c^2 = c$ \), \( $(\text{Hz}\_\text{kg})^2 / \text{Hz}\_\text{kg} = \text{Hz}\_\text{kg}$ \)):
 
 $$
 F = (t\_P^h)^2 \cdot c \cdot \text{Hz}\_\text{kg} \cdot \frac{f\_{m1} f\_{m2}}{r\_t^2}
