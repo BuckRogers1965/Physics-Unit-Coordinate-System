@@ -28,7 +28,7 @@ $$
 G\_{\rm SI} = G\_n \cdot \frac{c^3}{\text{Hz}\_\text{kg}} = (t\_P^h)^2 \cdot \frac{c^3}{\text{Hz}\_\text{kg}}
 $$
 
-    \( $G\_n$ \) (or \( ($t\_P^h)^2$ \)) represents the fundamental gravitational time-squared constant (units \( $\mathrm{s^2}$ \)).
+\( $G\_n$ \) (or \( ($t\_P^h)^2$ \)) represents the fundamental gravitational time-squared constant (units \( $\mathrm{s^2}$ \)).
     \( $c^3 / \text{Hz}\_\text{kg}$ \) are the scaling factors bridging natural units to SI dimensions.
 
 -   Mass $\( m\_{\rm SI} \) (units \( \mathrm{kg} \))$:
@@ -38,8 +38,8 @@ $$
 m\_{\rm SI} = f\_m \cdot \text{Hz}\_\text{kg}
 $$
 
-    \( $f\_m$ \) is the mass expressed as an equivalent frequency (units \( $\mathrm{Hz}$ \) or \( $\mathrm{s^{-1}}$ \)).
-    \( $\text{Hz}\_\text{kg}$ \) is the mass-per-frequency scaling factor (units \( $\mathrm{kg\,s}$ \)).
+\( $f\_m$ \) is the mass expressed as an equivalent frequency (units \( $\mathrm{Hz}$ \) or \( $\mathrm{s^{-1}}$ \)).
+\( $\text{Hz}\_\text{kg}$ \) is the mass-per-frequency scaling factor (units \( $\mathrm{kg\,s}$ \)).
 
 -   Radius \( $r\_{\rm SI}$ \) (units \( $\mathrm{m}$ \)):
     In the Length/Time equivalence, length can be represented by time scaled by \( c \):
