@@ -48,8 +48,8 @@ $$
 r\_{\rm SI} = r\_t \cdot c
 $$
 
-    \( $r\_t$ \) is the radius expressed as an equivalent time (units \( \mathrm{s} \)).
-    \( c \) is the length-per-time scaling factor (units \( \mathrm{m/s} \)).
+\( $r\_t$ \) is the radius expressed as an equivalent time (units \( \mathrm{s} \)).
+\( c \) is the length-per-time scaling factor (units \( \mathrm{m/s} \)).
 
 ---
 
