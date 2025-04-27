@@ -71,7 +71,7 @@ $$
 F = (t\_P^h)^2 \frac{c^3 (\text{Hz}\_\text{kg})^2 f\_{m1} f\_{m2}}{ \text{Hz}\_\text{kg} r\_t^2 c^2}
 $$
 
-Cancel terms ($\( c^3/c^2 = c \), \( (\text{Hz}\_\text{kg})^2 / \text{Hz}\_\text{kg} = \text{Hz}\_\text{kg} \)$):
+Cancel terms (\( $c^3/c^2 = c$ \), $\( (\text{Hz}\_\text{kg})^2 / \text{Hz}\_\text{kg} = \text{Hz}\_\text{kg} \)$):
 
 $$
 F = (t\_P^h)^2 \cdot c \cdot \text{Hz}\_\text{kg} \cdot \frac{f\_{m1} f\_{m2}}{r\_t^2}
@@ -103,7 +103,7 @@ The unit cancellation reveals the roles: the \( $\mathrm{s^2}$ \) from \( ($t\_P
 This decomposition reveals exactly what the complex value of \( G\_{\rm SI} \) in the standard formula is doing:
 
 -   \( $G\_{\rm SI}$ \) is not an isolated, fundamental property of reality in the way that \( $G\_n$ \) (the time-squared constant), \( c \) (Length-Time scaler), or \( $\text{Hz}\_\text{kg}$ \) (Mass-Frequency scaler) are within the PUCS framework.
--   Instead, \( $G\_{\rm SI}$ \) serves as a necessary **composite unit scaling factor** for the SI system. Its numerical value \( \approx 6.674 \times 10^{-11} \) is precisely the product of the numerical value of \( G\_n \) (1 in its natural \( $\mathrm{s^2}$ \) unit) and the scaling factors \( $c^3$ \) and \( $1/\text{Hz}\_\text{kg}$ \) needed to reconcile the arbitrary scales of the SI meter, kilogram, and second with the fundamental gravitational proportionality governed by \( G\_n \).
+-   Instead, \( $G\_{\rm SI}$ \) serves as a necessary **composite unit scaling factor** for the SI system. Its numerical value \( $\approx 6.674 \times 10^{-11}$ \) is precisely the product of the numerical value of \( G\_n \) (1 in its natural \( $\mathrm{s^2}$ \) unit) and the scaling factors \( $c^3$ \) and \( $1/\text{Hz}\_\text{kg}$ \) needed to reconcile the arbitrary scales of the SI meter, kilogram, and second with the fundamental gravitational proportionality governed by \( G\_n \).
 -   The standard formula \( $F = G\_{\rm SI} m\_{1, \rm SI} m\_{2, \rm SI} / r\_{\rm SI}^2$ \) works because \( $G\_{\rm SI}$ \) includes the scaling \( $c^3/\text{Hz}\_\text{kg}$ \) which, when multiplied by \( $m\_{1, \rm SI} m\_{2, \rm SI} / r\_{\rm SI}^2$ \) (which contains SI units \( $\mathrm{kg^2/m^2}$ \)), correctly transforms the units and scales to yield a force in Newtons, while implicitly reflecting the underlying relationship driven by \( $(t\_P^h)^2$ \) and the proportionalities expressed as frequencies and times.
 
 In essence, \( $G\_{\rm SI}$ \) is the specific numerical bridge required to make gravity calculations consistent when using SI units. Its complex form embodies the transformations needed to align SI's arbitrary scales with the universe's fundamental gravitational time coupling constant \( $G\_n$ \). The formula, when broken down, shows the fundamental gravitational coupling \( $(t\_P^h)^2$ \), scaled by \( $c \cdot \text{Hz}\_\text{kg}$ \) to fit the SI kg and m base units, acting on the masses (as frequencies) and radius (as time).
