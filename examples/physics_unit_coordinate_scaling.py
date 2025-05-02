@@ -27,10 +27,13 @@ from load_mods import load_module
 # -----------------------------------------------------------------------
 
 #scaling_choice = "si" 
+#scaling_choice = "si_Gkg" 
+scaling_choice = "si_Gm" 
+scaling_choice = "rogers" 
 #scaling_choice = "imperial" 
 #scaling_choice = "natural" 
 #scaling_choice = "planck_h" 
-scaling_choice = "planck" 
+#scaling_choice = "planck" 
 #scaling_choice = "stoney" 
 #scaling_choice = "atomic_electron" 
 #scaling_choice = "galactic" 

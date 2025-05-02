@@ -1,30 +1,17 @@
 import math
-
-# Define standard CODATA 2018 values for necessary constants in SI
-G   = 6.67430e-11
-e   = 1.602176634e-19
-c   = 299792458.0
-k_B = 1.380649e-23
-h   = 6.62607015e-34 
-k   = 1.3806490000e-23
-
-Hz_kg = h / c**2
-K_Hz  = k / h
-G_n   = G * Hz_kg / c**3
-t_P   = G_n**(1/2)
-e_scaling = (  1e7 * Hz_kg * c  )**(1/2)
-
-
-
 def calculate_scaling_factors(constants):
+    c = constants["Core Scaling Constants"]["speed_of_light_c"]["value"]
+    h = constants["Core Scaling Constants"]["planck_constant_h"]["value"]
+    time = 1.8262416298**(1/2)
+    charge = 1e5/4.5244383353e+14**(1/2)
 
     rescale_factors = [
-        {"symbol": "s",  "factor": t_P, "swap_with": "t_P"},
-        {"symbol": "m",  "factor": t_P * c, "swap_with": "l_P"},
-        {"symbol": "kg", "factor": Hz_kg/t_P, "swap_with": "m_P"},
-        {"symbol": "K",  "factor": 1/(t_P *  K_Hz), "swap_with": "T_P"},
-        {"symbol": "C",  "factor": e_scaling , "swap_with": "C_P"},
-        {"symbol": "A",  "factor": e_scaling / t_P, "swap_with": "A_P"},
+        {"symbol": "s",  "factor": time, "swap_with": "s"},
+        {"symbol": "m",  "factor": time * c/1e10, "swap_with": "m"},
+        {"symbol": "kg", "factor": 7.3724973238e-51/(1e-50 * time), "swap_with": "kg"},
+        {"symbol": "K",  "factor": 1e10/(2.0836619123e+10 * time), "swap_with": "K"},
+        {"symbol": "C",  "factor": charge , "swap_with": "C"},
+        {"symbol": "A",  "factor": charge, "swap_with": "A"},
         {"symbol": "mol","factor": 1.0, "swap_with": "mol"},
         {"symbol": "pi", "factor": 1.0, "swap_with": "pi"},
         {"symbol": "Hz", "factor": 1.0, "swap_with": "Hz"},
