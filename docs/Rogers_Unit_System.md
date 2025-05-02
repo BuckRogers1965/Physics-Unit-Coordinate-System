@@ -6,6 +6,8 @@ The standard International System of Units (SI), while practical for everyday hu
 
 The unit system is defined here: [Rogers Unit Scaling Definition](https://github.com/BuckRogers1965/Physics-Unit-Coordinate-System/blob/main/examples/modular/unit_scaling/rogers_scaling.py)
 
+The output of PUCS for the Rogers Unit System is [here:](https://github.com/BuckRogers1965/Physics-Unit-Coordinate-System/blob/main/examples/example_outputs/physics_unit_coordinate_scaling/rogers.txt)
+
 ## 1. The Problem with Arbitrary Scales
 
 Current measurement systems, notably SI, define base units (meter, kilogram, second, Kelvin, etc.) whose scales were historically determined by factors unrelated to the fundamental proportionalities of physics (e.g., Earth's size, the properties of water). As a result, the dimensionful constants that relate inherently proportional quantities (like mass, energy, frequency, temperature, length, time) have complex, inconvenient numerical values in SI (e.g., c ≈ 3x10⁸, h ≈ 6.6x10⁻³⁴, k_B ≈ 1.38x10⁻²³).
