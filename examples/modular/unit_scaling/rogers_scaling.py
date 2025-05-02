@@ -1,4 +1,15 @@
 import math
+
+'''
+The goal of this unit scaling system is different: to create a system that is simultaneously human-scaled, decimal-aligned (for mathematical modularity), AND explicitly demonstrates the unit scaling nature of constants. This specific combination of goals for a unit system design is novel.
+
+Numerically the equivalent properties only change power as they convert between Temperture, frequency, mass, and energy.
+
+Also both G and k_e are numerically 1, but scaled in power.
+'''
+
+
+
 def calculate_scaling_factors(constants):
     c = constants["Core Scaling Constants"]["speed_of_light_c"]["value"]
     h = constants["Core Scaling Constants"]["planck_constant_h"]["value"]
