@@ -90,10 +90,17 @@ $$
 v_e = \beta \times c
 $$
 
+---
+
+## 5. The Planck scale is in G.
+
+It turns out that $G_n$ is actually a known number in physics already.  $G\_n = t\_P^2$ where $t\_P$ is the non reduced planck time, with h, not $\hbar$.  $\fract{1}{2\pi} has nothing to do with unit scaling.  
+
+What this means is that $\beta$ is actually scaling to planck units of measurement on the inside. That is why $\beta$ becomes dimensionless. This is how the constants work, they are scaling to and from  natural units, planck units, and SI units all along. We just were unaware of this because science did not know how the constants were working. They were always considered mysterious. 
 
 ---
 
-## 5. Interpretation
+## 6. Interpretation
 
 -   $\(\beta\)$ is the **universal dimensionless escape velocity**. It represents the escape speed as a fraction of the speed of light. This value is inherent to the physical system (mass and radius) and is independent of any unit system.
 -   \(c\) is the **Layer 3 unit scaling factor** for velocity. Its value in a specific unit system (like $\(\approx 3 \times 10^8\)$ m/s in SI) converts the dimensionless ratio \(\beta\) into a velocity value measured in the arbitrary units of that system (m/s).
