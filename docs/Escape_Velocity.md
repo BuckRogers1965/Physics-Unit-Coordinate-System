@@ -94,7 +94,7 @@ $$
 
 ## 5. The Planck scale is in G.
 
-It turns out that $G_n$ is actually a known number in physics already.  $G\_n = t\_P^2$ where $t\_P$ is the non reduced planck time, with h, not $\hbar$.  $\fract{1}{2\pi}$ has nothing to do with unit scaling.  
+It turns out that $G_n$ is actually a known number in physics already.  $G\_n = t\_P^2$ where $t\_P$ is the non reduced planck time, with h, not $\hbar$.  $\frac{1}{2\pi}$ has nothing to do with unit scaling.  
 
 What this means is that $\beta$ is actually scaling to planck units of measurement on the inside. That is why $\beta$ becomes dimensionless. This is how the constants work, they are scaling to and from  natural units, planck units, and SI units all along. We just were unaware of this because science did not know how the constants were working. They were always considered mysterious. 
 
