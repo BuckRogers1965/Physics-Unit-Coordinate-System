@@ -37,6 +37,9 @@ Leveraging these insights, the Rogers Unit System is constructed by:
 1.  Recognizing the inherent proportionalities between fundamental physical quantities.
 2.  Calculating the specific scaling factors needed to redefine the base units (e.g., kilogram, meter, second, Kelvin) from their current SI values.
 3.  Choosing these scaling factors such that the numerical values of the fundamental constants (c, h, k_B, G, e, and their key composite scaling factors like kg/Hz, K/Hz, kg/Joule) become **simple powers of 10**.
+4.  These values are the closest to SI unit scaling that I can achieve while still making the natural units power of 10^10 scaling.  
+5.  This is extending the metric system across the axis of dimensions by harmonizing the units of measure across the equivalent unit scales so that the numerical value of the property remains constnats and just the powers of the value change between equivalent properties. 
+>  For example: $105 K\_r = 105e10 Hz\_r = 105e-40 kg\_r = 105e-20 J\_r$ 
 
 This is achieved by simultaneously "fine-tuning" the scales of multiple base units based on the calculated relationships dictated by the constants themselves.
 
