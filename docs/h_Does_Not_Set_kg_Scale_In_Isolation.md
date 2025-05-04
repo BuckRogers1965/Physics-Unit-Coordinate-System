@@ -22,11 +22,7 @@ $$ h\_{\text{numerical}} = \frac{[\text{Physical Action Quantity}]}{[kg] [m]^2 [
 
 Where `[Physical Action Quantity]` represents the constant, unit-independent physical 'amount' of action quantified by `h`. This is fixed by nature.
 
-Let 
-
-$$ h\_\text{SI\_numerical} $$
-
-be the numerical value of `h` in the SI system ($\approx 6.626 \times 10^{-34}$). This value is fixed by definition in modern SI, which effectively defines the SI kilogram relative to the SI meter and SI second using this constant value.
+Let $h\_\text{SI}$ numerical be the numerical value of `h` in the SI system ($\approx 6.626 \times 10^{-34}$). This value is fixed by definition in modern SI, which effectively defines the SI kilogram relative to the SI meter and SI second using this constant value.
 
 ---
 
