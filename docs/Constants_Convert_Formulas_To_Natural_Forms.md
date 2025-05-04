@@ -13,7 +13,7 @@ Our understanding relies on a layered view of science and a specific interpretat
 *   **Layer 1/2 (Reality & Perception):** The universe has inherent, unit-independent proportionalities and fundamental relationships (e.g., Length\~Time, Energy\~Mass\~Frequency\~Temperature, Mass\~Gravity). Human perception categorizes these into distinct dimensions ([L], [M], [T], [Θ], etc.).
 *   **Layer 3 (Measurement Systems):** We define arbitrary base units (meter, kilogram, second, etc.) as coordinate scales for these dimensions.
 *   **Layer 3 Constants (Scaling Factors):** Dimensionful constants are empirically determined numerical factors that quantify the Layer 1/2 proportionalities *relative to the arbitrary scales* of the Layer 3 base units. Their specific values in SI are a consequence of our unit definitions.
-*   **Composite Constants:** Crucially, constants like h, $k\_B$, and the SI value of G ($G\_{SI}$) are not irreducible scaling factors, but are *composed* of more fundamental dimensional scaling factors (e.g., $c, Hz\_\text{kg}, K\_\text{Hz}, G\_n or t\_P$) that represent the core Layer 1/2 proportional bridges (L\~T, m\~f, T\~f, Gravity\~Time Scale). For example:
+*   **Composite Constants:** Crucially, constants like h, $k\_B$, and the SI value of G ($G\_\text{SI}$) are not irreducible scaling factors, but are *composed* of more fundamental dimensional scaling factors (e.g., c, $Hz\_\text{kg}$, $K\_\text{Hz}$, $G\_n$ or $t\_P$) that represent the core Layer 1/2 proportional bridges (L\~T, m\~f, T\~f, Gravity\~Time Scale). For example:
     *   $h = Hz\_\text{kg} * c^2$
     *   $k\_B = K\_Hz * Hz\_\text{kg} * c^2$
     *   $G\_SI = G\_n * c^3 / Hz\_\text{kg}$ (where $G_n$ sets a fundamental time scale)
