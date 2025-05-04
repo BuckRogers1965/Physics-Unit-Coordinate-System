@@ -36,15 +36,15 @@ $$ h_* = \frac{[\text{Physical Action Quantity}]}{[kg\_A] [m\_A]^2 [s\_A]^{-1}} 
 
 We require $h\_A = h\_\text{SI}$ numerical. Therefore:
 
-$$ \frac{[\text{Physical Action Quantity}]}{[kg\_A] [m\_A]^2 [s\_A]^{-1}} = h\_\text{SI}} numerical $$
+$$ \frac{[\text{Physical Action Quantity}]}{[kg\_A] [m\_A]^2 [s\_A]^{-1}} = h\_\text{SI} numerical $$
 
 Rearranging the physical sizes:
 
 $$ [kg\_A] [m\_A]^2 [s\_A]^{-1} = \frac{[\text{Physical Action Quantity}]}{h\_\text{SI} numerical} $$
 
-The right side of this equation is a fixed physical quantity – the physical size corresponding to one unit of action in the system where `h` has the numerical value $h\_{\text{SI\_numerical}}$. Let's call this fixed physical size $A_0$:
+The right side of this equation is a fixed physical quantity – the physical size corresponding to one unit of action in the system where `h` has the numerical value $h\_\text{SI}$ numerical}. Let's call this fixed physical size $A_0$:
 
-$$ A\_0 = \frac{[\text{Physical Action Quantity}]}{h\_{\text{SI\_numerical}}} $$
+$$ A\_0 = \frac{[\text{Physical Action Quantity}]}{h\_\text{SI} numerical} $$
 
 So, we need to find physical sizes $[kg\_A], [m\_A], [s\_A]$ such that:
 
