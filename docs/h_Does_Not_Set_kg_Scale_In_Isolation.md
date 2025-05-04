@@ -28,19 +28,19 @@ Let $h\_\text{SI}$ numerical be the numerical value of `h` in the SI system ($\a
 
 ## 3. Demonstrating Infinite Systems with the Same h, Different Scales
 
-We want to show that there are infinitely many sets of physical sizes for base units $([kg\_*], [m\_*], [s\_*])$ such that the numerical value of `h` in this new system ($h\_*$) is equal to $h\_{\text{SI\_numerical}}$, even though $[kg\_*], [m\_*], [s\_*]$ are physically different from $[kg\_{\text{SI}}], [m\_{\text{SI}}], [s\_{\text{SI}}]$.
+We want to show that there are infinitely many sets of physical sizes for base units $([kg\_*], [m\_*], [s\_*])$ such that the numerical value of `h` in this new system ($h\_*$) is equal to $h\_\text{SI}$ numerical, even though $[kg\_*], [m\_*], [s\_*]$ are physically different from $[kg\_{\text{SI}}], [m\_{\text{SI}}], [s\_{\text{SI}}]$.
 
 From the definition of the numerical value of `h`:
 
 $$ h_* = \frac{[\text{Physical Action Quantity}]}{[kg\_*] [m\_*]^2 [s\_*]^{-1}} $$
 
-We require $h\_* = h\_{\text{SI\_numerical}}$. Therefore:
+We require $h\_* = h\_\text{SI}$ numerical. Therefore:
 
 $$ \frac{[\text{Physical Action Quantity}]}{[kg\_*] [m\_*]^2 [s\_*]^{-1}} = h\_{\text{SI\_numerical}} $$
 
 Rearranging the physical sizes:
 
-$$ [kg\_*] [m\_*]^2 [s\_*]^{-1} = \frac{[\text{Physical Action Quantity}]}{h\_{\text{SI\_numerical}}} $$
+$$ [kg\_*] [m\_*]^2 [s\_*]^{-1} = \frac{[\text{Physical Action Quantity}]}{h\_\text{SI}} numerical $$
 
 The right side of this equation is a fixed physical quantity – the physical size corresponding to one unit of action in the system where `h` has the numerical value $h\_{\text{SI\_numerical}}$. Let's call this fixed physical size $A_0$:
 
