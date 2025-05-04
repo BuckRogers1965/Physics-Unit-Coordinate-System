@@ -21,16 +21,16 @@ tps = (2*pi) ** (1/2)
 def calculate_scaling_factors(constants):
 
     rescale_factors = [
-        {"symbol": "s",  "factor": t_P/tps, "swap_with": "t_P"},
-        {"symbol": "m",  "factor": t_P * c /tps, "swap_with": "l_P"},
-        {"symbol": "kg", "factor": Hz_kg/(t_P * tps), "swap_with": "m_P"},
+        {"symbol": "s",  "factor": t_P/tps,               "swap_with": "t_P"},
+        {"symbol": "m",  "factor": t_P * c /tps,          "swap_with": "l_P"},
+        {"symbol": "kg", "factor": Hz_kg/(t_P * tps),     "swap_with": "m_P"},
         {"symbol": "K",  "factor": 1/(t_P *  K_Hz * tps), "swap_with": "T_P"},
-        {"symbol": "C",  "factor": e_scaling, "swap_with": "C_P"},
-        {"symbol": "A",  "factor": e_scaling, "swap_with": "A_P"},
-        {"symbol": "mol","factor": 1.0, "swap_with": "mol"},
-        {"symbol": "pi", "factor": 1.0, "swap_with": "pi"},
-        {"symbol": "Hz", "factor": 1.0, "swap_with": "Hz"},
-        {"symbol": "amu", "factor": 1/1.66053906660e-27 , "swap_with": "kg"},
+        {"symbol": "C",  "factor": e_scaling,             "swap_with": "C_P"},
+        {"symbol": "A",  "factor": e_scaling,             "swap_with": "A_P"},
+        {"symbol": "mol","factor": Hz_kg/(t_P * tps),     "swap_with": "mol_P"},
+        {"symbol": "pi", "factor": 1.0,                   "swap_with": "pi"},
+        {"symbol": "Hz", "factor": 1.0,                   "swap_with": "Hz_P"},
+        {"symbol": "amu","factor": 1.0,                   "swap_with": "amu"},
     ]
 
     # Find the scaling factor for "s"

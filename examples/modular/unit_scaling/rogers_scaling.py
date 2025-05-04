@@ -23,7 +23,7 @@ def calculate_scaling_factors(constants):
         {"symbol": "K",  "factor": 1e10/(2.0836619123e+10 * time), "swap_with": "K"},
         {"symbol": "C",  "factor": charge , "swap_with": "C"},
         {"symbol": "A",  "factor": charge, "swap_with": "A"},
-        {"symbol": "mol","factor": 1.0, "swap_with": "mol"},
+        {"symbol": "mol","factor": 7.3724973238e-51/(1e-50 * time), "swap_with": "mol"},
         {"symbol": "pi", "factor": 1.0, "swap_with": "pi"},
         {"symbol": "Hz", "factor": 1.0, "swap_with": "Hz"},
         {"symbol": "amu", "factor": 1/1.66053906660e-27 , "swap_with": "kg"},

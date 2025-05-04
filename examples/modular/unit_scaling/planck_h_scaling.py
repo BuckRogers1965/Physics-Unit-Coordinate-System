@@ -14,21 +14,19 @@ G_n   = G * Hz_kg / c**3
 t_P   = G_n**(1/2)
 e_scaling = (  1e7 * Hz_kg * c  )**(1/2)
 
-
-
 def calculate_scaling_factors(constants):
 
     rescale_factors = [
-        {"symbol": "s",  "factor": t_P, "swap_with": "t_P"},
-        {"symbol": "m",  "factor": t_P * c, "swap_with": "l_P"},
-        {"symbol": "kg", "factor": Hz_kg/t_P, "swap_with": "m_P"},
+        {"symbol": "s",  "factor": t_P,             "swap_with": "t_P"},
+        {"symbol": "m",  "factor": t_P * c,         "swap_with": "l_P"},
+        {"symbol": "kg", "factor": Hz_kg/t_P,       "swap_with": "m_P"},
         {"symbol": "K",  "factor": 1/(t_P *  K_Hz), "swap_with": "T_P"},
-        {"symbol": "C",  "factor": e_scaling , "swap_with": "C_P"},
+        {"symbol": "C",  "factor": e_scaling,       "swap_with": "C_P"},
         {"symbol": "A",  "factor": e_scaling / t_P, "swap_with": "A_P"},
-        {"symbol": "mol","factor": 1.0, "swap_with": "mol"},
-        {"symbol": "pi", "factor": 1.0, "swap_with": "pi"},
-        {"symbol": "Hz", "factor": 1.0, "swap_with": "Hz"},
-        {"symbol": "amu", "factor": 1/1.66053906660e-27 , "swap_with": "kg"},
+        {"symbol": "mol","factor": Hz_kg/t_P,       "swap_with": "mol_P"},
+        {"symbol": "pi", "factor": 1.0,             "swap_with": "pi"},
+        {"symbol": "Hz", "factor": 1.0,             "swap_with": "Hz"},
+        {"symbol": "amu","factor": 1.0,             "swap_with": "amu"},
     ]
 
     # Find the scaling factor for "s"
