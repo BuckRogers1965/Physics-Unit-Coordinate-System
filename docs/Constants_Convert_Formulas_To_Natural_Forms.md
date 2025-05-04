@@ -10,13 +10,13 @@ Dimensionful physical constants (like h, c, k_B, G) are often perceived as myste
 
 Our understanding relies on a layered view of science and a specific interpretation of units and constants:
 
-*   **Layer 1/2 (Reality & Perception):** The universe has inherent, unit-independent proportionalities and fundamental relationships (e.g., Length~Time, Energy~Mass~Frequency~Temperature, Mass~Gravity). Human perception categorizes these into distinct dimensions ([L], [M], [T], [Θ], etc.).
+*   **Layer 1/2 (Reality & Perception):** The universe has inherent, unit-independent proportionalities and fundamental relationships (e.g., Length\~Time, Energy\~Mass\~Frequency\~Temperature, Mass\~Gravity). Human perception categorizes these into distinct dimensions ([L], [M], [T], [Θ], etc.).
 *   **Layer 3 (Measurement Systems):** We define arbitrary base units (meter, kilogram, second, etc.) as coordinate scales for these dimensions.
 *   **Layer 3 Constants (Scaling Factors):** Dimensionful constants are empirically determined numerical factors that quantify the Layer 1/2 proportionalities *relative to the arbitrary scales* of the Layer 3 base units. Their specific values in SI are a consequence of our unit definitions.
 *   **Composite Constants:** Crucially, constants like h, k_B, and the SI value of G ($G_{SI}$) are not irreducible scaling factors, but are *composed* of more fundamental dimensional scaling factors (e.g., c, Hz_kg, K_Hz, G_n or t_P) that represent the core Layer 1/2 proportional bridges (L~T, m~f, T~f, Gravity~Time Scale). For example:
-    *   $h = Hz_kg * c^2$
-    *   $k\_B = K\_Hz * Hz\_kg * c^2$
-    *   $G\_SI = G\_n * c^3 / Hz\_kg$ (where $G_n$ sets a fundamental time scale)
+    *   $h = Hz\_\text{kg} * c^2$
+    *   $k\_B = K\_Hz * Hz\_\text{kg} * c^2$
+    *   $G\_SI = G\_n * c^3 / Hz\_\text{kg}$ (where $G_n$ sets a fundamental time scale)
 
 ---
 
