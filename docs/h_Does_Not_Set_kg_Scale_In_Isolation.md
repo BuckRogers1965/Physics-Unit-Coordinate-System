@@ -40,7 +40,7 @@ $$ \frac{[\text{Physical Action Quantity}]}{[kg\_A] [m\_A]^2 [s\_A]^{-1}} = h\_\
 
 Rearranging the physical sizes:
 
-$$ [kg\_A] [m\_A]^2 [s\_A]^{-1} = \frac{[\text{Physical Action Quantity}]}{h\_\text{SI}} numerical $$
+$$ [kg\_A] [m\_A]^2 [s\_A]^{-1} = \frac{[\text{Physical Action Quantity}]}{h\_\text{SI} numerical} $$
 
 The right side of this equation is a fixed physical quantity – the physical size corresponding to one unit of action in the system where `h` has the numerical value $h\_{\text{SI\_numerical}}$. Let's call this fixed physical size $A_0$:
 
