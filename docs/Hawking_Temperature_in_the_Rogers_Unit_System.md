@@ -35,7 +35,7 @@ $$ T\_H = \frac{1}{16 \pi^2 \times M\_r} \times 10^{0 - (-26)} $$
 
 $$ T\_H = \frac{10^{26}}{16 \pi^2 M\_r} $$
 
-The numerical value of the Hawking temperature in Rogers Kelvin ($K\_r$) is simply the numerical value of the mass ($M\_r$) in Rogers kilograms ($kg\_r$) times $16\pi^2$ divided into the unit scaling $\frac{10^{26}}$.
+The numerical value of the Hawking temperature in Rogers Kelvin ($K\_r$) is simply the numerical value of the mass ($M\_r$) in Rogers kilograms ($kg\_r$) times $16\pi^2$ divided into the unit scaling $10^{26}$.
 
 
 **Significance of this Simplification:**
