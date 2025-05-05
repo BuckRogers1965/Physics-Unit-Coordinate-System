@@ -35,16 +35,15 @@ $$ T\_H = \frac{1}{16 \pi^2 \times M\_r} \times 10^{0 - (-26)} $$
 
 $$ T\_H = \frac{10^{26}}{16 \pi^2 M\_r} $$
 
-The numerical value of the Hawking temperature in Rogers Kelvin ($K\_r$) is simply the numerical value of the mass ($M\_r$) in Rogers kilograms ($kg\_r$) divided into the constant $\frac{10^{26}}{16 \pi^2}$ (approximately $6.33 \times 10^{24}$).
+The numerical value of the Hawking temperature in Rogers Kelvin ($K\_r$) is simply the numerical value of the mass ($M\_r$) in Rogers kilograms ($kg\_r$) times $16\pi^2$ divided into the unit scaling $\frac{10^{26}}$.
 
-$$ T\_H \approx \frac{6.33 \times 10^{24}}{M\_r} \ \mathrm{K\_r} $$
 
 **Significance of this Simplification:**
 
 This demonstrates that the perceived complexity of the original Hawking temperature formula in SI units is primarily an artifact of our unit system, not the inherent complexity of the underlying physics.
 
-1.  **Mass Number Direct Transfer:** The numerical value of the mass ($M\_r$) doesn't get mixed into complex calculations with fundamental constants during substitution. It moves directly to the denominator of the simplified expression.
-2.  **Complexity Revealed as Unit Scaling:** The entire cluster of fundamental constants ($\hbar, c, G, k\_B$) is exposed as contributing to a single composite numerical factor ($\frac{10^{26}}{16 \pi^2}$) with units of $K\_r \cdot kg\_r$. This factor is the Layer 3 unit scaling needed to convert the fundamental inverse mass proportionality ($1/M$) into temperature units within the Rogers system. It is not an irreducible descriptor of complex physics interactions, but a unit conversion rate.
-3.  **The Universe is Simple:** The underlying physics, revealed through this unit system, is the simple proportionality: the temperature/frequency of a black hole is inversely proportional to its mass ($T\_H \sim f\_M \sim 1/M$). The $10^{26}/(16\pi^2)$ is merely the magnitude of this inverse relationship when expressed on the specific scales of Rogers Kelvin and kilograms.
+1.  **Mass Number Direct Transfer:** The numerical value of the mass ($M\_r$) and the $16\pi^2$ doesn't get mixed into complex calculations with fundamental constants during substitution. It moves directly to the denominator of the simplified expression.
+2.  **Complexity Revealed as Unit Scaling:** The entire cluster of fundamental constants ($\hbar, c, G, k\_B$) is exposed as contributing to a single composite unit scaling factor divided by $16\pi^2$ ($\frac{10^{26}}{16 \pi^2}$) with units of $K\_r \cdot kg\_r$. This $10^{26}$ factor is the Layer 3 unit scaling needed to convert the fundamental inverse mass proportionality ($1/M$) into temperature units within the Rogers system. It is not an irreducible descriptor of complex physics interactions, but a unit conversion rate.
+3.  **The Universe is Simple:** The underlying physics, revealed through this unit system, is the simple proportionality: the temperature/frequency of a black hole is inversely proportional to its mass ($T\_H \sim f\_M \sim 1/M$). The $10^{26}$ is merely the magnitude of this inverse relationship when expressed on the specific scales of Rogers Kelvin and kilograms.  The $16\pi^2$ and the $M_r$ are the actual real physics.
 
 This shows that the "complexity" of the Hawking formula in traditional presentations lies in the mathematics required to bridge arbitrary SI unit scales according to the universe's proportionalities, not necessarily in a correspondingly complex fundamental interaction requiring that specific combination of constants as a unique descriptor from Layer 1 reality. The complexity is in our mathematical "map," not the physical "territory."
