@@ -14,18 +14,18 @@ def calculate_scaling_factors(constants):
     c = constants["Core Scaling Constants"]["speed_of_light_c"]["value"]
     h = constants["Core Scaling Constants"]["planck_constant_h"]["value"]
     time = 1.8262416298**(1/2)
-    charge = 1e5/4.5244383353e+14**(1/2)
+    charge = (1e-9/8.2627176393e+11)**(1/2)
 
     rescale_factors = [
         {"symbol": "s",   "factor": time,                            "swap_with": "s_r"},
         {"symbol": "m",   "factor": time * c/1e10,                   "swap_with": "m_r"},
         {"symbol": "kg",  "factor": 7.3724973238e-51/(1e-50 * time), "swap_with": "kg_r"},
         {"symbol": "K",   "factor": 1e10/(2.0836619123e+10 * time),  "swap_with": "K_r"},
-        {"symbol": "C",   "factor": charge,                          "swap_with": "C_r"},
+        {"symbol": "C",   "factor": charge * time,                   "swap_with": "C_r"},
         {"symbol": "A",   "factor": charge,                          "swap_with": "A_r"},
         {"symbol": "mol", "factor": 7.3724973238e-51/(1e-50 * time), "swap_with": "mol_r"},
         {"symbol": "pi",  "factor": 1.0,                             "swap_with": "pi"},
-        {"symbol": "Hz",  "factor": 1.0,                             "swap_with": "Hz"},
+        {"symbol": "Hz",  "factor": 1.0,                             "swap_with": "Hz_r"},
         {"symbol": "amu", "factor": 1.0,                             "swap_with": "amu"},
     ]
 
