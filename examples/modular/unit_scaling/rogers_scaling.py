@@ -18,7 +18,7 @@ def calculate_scaling_factors(constants):
 
     rescale_factors = [
         {"symbol": "s",   "factor": time,                            "swap_with": "s_r"},
-        {"symbol": "m",   "factor": time * c/1e10,                   "swap_with": "m_r"},
+        {"symbol": "m",   "factor": time * c/1e9,                   "swap_with": "m_r"},
         {"symbol": "kg",  "factor": 7.3724973238e-51/(1e-50 * time), "swap_with": "kg_r"},
         {"symbol": "K",   "factor": 1e10/(2.0836619123e+10 * time),  "swap_with": "K_r"},
         {"symbol": "C",   "factor": charge * time,                   "swap_with": "C_r"},
