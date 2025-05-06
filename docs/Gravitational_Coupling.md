@@ -30,27 +30,35 @@ Within the PUCS framework, we define the SI values of these quantities in terms 
 
 *   **Gravitational Constant \($G\_{SI}$\):** Relates to the fundamental gravitational time-squared constant \($G\_n$\) (or \($t\_P^h\)^2$) and other scalers.
 
-$$ G\_{SI} = G\_n \cdot \frac{c^3}{Hz\_\text{kg}} $$
+$$
+G\_{SI} = G\_n \cdot \frac{c^3}{Hz\_\text{kg}}
+$$
 
-    \($G\_n$\) (or \($t\_P^h\)^2$) has units \($s^2$\). \(c\) has units \(m/s\). \($Hz\_\text{kg}$\) has units \($kg \cdot s$\).
+\($G\_n$\) (or \($t\_P^h\)^2$) has units \($s^2$\). \(c\) has units \(m/s\). \($Hz\_\text{kg}$\) has units \($kg \cdot s$\).
 
 *   **Mass \($m\_{SI}$\):** Relates to the natural mass equivalent \($m\_n$\) (frequency) and the mass-frequency scaler.
 
-$$ m\_{SI} = m\_n \cdot Hz\_\text{kg} $$
+$$
+m\_{SI} = m\_n \cdot Hz\_\text{kg}
+$$
 
-    \($m\_n$\) has units \(Hz\) or \($s^{-1}$\). \($Hz\_\text{kg}$\) has units \($kg \cdot s$\).
+\($m\_n$\) has units \(Hz\) or \($s^{-1}$\). \($Hz\_\text{kg}$\) has units \($kg \cdot s$\).
 
 *   **Reduced Planck Constant \(\hbar\_{SI}\):** Relates to \(h\), which is a composite of \($Hz\_\text{kg}$\) and \($c^2$\).
 
-$$ \hbar\_{SI} = \frac{h\_{SI}}{2\pi} = \frac{Hz\_\text{kg} \cdot c^2}{2\pi} $$
+$$ 
+\hbar\_{SI} = \frac{h\_{SI}}{2\pi} = \frac{Hz\_\text{kg} \cdot c^2}{2\pi}
+$$
 
-    \(2\pi\) is dimensionless.
+\(2\pi\) is dimensionless.
 
 *   **Speed of Light \($c\_{SI}$\):** A fundamental scaler for length-time.
 
-$$ c\_{SI} = c $$
+$$
+c\_{SI} = c
+$$
 
-    \(c\) has units \(m/s\).
+\(c\) has units \(m/s\).
 
 ---
 
