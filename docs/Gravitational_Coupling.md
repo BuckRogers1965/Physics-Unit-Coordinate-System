@@ -50,7 +50,7 @@ $$
 \hbar\_{SI} = \frac{h\_{SI}}{2\pi} = \frac{Hz\_\text{kg} \cdot c^2}{2\pi}
 $$
 
-\(2\pi\) is dimensionless.
+\($2\pi$\) is dimensionless.
 
 *   **Speed of Light \($c\_{SI}$\):** A fundamental scaler for length-time.
 
