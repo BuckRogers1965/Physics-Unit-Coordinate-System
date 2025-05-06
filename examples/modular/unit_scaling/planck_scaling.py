@@ -1,5 +1,8 @@
 import math
 
+# Dynamically loads reusable modules from specified file paths to keep the program modular and extensible.
+from load_mods import load_module
+
 # Define standard CODATA 2018 values for necessary constants in SI
 G   = 6.67430e-11
 e   = 1.602176634e-19
@@ -16,8 +19,6 @@ t_P   = (G_n )**(1/2)
 e_scaling = (  1e7 * Hz_kg * c  )**(1/2)
 tps = (2*pi) ** (1/2)
 
-
-
 def calculate_scaling_factors(constants):
 
     rescale_factors = [
@@ -29,24 +30,9 @@ def calculate_scaling_factors(constants):
         {"symbol": "A",  "factor": e_scaling,             "swap_with": "A_P"},
         {"symbol": "mol","factor": Hz_kg/(t_P * tps),     "swap_with": "mol_P"},
         {"symbol": "pi", "factor": 1.0,                   "swap_with": "pi"},
-        {"symbol": "Hz", "factor": 1.0,                   "swap_with": "Hz_P"},
         {"symbol": "amu","factor": 1.0,                   "swap_with": "amu"},
     ]
 
-    # Find the scaling factor for "s"
-    second_factor = next((entry["factor"] for entry in rescale_factors if entry["symbol"] == "s"), None)
-    if second_factor is not None:
-        # Check if Hz already exists in the list
-        existing_Hz = next((entry for entry in rescale_factors if entry["symbol"] == "Hz"), None)
-        if existing_Hz:
-            # Update the existing Hz entry
-            existing_Hz["factor"] = 1.0 / second_factor
-        else:
-            # Add a new Hz entry if it doesn't exist
-            rescale_factors.append({
-                "symbol": "Hz",
-                "factor": 1.0 / second_factor,
-                "swap_with": "Hz"
-            })
+    composite_unit_module = load_module("./modular/composite_units.py", "composite_units")
 
-    return rescale_factors
+    return composite_unit_module.rescale_composite_units(rescale_factors, "_P")

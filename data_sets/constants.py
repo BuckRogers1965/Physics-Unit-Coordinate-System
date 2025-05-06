@@ -236,9 +236,17 @@ grouped_constants = {
             "pronunciation": "amp force",
             "comment": "in natural units where e = squart(alpha), amp_force = α/2π where e=1, amp_force = α/2π",
         },
+        "1 N": {
+            "value": 1, 
+            "units": [("N", 1)],
+            #"units": [("kg", 1), ("m", 1), ("s", -2)],
+            "symbol": "N",
+            "pronunciation": "One Newton",
+        },
         "1 J": {
             "value": 1, 
-            "units": [("kg", 1), ("m", 2), ("s", -2)],
+            "units": [("J", 1)],
+            #"units": [("kg", 1), ("m", 2), ("s", -2)],
             "symbol": "J",
             "pronunciation": "One Jewel",
         },
@@ -497,7 +505,7 @@ grouped_constants = {
     "Other Natural Unit Systems": {
         "electronvolts_to_energy_EeV": {
             "value": 1.602176634e-19,
-            "units": [("J", 1)],
+            "units": [("A", 1), ("s", 1)],
             "symbol": "eV",
             "pronunciation": "Electronvolt",
             "date": "1923",

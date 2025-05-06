@@ -22,7 +22,7 @@ args = parser.parse_args()
 
 
 def print_outputs(grouped_constants, rescale_factors, rescale_value_by_units):
-    """Process and stream out constants one fucking line at a time"""
+    """Process and stream out constants one line at a time"""
     first = True
     symbols=[]
     
@@ -96,8 +96,6 @@ def print_outputs(grouped_constants, rescale_factors, rescale_value_by_units):
                 print(f"#define {symbol:<8}  {rescaled_value:30} /* {name:<30} {units_str} */")
 
             elif args.format == 'latex':
-                #safe_units = units_str.replace("^", "^").replace(" ", r" \cdot ")
-                #print (f"   {symbol}   {rescaled_value}    {units_str}    {safe_units}")
                 safe_units = re.sub(r"\^(-?\d+)", r"^{\1}", units_str.replace(" ", r" \cdot "))
                 print(rf"\[{symbol} = {rescaled_value} \quad \text{{({name})}} \quad \mathrm{{{safe_units}}}\]")
             

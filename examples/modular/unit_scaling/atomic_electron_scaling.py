@@ -1,11 +1,14 @@
 import math
 
+# Dynamically loads reusable modules from specified file paths to keep the program modular and extensible.
+from load_mods import load_module
+
 def calculate_scaling_factors(constants):
     c = constants["Core Scaling Constants"]["speed_of_light_c"]["value"]
     h = constants["Core Scaling Constants"]["planck_constant_h"]["value"]
     k = constants["Core Scaling Constants"]["boltzmann_constant_k"]["value"]
-    e = constants["Core Scaling Constants"]["elementary_charge_e"]["value"]
-    Na = constants["Core Scaling Constants"]["avogadro_constant_Na"]["value"]
+    e = constants["Units of Measure"]["elementary_charge_e"]["value"]
+    Na = constants["Units of Measure"]["avogadro_constant_Na"]["value"]
     
     rescale_factors = [
         {"symbol": "s",  "factor": 1.0,        "swap_with": "s_a"},
@@ -15,23 +18,8 @@ def calculate_scaling_factors(constants):
         {"symbol": "C",  "factor": e,          "swap_with": "C_a"},
         {"symbol": "mol","factor": 1.0/ Na,    "swap_with": "mol_a"},
         {"symbol": "pi", "factor": math.pi,    "swap_with": "pi_a"},
-        {"symbol": "Hz", "factor": 1.0,        "swap_with": "Hz_a"},
     ]
 
-    # Find the scaling factor for "s"
-    second_factor = next((entry["factor"] for entry in rescale_factors if entry["symbol"] == "s"), None)
-    if second_factor is not None:
-        # Check if Hz already exists in the list
-        existing_Hz = next((entry for entry in rescale_factors if entry["symbol"] == "Hz"), None)
-        if existing_Hz:
-            # Update the existing Hz entry
-            existing_Hz["factor"] = 1.0 / second_factor
-        else:
-            # Add a new Hz entry if it doesn't exist
-            rescale_factors.append({
-                "symbol": "Hz",
-                "factor": 1.0 / second_factor,
-                "swap_with": "Hz"
-            })
+    composite_unit_module = load_module("./modular/composite_units.py", "composite_units")
 
-    return rescale_factors
+    return composite_unit_module.rescale_composite_units(rescale_factors, "_z")

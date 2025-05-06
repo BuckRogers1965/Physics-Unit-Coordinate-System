@@ -12,7 +12,17 @@
 from load_mods import load_module
 
 # -----------------------------------------------------------------------
-# STEP 1: Define the unit system to use
+# STEP 1: Load the rescaling utility
+#
+# The `rescale_units` module provides functionality for transforming physical constants
+# based on the calculated scaling factors. It ensures numerical values are converted
+# appropriately between unit systems while preserving their physical relationships.
+# -----------------------------------------------------------------------
+
+rescale_units = load_module("./modular/rescale_units.py", "rescale_units")
+
+# -----------------------------------------------------------------------
+# STEP 2: Define the unit system to use
 #
 # The choice of `scaling_choice` determines which predefined unit system
 # will be used to calculate scaling factors. Examples include:
@@ -28,7 +38,7 @@ from load_mods import load_module
 
 #scaling_choice = "si" 
 #scaling_choice = "si_Gkg" 
-scaling_choice = "si_Gm" 
+#scaling_choice = "si_Gm" 
 scaling_choice = "rogers" 
 #scaling_choice = "imperial" 
 #scaling_choice = "natural" 
@@ -39,8 +49,9 @@ scaling_choice = "rogers"
 #scaling_choice = "galactic" 
 #scaling_choice = "time" 
 
+
 # -----------------------------------------------------------------------
-# STEP 2: Define the module paths for the chosen scaling system
+# STEP 3: Define the module paths for the chosen scaling system
 #
 # Based on the `scaling_choice`, the program dynamically loads the corresponding
 # scaling module. This modular design ensures flexibility and extensibility,
@@ -51,7 +62,7 @@ scaling_module_path = f"./modular/unit_scaling/{scaling_choice}_scaling.py"
 scaling_module_name = f"{scaling_choice}_scaling"
 
 # -----------------------------------------------------------------------
-# STEP 3: Load constants and scaling factors
+# STEP 4: Load constants and scaling factors
 #
 # The program loads a predefined dataset of grouped physical constants (`constants.grouped_constants`)
 # and calculates the scaling factors for the chosen unit system. These scaling factors define
@@ -67,18 +78,37 @@ scaling = load_module(scaling_module_path, scaling_module_name)
 # Calculate scaling factors for the chosen unit system
 unit_scaling = scaling.calculate_scaling_factors(constants.grouped_constants)
 
+'''
 # -----------------------------------------------------------------------
-# STEP 4: Load the rescaling utility
+# STEP 5: Load the composite units
 #
-# The `rescale_units` module provides functionality for transforming physical constants
-# based on the calculated scaling factors. It ensures numerical values are converted
-# appropriately between unit systems while preserving their physical relationships.
+# process each composite unit to scale it
+# and add it to the end of the unit_scaling list
 # -----------------------------------------------------------------------
 
-rescale_units = load_module("./modular/rescale_units.py", "rescale_units")
+# load the composite unit module and extract the dictionary
+composite_unit_module = load_module("../data_sets/composite_units.py", "composite_units")
+composite_dictionary = composite_unit_module.composite_units
+
+for unit_name, unit_definition  in composite_dictionary.items():
+    symbol = unit_definition['symbol']
+    units = unit_definition['units']
+    data = {
+       "value": 1,
+       "units": units
+    }
+    rescaled_value, units_applied = rescale_units.rescale_value_by_units(data, unit_scaling)
+    entry = {
+        "symbol": symbol,
+        "factor": 1/rescaled_value,
+        "swap_with": symbol + "_r",
+    }
+    unit_scaling.append(entry)
+'''
+    
 
 # -----------------------------------------------------------------------
-# STEP 5: Process and print the rescaled constants
+# STEP 6: Process and print the rescaled constants
 #
 # The `print_rescaling` module handles the output, displaying the rescaled values of physical constants.
 # It highlights how each constant changes numerically depending on the unit system,
@@ -92,7 +122,7 @@ process.print_rescaling(
          rescale_units.rescale_value_by_units)
 
 # -----------------------------------------------------------------------
-# STEP 6: Print the scaling factors used
+# STEP 7: Print the scaling factors used
 #
 # Finally, the program prints the scaling factors applied in the chosen unit system,
 # providing a clear view of how base units (e.g., kg, m, s) are transformed.

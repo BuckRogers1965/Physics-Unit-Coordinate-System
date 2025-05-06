@@ -1,5 +1,8 @@
 import math
 
+# Dynamically loads reusable modules from specified file paths to keep the program modular and extensible.
+from load_mods import load_module
+
 # Define standard CODATA 2018 values for necessary constants in SI
 G_SI = 6.67430e-11
 k_e_SI = 8.9875517923e9 # k_e = 1 / (4 * pi * epsilon0)
@@ -24,7 +27,6 @@ E_S_SI = m_S_SI * c_SI**2 # 1.667103...e-10 J
 T_S_SI = E_S_SI / k_B_SI # 1.207520...e33 K
 A_S_SI = Q_S_SI / t_S_SI # 3.478911...e10 A
 
-
 def calculate_scaling_factors(constants):
 
     """
@@ -43,20 +45,7 @@ def calculate_scaling_factors(constants):
         {"symbol": "pi", "factor": 1.0, "swap_with": "pi"}, 
     ]
 
-    # Find the scaling factor for "s"
-    second_factor = next((entry["factor"] for entry in rescale_factors if entry["symbol"] == "s"), None)
-    if second_factor is not None:
-        # Check if Hz already exists in the list
-        existing_Hz = next((entry for entry in rescale_factors if entry["symbol"] == "Hz"), None)
-        if existing_Hz:
-            # Update the existing Hz entry
-            existing_Hz["factor"] = 1.0 / second_factor
-        else:
-            # Add a new Hz entry if it doesn't exist
-            rescale_factors.append({
-                "symbol": "Hz",
-                "factor": 1.0 / second_factor,
-                "swap_with": "Hz"
-            })
+    # load the composite unit module and extract the dictionary
+    composite_unit_module = load_module("./modular/composite_units.py", "composite_units")
 
-    return rescale_factors
+    return composite_unit_module.rescale_composite_units(rescale_factors, "_S")

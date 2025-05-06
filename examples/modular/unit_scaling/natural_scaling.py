@@ -1,5 +1,8 @@
 import math
 
+# Dynamically loads reusable modules from specified file paths to keep the program modular and extensible.
+from load_mods import load_module
+
 def calculate_scaling_factors(constants):
     # Beware, here be dragons! 
     c = constants["Core Scaling Constants"]["speed_of_light_c"]["value"]
@@ -19,24 +22,9 @@ def calculate_scaling_factors(constants):
         {"symbol": "A",  "factor": e_rescale,  "swap_with": "A_n"},
         {"symbol": "mol","factor": 1.0/ Na,    "swap_with": "mol_n"},
         {"symbol": "pi", "factor": math.pi,    "swap_with": "pi_n"},
-        {"symbol": "Hz", "factor": 1.0,        "swap_with": "Hz_n"},
         {"symbol": "amu", "factor": 1/1.66053906660e-27 * h / (c**2) , "swap_with": "kg_n"},
     ]
 
-    # Find the scaling factor for "s"
-    second_factor = next((entry["factor"] for entry in rescale_factors if entry["symbol"] == "s"), None)
-    if second_factor is not None:
-        # Check if Hz already exists in the list
-        existing_Hz = next((entry for entry in rescale_factors if entry["symbol"] == "Hz"), None)
-        if existing_Hz:
-            # Update the existing Hz entry
-            existing_Hz["factor"] = 1.0 / second_factor
-        else:
-            # Add a new Hz entry if it doesn't exist
-            rescale_factors.append({
-                "symbol": "Hz",
-                "factor": 1.0 / second_factor,
-                "swap_with": "Hz"
-            })
+    composite_unit_module = load_module("./modular/composite_units.py", "composite_units")
 
-    return rescale_factors
+    return composite_unit_module.rescale_composite_units(rescale_factors, "_n")
