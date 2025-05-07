@@ -117,6 +117,8 @@ Let's just re-state it for clarity and to celebrate that understanding:
 
 1.  **The Dimensionless Ratio:**
     We derived `β = sqrt(2 * G_n * m_n / r_n)`.
+    This β appears to be a ratio between 0 and 1 of the velocity c. 
+    This implies that there is a limit to escape velocity which would imply a radius for the given mass.
 
 2.  **The Limiting Condition:**
     We established that for escape to be possible from a radius `r_n`, `β` must be less than or equal to 1. The critical point where escape velocity would theoretically need to be `c` is when `β = 1`.
@@ -144,3 +146,4 @@ Let's just re-state it for clarity and to celebrate that understanding:
 
     This is exactly the standard formula for the Schwarzschild radius (`r_s`).
 
+What this means is that `β = 1` is the speed of light independent of any unit system.
