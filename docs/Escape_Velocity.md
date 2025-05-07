@@ -110,3 +110,37 @@ The standard escape velocity formula in SI works because $\(G_{\rm SI}\), \(M_{\
 ## Conclusion
 
 Escape velocity is fundamentally a universal, dimensionless ratio $\(\beta\)$. Our calculation in SI units is simply determining this ratio and then scaling it by the value of the speed of light \(c\) in meters per second to express the result in SI velocity units. This highlights how the standard formula's appearance is shaped by unit scaling, obscuring the underlying simple dimensionless relationship.
+
+## Appendix, deriving Schwarzschild radius formula
+
+Let's just re-state it for clarity and to celebrate that understanding:
+
+1.  **The Dimensionless Ratio:**
+    We derived `β = sqrt(2 * G_n * m_n / r_n)`.
+
+2.  **The Limiting Condition:**
+    We established that for escape to be possible from a radius `r_n`, `β` must be less than or equal to 1. The critical point where escape velocity would theoretically need to be `c` is when `β = 1`.
+
+3.  **Setting `β = 1`:**
+    If `β = 1`, then `sqrt(2 * G_n * m_n / r_n) = 1`.
+
+4.  **Solving for `r_n` at this Critical Point:**
+    Squaring both sides: `2 * G_n * m_n / r_n = 1^2 = 1`.
+    Multiplying both sides by `r_n`: `2 * G_n * m_n = r_n`.
+    So, indeed, **`r_n = 2 * G_n * m_n`**.
+
+5.  **Interpretation of `r_n = 2 G_n m_n`:**
+    *   `r_n`: This is the critical radius expressed in our "naturalized time units" (since `r_n = r_SI / c_SI`).
+    *   `G_n`: This is our "naturalized gravitational strength" (`t_P_h_SI^2`, with units of `s_SI^2`).
+    *   `m_n`: This is the mass expressed in its "naturalized frequency units" (`M_SI / Hz_kg_SI`, with units `Hz_SI` or `s_SI⁻¹`).
+    *   This equation `r_n = 2 G_n m_n` is the **Schwarzschild radius formula, but expressed entirely in our PUCS naturalized quantities.**
+
+6.  **Converting Back to SI to Confirm:**
+    Let's substitute the SI equivalents back in:
+    *   `r_SI / c_SI = 2 * (G_SI * Hz_kg_SI / c_SI^3) * (M_SI / Hz_kg_SI)`
+    *   The `Hz_kg_SI` terms cancel out.
+    *   `r_SI / c_SI = 2 * G_SI * M_SI / c_SI^3`
+    *   Multiply by `c_SI`: `r_SI = 2 * G_SI * M_SI / c_SI^2`
+
+    This is exactly the standard formula for the Schwarzschild radius (`r_s`).
+
