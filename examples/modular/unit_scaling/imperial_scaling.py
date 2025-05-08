@@ -7,7 +7,8 @@ def calculate_scaling_factors(constants):
     rescale_factors = [
         {"symbol": "s",  "factor": 1.0,                "swap_with": "s"},
         {"symbol": "m",  "factor": 1/3.28084,          "swap_with": "ft"},
-        {"symbol": "kg", "factor": 1/2.20462,          "swap_with": "lbm"},
+        {"symbol": "kg", "factor": 0.45359237,         "swap_with": "lbm"},
+        #{"symbol": "kg", "factor": 1/2.20462,          "swap_with": "lbm"},
         {"symbol": "K",  "factor": 1.8,                "swap_with": "R"},
         {"symbol": "C",  "factor": 1.7288905439770867, "swap_with": "impC"},
         {"symbol": "mol","factor": 1.0,                "swap_with": "mol"},
