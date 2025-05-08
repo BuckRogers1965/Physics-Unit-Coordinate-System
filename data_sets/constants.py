@@ -22,7 +22,8 @@ grouped_constants = {
         },
         "planck_constant_h": {
             "value": 6.62607015e-34,
-            "units": [("kg", 1), ("m", 2), ("s", -1)],
+            "units": [("J", 1), ("s", 1)],
+            #"units": [("kg", 1), ("m", 2), ("s", -1)],
             "symbol": "h",
             "formula": "Hz_kg c**2",
             "pronunciation": "Planck constant",
