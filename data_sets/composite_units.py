@@ -1,79 +1,86 @@
-composite_units = {
+composite_units = [
     # handle the Hz append as just composite scaling
     # this reduces code that was in every module
-    "Hertz": {
+    { #"Hertz":
         "symbol": "Hz",
         "units": [("s", -1)],
     },
+    { #"UnitA":
+        "symbol": "Atest",
+        "units": [("Btest", 1), ("kg", 1)]  # UnitA depends on UnitB and kg
+    },
     # Mechanics
-    "Newton": {
+    { #"Newton":
         "symbol": "N",
         "units": [("kg", 1), ("m", 1), ("s", -2)],
     },
-    "Joule": {
+    { #"Joule":
         "symbol": "J",
         "units": [("kg", 1), ("m", 2), ("s", -2)],
     },
-    "Watt": {
+    { #"Watt":
         "symbol": "W",
         "units": [("kg", 1), ("m", 2), ("s", -3)],
     },
-    "Pascal": {
+    { #"Pascal":
         "symbol": "Pa",
         "units": [("kg", 1), ("m", -1), ("s", -2)],
     },
-    "Hertz": {
+    { #"UnitB":
+        "symbol": "Btest",
+        "units": [("Atest", 1), ("s", 1)]   # UnitB depends on UnitA and s
+    },
+    { #"Hertz":
         "symbol": "Hz",
         "units": [("s", -1)],
     },
-    "Coulomb": {
+    { #"Coulomb":
         "symbol": "C",
         "units": [("A", 1), ("s", 1)],
     },
-    "Volt": {
+    { #"Volt":
         "symbol": "V",
         "units": [("kg", 1), ("m", 2), ("s", -3), ("A", -1)],
     },
-    "Ohm": {
+    { #"Ohm":
         "symbol": "Ω",
         "units": [("kg", 1), ("m", 2), ("s", -3), ("A", -2)],
     },
-    "Siemens": {
+    { #"Siemens":
         "symbol": "S",
         "units": [("kg", -1), ("m", -2), ("s", 3), ("A", 2)],
     },
-    "Farad": {
+    { #"Farad":
         "symbol": "F",
         "units": [("kg", -1), ("m", -2), ("s", 4), ("A", 2)],
     },
-    "Henry": {
+    { #"Henry":
         "symbol": "H",
         "units": [("kg", 1), ("m", 2), ("s", -2), ("A", -2)],
     },
-    "Weber": {
+    { #"Weber":
         "symbol": "Wb",
         "units": [("kg", 1), ("m", 2), ("s", -2), ("A", -1)],
     },
-    "Tesla": {
+    { #"Tesla":
         "symbol": "T",
         "units": [("kg", 1), ("s", -2), ("A", -1)], # Derived from Wb/m^2 = (kg m^2 s^-2 A^-1) / m^2
     },
     # Radiation and Nuclear
-     "Becquerel": { # Radioactivity, decay events per unit time
+    { # Radioactivity, decay events per unit time "Becquerel":
         "symbol": "Bq",
         "units": [("s", -1)], # Same units as Hz
     },
-     "Gray": { # Absorbed Dose
+    { # Absorbed Dose "Gray":
         "symbol": "Gy",
         "units": [("m", 2), ("s", -2)], # J/kg
     },
-     "Sievert": { # Dose Equivalent - Same units as Gray, different interpretation
+    { # Dose Equivalent - Same units as Gray, different interpretation "Sievert":
         "symbol": "Sv",
         "units": [("m", 2), ("s", -2)], # J/kg
     },
-     "Katal": { # Catalytic Activity
+    { # Catalytic Activity "Katal":
         "symbol": "kat",
         "units": [("mol", 1), ("s", -1)],
     },
-
-}
+]
