@@ -125,3 +125,17 @@ The product \($G\_n \cdot m\_n^2$\) has units \($s^2 \cdot s^{-2} = 1$\), confir
 This analysis demonstrates that the perceived complexity and interpretation of $\frac{G m^2}{\hbar c}$ (often seen as an interplay between gravity, quantum mechanics, and relativity due to the presence of \(G\), \($\hbar$\), and \(c\)) is partially an artifact of SI unit scaling. By breaking down the constants, we see that the factors \(c\) and \(h\) (or \($\hbar$\)), which might imply "relativity" and "quantum mechanics" are fundamentally defining this coupling, actually cancel out. The dimensionless ratio is ultimately determined by the fundamental gravitational time scale (\($G\_n$\)) and the fundamental mass scale (\($m\_n$\)), scaled by \($2\pi$\).
 
 The mystery shifts from explaining why \(G\), \($\hbar$\), and \(c\) combine in this specific way to produce a number like \($1.75 \times 10^{-45}$\) (for the electron) to understanding why the fundamental gravitational time constant and the natural mass equivalent (frequency) have values such that their product, scaled by \($2\pi$\), equals this number. The complexity of unit scaling has been removed, revealing a simpler product of natural scales.
+
+## 6. Simplification in SI using unit scaling.
+
+It is possible to reconstruct the natural units formula to directly map the mass to frequency, scale that frequency by planck time, square the result and multiply it by 2π.  This is the same thing as the original formula, with the mass just normal SI mass, and the scaling factors telling the story.
+
+**Formula:** `A\_G = (m * kg\_Hz * t\_Ph)^2 * 2π`
+
+Where:
+*   `m`: Particle's mass in SI units (`kg\_SI`).
+*   `kg\_Hz`: kg to Hz conversion factor, `c\_SI^2 / h\_SI`. Its units are `Hz/kg\_SI` or `1/(kg\_SI * s)`.
+*   `t\_Ph`: The h-based Planck time, `(G\_SI Hz\_kg / c\_SI^3)**(1/2)`. Its units are `s\_SI`.
+*   `2π`: The familiar dimensionless geometric factor.
+
+**Narrative: "in this we can start with mass, it gets converted to frequency, which cancels the time unit at the planck scale and then squared and scaled by 2pi"**
