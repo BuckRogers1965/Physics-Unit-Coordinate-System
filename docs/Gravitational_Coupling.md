@@ -130,12 +130,12 @@ The mystery shifts from explaining why \(G\), \($\hbar$\), and \(c\) combine in 
 
 It is possible to reconstruct the natural units formula to directly map the mass to frequency, scale that frequency by planck time, square the result and multiply it by 2π.  This is the same thing as the original formula, with the mass just normal SI mass, and the scaling factors telling the story.
 
-**Formula:** `A\_G = (m * kg\_Hz * t\_Ph)^2 * 2π`
+**Formula:** `A_G = (m * kg_Hz * t_Ph)^2 * 2π`
 
 Where:
-*   `m`: Particle's mass in SI units (`kg\_SI`).
-*   `kg\_Hz`: kg to Hz conversion factor, `c\_SI^2 / h\_SI`. Its units are `Hz/kg\_SI` or `1/(kg\_SI * s)`.
-*   `t\_Ph`: The h-based Planck time, `(G\_SI Hz\_kg / c\_SI^3)**(1/2)`. Its units are `s\_SI`.
+*   `m`: Particle's mass in SI units (`kg_SI`).
+*   `kg_Hz`: kg to Hz conversion factor, `c_SI^2 / h_SI`. Its units are `Hz/kg_SI` or `1/(kg_SI * s)`.
+*   `t_Ph`: The h-based Planck time, `(G_SI Hz_kg / c_SI^3)**(1/2)`. Its units are `s_SI`.
 *   `2π`: The familiar dimensionless geometric factor.
 
 **Narrative: "in this we can start with mass, it gets converted to frequency, which cancels the time unit at the planck scale and then squared and scaled by 2pi"**
