@@ -147,4 +147,21 @@ This framework not only simplifies calculations but also redefines how constants
    No one unit of measure is more important than any other.
 
 
+   This is the definition of the Gravity constant
+   G   = t_Ph**2 * c**3 / Hz_kg  = 6.6743e-11 s^2
+
+   First we remove the kg and meter defintions from G_SI.
+   G_n   = G * Hz_kg / c**3 = 1.82624162981e-86 s^2
+
+   Then we isolate Planck time scale from the natural gravity time scale.
+   t_Ph  = G_n**(1/2) = 1.35138507828e-43 s
+   Note: This is the non reduced Planck time that G encodes.
+   Unit scaling has nothing to do with 1/2pi.
+
+    Finally we remove the SI unit scaling for each unit of measure and scale by Planck time.
+   l_Ph = c * t_P   = 4.05135054323e-35 m
+   m_Ph = Hz_kg/t_P = 5.45551186133e-08 kg
+   T_Ph = Hz_K/t_P  = 3.55135123991e+32 K
+
+
 ```

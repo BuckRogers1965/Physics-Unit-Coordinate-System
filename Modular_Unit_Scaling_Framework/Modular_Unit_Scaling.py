@@ -2,6 +2,8 @@
 c = 299792458.0  # m/s
 h = 6.62607015e-34  # J*s
 k = 1.380649e-23  # J/K
+G   = 6.67430e-11
+
 
 # This code calculates unit scaling factors derived from the fundamental constants
 # of physics (c, h, k). These scaling factors demonstrate the relationships
@@ -45,3 +47,11 @@ m_ft = 1 / ft_m            # ft/m
 
 R_K = 5 / 9                # K/R
 K_R = 9 / 5                # R/K
+
+# Handle G Definition
+G_n   = G * Hz_kg / c**3   # s^2
+t_Ph  = G_n**(1/2)         # s
+l_Ph  = c * t_Ph           # m
+m_Ph  = Hz_kg/t_Ph         # kg
+T_Ph  = Hz_K/t_Ph          # K
+
