@@ -40,6 +40,7 @@ Where:
 *   $c_{SI}$ is the SI numerical value for the speed of light (m/s), acting as the L~T unit conversion factor for SI.
 *   $\gamma = 1 / \sqrt{1 - \beta^2}$ is the Lorentz factor.
 *   $\beta = v_{SI} / c_{SI}$.
+
 The result is in Joules ($J_{SI}$).
 
 **2. Applying the Unit Scaling Framework:**
