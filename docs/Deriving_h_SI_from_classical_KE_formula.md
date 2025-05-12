@@ -95,4 +95,6 @@ Thus, the relativistic kinetic energy in SI Joules can be expressed as its natur
     x (The particle's intrinsic natural mass frequency / Compton frequency: $f_C$)
     x (The universal J/Hz scaling factor: $h_{SI}$)
 
-This analysis further demystifies $h_{SI}$, portraying it not merely as a "quantum of action" but as the fundamental constant that bridges energy expressed as a natural characteristic frequency (like $f_C$, modified by motion) to the human-defined SI energy unit (Joule). The underlying physics, whether classical or relativistic, when expressed in terms of these natural frequencies, reveals a simpler, unified structure scaled into our measurement system by $h_{SI}$.
+And if we wanted to be completely removed from all SI scales we could remove the second scaling too, by multiplying through by non-reduced t_P time scale. That would convert this formula to a dimensionless, universal form indepenent of any unit scaling.
+
+This analysis further demystifies $h_{SI}$, portraying it not as a "quantum of action" but as the fundamental constant that bridges energy expressed as a natural characteristic frequency (like $f_C$, modified by motion) to the human-defined SI energy unit (Joule). The underlying physics, whether classical or relativistic, when expressed in terms of these natural frequencies, reveals a simpler, unified structure scaled into our measurement system by $h_{SI}$.
