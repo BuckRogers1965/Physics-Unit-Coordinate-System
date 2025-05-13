@@ -16,7 +16,7 @@ $$
 
 Our goal is to reveal that this formula is equivalent to a dimensionless universal speed ratio ($\beta$) multiplied by the speed of light ($c$).
 
-The sqrt is suposed to be over the denominator as well, but there seems to be a bug in the rendering. So in all these formulas see that the square rood symbol encompasses the denominator too. 
+The square root is suposed to be over the denominator as well, but there seems to be a bug in the rendering. So in all these formulas see that the square root symbol encompasses the denominator too. 
 
 ---
 
