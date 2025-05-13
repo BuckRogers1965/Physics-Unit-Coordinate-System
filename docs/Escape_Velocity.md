@@ -87,6 +87,14 @@ $$
 And then we can extend the scaling of time down to the Planck scale:
 
 $$
+m_{planck} = m_n \cdot t_P
+$$
+
+$$
+\frac{1}{r_{planck}} = \frac{t_P}{t_n}
+$$
+
+$$
 \beta = \sqrt{\frac{2 \cdot m_{planck}}{r_{planck}}}
 $$
 
