@@ -84,6 +84,15 @@ $$
 \beta = \sqrt{\frac{2 \cdot G_n \cdot m_n}{r_n}}
 $$
 
+And then we can extend the scaling of time down to the Planck scale:
+
+$$
+\beta = \sqrt{\frac{2 \cdot m_planck}{r_planck}}
+$$
+
+This is how the unit scaling in the radius, mass, and G have always interacted to scale the formula to the SI units free planck scale.
+
+
 The equation then becomes:
 
 $$
