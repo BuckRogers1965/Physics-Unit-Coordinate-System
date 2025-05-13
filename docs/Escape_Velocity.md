@@ -46,25 +46,25 @@ $$
 Substitute these scaled forms into the standard escape velocity formula:
 
 $$
-v_e = \sqrt{\frac{2 \cdot \left(G_n \frac{c^3}{Hz_{\rm kg}}\right) \cdot \left(m_n \cdot Hz_{\rm kg}\right)}{r_n \cdot c}}
+v_e = \sqrt{ {\frac{2 \cdot \left(G_n \frac{c^3}{Hz_{\rm kg}}\right) \cdot \left(m_n \cdot Hz_{\rm kg}\right)}{r_n \cdot c}} }
 $$
 
 Simplify the terms under the square root:
 
 $$
-v_e = \sqrt{\frac{2 \cdot G_n \cdot \frac{c^3}{Hz_{\rm kg}} \cdot m_n \cdot Hz_{\rm kg}}{r_n \cdot c}}
+v_e = \sqrt{ (\frac{2 \cdot G_n \cdot \frac{c^3}{Hz_{\rm kg}} \cdot m_n \cdot Hz_{\rm kg}}{r_n \cdot c}} }
 $$
 
 Cancel $\(Hz_{\rm kg}\)$ in the numerator and denominator:
 
 $$
-v_e = \sqrt{\frac{2 \cdot G_n \cdot c^3 \cdot m_n}{r_n \cdot c}}
+v_e = \sqrt{ {\frac{2 \cdot G_n \cdot c^3 \cdot m_n}{r_n \cdot c}} }
 $$
 
 Simplify the \(c\) terms $(\(c^3/c = c^2\))$:
 
 $$
-v_e = \sqrt{\frac{2 \cdot G_n \cdot c^2 \cdot m_n}{r_n}}
+v_e = \sqrt{ {\frac{2 \cdot G_n \cdot c^2 \cdot m_n}{r_n}} }
 $$
 
 
@@ -75,13 +75,13 @@ $$
 Take $\(c^2\)$ out of the square root:
 
 $$
-v_e = \sqrt{\frac{2 \cdot G_n \cdot m_n}{r_n}} \times c
+v_e = \sqrt{ {\frac{2 \cdot G_n \cdot m_n}{r_n}} } \times c
 $$
 
 The term $\(\sqrt{\frac{2 \cdot G_n  \cdot m_n}{r_n}}\)$ has units $\(\sqrt{\mathrm{s^2 \cdot Hz / s}} = \sqrt{\mathrm{s^2 \cdot s^{-1} / s}} = \sqrt{\mathrm{1}}\)$, making it **dimensionless**. Let's call this universal dimensionless ratio $\(\beta\):$
 
 $$
-\beta = \sqrt{\frac{2 \cdot G_n \cdot m_n}{r_n}}
+\beta = \sqrt{ {\frac{2 \cdot G_n \cdot m_n} {r_n} } }
 $$
 
 And then we can extend the scaling of time down to the Planck scale:
@@ -95,7 +95,7 @@ $$
 $$
 
 $$
-\beta = \sqrt{\frac{2 \cdot m_{planck}}{r_{planck}}}
+\beta = \sqrt{ { \frac{2 \cdot m_{planck}}{r_{planck}} } }
 $$
 
 This is how the unit scaling in the radius, mass, and G have always interacted to scale the formula to the SI units free planck scale.
