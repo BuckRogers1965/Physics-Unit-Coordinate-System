@@ -52,4 +52,4 @@ G has:
 *  1/kg unit scaling and that is $\frac {1}{Hz_{kg}}$, where $Hz_{kg}$ is the \frac{m}{f} ratio in the defintion of $h = \frac{m}{f} \cdot c^2$
 *  $t_P^2$ is the remaining time scale that is left in G if you remove the length and mass scaling.
 
-The constants act as unit scaling in SI formulas. Constants encode these natural unit scales of time and G encodes the planck time scale.  And that is all they do. 
+The constants act as unit scaling in SI formulas. Constants encode these natural unit scales of different unit of measure. G specifically encodes the planck time scale.  And that is all the constants do. 
