@@ -30,9 +30,9 @@ z = (t_P^2 * M_n) / r_n
 $$
 
 3.  **Convert to dimensionless Planck ratios:**
-    *   Define $M_planck = M_n * t_P$
+    *   Define $M_{planck} = M_n * t_P$
         (This is $(M_{SI} / Hz_{kg}) * t_P = M_{SI} / (Hz_{kg} / t_P) = M_{SI} / m_P$)
-    *   Define $r_planck = r_n / t_P$
+    *   Define $r_{planck} = r_n / t_P$
         (This is $(r_{SI} / c_{SI}) / t_P = r_{SI} / (c_{SI} * t_P) = r_{SI} / l_P$)
 
 Now, let's manipulate the equation $z = (t_P^2 * M_n) / r_n$ to introduce these ratios:
@@ -44,7 +44,7 @@ $$
 (Multiply numerator by $t_P$ and one $t_P$ from $t_P^2$ into $M_n$)
 
 $$
-z = M_planck / r_planck**
+z = M_{planck} / r_{planck}**
 $$
 
 --------------------------------------------------------------------------
@@ -60,8 +60,8 @@ $1 + z = 1 / sqrt(1 - 2GM/(rc^2))$
 $1 + z = 1 / sqrt(1 - v_e^2/c^2)$
 $1 + z = 1 / sqrt(1 - β²)$
 
-Now substitute $β² = 2 \cdot m_planck / r_planck$:
+Now substitute $β² = 2 \cdot m_{planck} / r_{planck}$:
 
 $$
-1 + z = 1 / sqrt(1 - 2 \cdot  m_planck / r_planck)
+1 + z = 1 / sqrt(1 - 2 \cdot  m_{planck} / r_{planck})
 $$
