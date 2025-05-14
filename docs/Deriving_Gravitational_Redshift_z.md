@@ -44,7 +44,7 @@ $$
 (Multiply numerator by $t_P$ and one $t_P$ from $t_P^2$ into $M_n$)
 
 $$
-z = M_{planck} / r_{planck}**
+z = M_{planck} / r_{planck}
 $$
 
 --------------------------------------------------------------------------
