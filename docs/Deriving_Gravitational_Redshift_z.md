@@ -47,10 +47,10 @@ $$
 z = M_{planck} / r_{planck}
 $$
 
---------------------------------------------------------------------------
+
 This derivation shows that the approximate gravitational redshift $z$ is directly given by the ratio of the gravitating mass (expressed in Planck mass units) to the emission radius (expressed in Planck length units). The SI constants $G_{SI}$ and $c_{SI}$ are absorbed during the conversion to these naturalized and then Planck-scaled quantities, revealing a very simple underlying dimensionless relationship.  This is always what that combination of constants were doing, was unit scaling the formula to dimensionless planck unit of measurement scale.
 
-
+--------------------------------------------------------------------------
 
 **Considering the Strong Field Case (Schwarzschild Metric):**
 
