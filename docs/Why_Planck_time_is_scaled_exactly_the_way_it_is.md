@@ -48,8 +48,8 @@ G_{SI} = \frac{t_P^2 \cdot  c^3}{Hz_{kg}}
 $$
 
 G has:
-$meter^3$ unit scaling and that is $c^3$. 
-1/kg unit scaling and that is $Hz_{kg}$, the m/f ratio in the defintion of $h = m/f \cdot c^2$
-$t_P^2$ is the remaining time scale that is left in G if you remove the length and mass scaling.
+*  $meter^3$ unit scaling and that is $c^3$. 
+*  1/kg unit scaling and that is $Hz_{kg}$, the m/f ratio in the defintion of $h = m/f \cdot c^2$
+*  $t_P^2$ is the remaining time scale that is left in G if you remove the length and mass scaling.
 
 The constants act as unit scaling in SI formulas. Constants encode these natural unit scales of time and G encodes the planck time scale.  And that is all they do. 
