@@ -29,7 +29,7 @@ $$
 z = (t_P^2 * M_n) / r_n
 $$
 
-3.  **Convert to dimensionless Planck ratios:**
+3.  **Convert to dimensionless non reduced Planck ratios:**
     *   Define $M_{planck} = M_n * t_P$
         (This is $(M_{SI} / Hz_{kg}) * t_P = M_{SI} / (Hz_{kg} / t_P) = M_{SI} / m_P$)
     *   Define $r_{planck} = r_n / t_P$
