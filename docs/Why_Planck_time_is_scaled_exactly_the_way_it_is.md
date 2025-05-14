@@ -27,8 +27,8 @@ So with the defintion of the second in SI, $t_P$ is scaled at this value to offs
 When we scale time to the planck scale what happens is $t_P = 1$ and we scale the natural units of time to planck time. 
 
 ```
-   m_Planck = (2 * Natural Mass * t_P)  = 7.404938101467e+38 dimensionless planck mass
-   r_Planck = (1/ t_P / Natural Radius) = 7.404938101467e+38 dimensionless planck length
+   m_Planck   = (2 * Natural Mass * t_P)  = 7.404938101467e+38 dimensionless planck mass
+   1/r_Planck = (1/ t_P / Natural Radius) = 7.404938101467e+38 dimensionless planck length
 ```   
 
 This means that at the black escape velocity this is true:
