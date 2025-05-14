@@ -168,7 +168,7 @@ Let's just re-state it for clarity and to celebrate that understanding:
 What this means is that `β = 1` is the speed of light independent of any unit system.
 
 
-## Appendix, Doubling checking the math in code. 
+## Appendix, Double checking the math in code. 
 
 ```
 
@@ -184,7 +184,7 @@ What this means is that `β = 1` is the speed of light independent of any unit s
    m_P   = Hz_kg / t_P = 5.45551186e-08 kg
    l_P   = c_SI  * t_P = 4.05135054e-35 m 
 
-   Scale mass and raduis from SI to planck units of measurement
+   Scale mass and radius from SI to planck units of measurement
    m_planck = M_SI / m_P = 1.09467272e+32 dimensionless
    r_planck = r_SI / l_P = 1.57256202e+41 dimensionless
 
