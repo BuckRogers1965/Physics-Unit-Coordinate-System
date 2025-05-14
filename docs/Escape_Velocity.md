@@ -166,3 +166,36 @@ Let's just re-state it for clarity and to celebrate that understanding:
     This is exactly the standard formula for the Schwarzschild radius (`r_s`).
 
 What this means is that `β = 1` is the speed of light independent of any unit system.
+
+
+## Appendix, Doubling checking the math in code. 
+
+```
+
+   Calculating escape velocity with non reduced planck units
+
+   Start with values for Earth
+   Mass   : 5.972e+24 kg
+   Radius : 6371000.0 m
+
+   Calcuate the planck units
+   Hz_kg = h/c^2 = 7.37249732e-51 kg/Hz   - This is the defintion of the kg in SI
+   t_P   = sqrt(G_SI * Hz_kg / c^3) = 1.35138508e-43 s
+   m_P   = Hz_kg / t_P = 5.45551186e-08 kg
+   l_P   = c_SI  * t_P = 4.05135054e-35 m 
+
+   Scale mass and raduis from SI to planck units of measurement
+   m_planck = M_SI / m_P = 1.09467272e+32 dimensionless
+   r_planck = r_SI / l_P = 1.57256202e+41 dimensionless
+
+   Calculate special relativities proportion of speed of light
+   Beta = math.sqrt (2* m_planck/ r_planck ) = 3.73124059e-05 dimensionless
+
+   Scale Beta to SI units of velocity
+   ve = Beta * c_SI  = 1.11859779e+04 m/s
+
+   Compare to traditional calculation
+   ve = sqrt( 2 * G_SI * M_SI / r_SI)  = 1.11859779e+04 m/s
+
+
+``` 
