@@ -1,4 +1,4 @@
-** Why Planck time is scaled exactly the way it is. 
+##  Why Planck time is scaled exactly the way it is. 
 
 We broke the escape velocity down to the natural units of mass in frequency and length (so they are scaled in units of time) where β = 1.
 
