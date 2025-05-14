@@ -1,5 +1,7 @@
 ##  Why Planck time is scaled exactly the way it is. 
 
+To make this clear, G encodes the non reduced Planck time.  In my framework, all Planck units are non reduced.  Unit scaling has nothing to do with the geometry of unit scaling as is demonstrated by the fact that the t_P that G encodes is not scaled by $\frac{1}{2\pi}$.
+
 We broke the escape velocity down to the natural units of mass in frequency and length (so they are scaled in units of time) where β = 1.
 
 ```
@@ -27,8 +29,8 @@ So with the defintion of the second in SI, $t_P$ is scaled at this value to offs
 When we scale time to the planck scale what happens is $t_P = 1$ and we scale the natural units of time to planck time. 
 
 ```
-   2 * m_Planck = (2 * Natural Mass * t_P)  = 7.404938101467e+38 dimensionless planck mass
-   r_Planck     = (Natural Radius / t_P)    = 7.404938101467e+38 dimensionless planck length
+   2 * m_Planck = (2 * Natural Mass * t_P)  = 7.404938101467e+38 dimensionless Planck mass
+   r_Planck     = (Natural Radius / t_P)    = 7.404938101467e+38 dimensionless Planck length
 ```   
 
 This means that at the black escape velocity this is true:
@@ -52,4 +54,4 @@ G has:
 *  1/kg unit scaling and that is $\frac {1}{Hz_{kg}}$, where $Hz_{kg}$ is the \frac{m}{f} ratio in the defintion of $h = \frac{m}{f} \cdot c^2$
 *  $t_P^2$ is the remaining time scale that is left in G if you remove the length and mass scaling.
 
-The constants act as unit scaling in SI formulas. Constants encode these natural unit scales of different unit of measure. G specifically encodes the planck time scale.  And that is all the constants do. 
+The constants act as unit scaling in SI formulas. Constants encode these natural unit scales of different unit of measure. G specifically encodes the Planck time scale.  And that is all the constants do. 
