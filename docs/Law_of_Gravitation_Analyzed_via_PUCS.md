@@ -103,7 +103,7 @@ $$
 And we can divide through by that scaling term to get a dimensionless formula. The natural gravity law formula, back to how Newton formulated it.
 
 $$
-F_planck = \frac{m\_{planck1} m\_{planck2}}{r\_{planck}^2}
+F_{planck} = \frac{m\_{planck1} m\_{planck2}}{r\_{planck}^2}
 $$
 
 By reversing these steps, scaling the Force to an SI Newton, scaling the planck length and mass terms to their SI scaling and simplifying we restore the original formula, showing that it was just unit scaling all along.
