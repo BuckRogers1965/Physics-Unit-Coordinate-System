@@ -79,6 +79,14 @@ $$
 F = (t\_P^h)^2 \cdot c \cdot \text{Hz}\_\text{kg} \cdot \frac{f\_{m1} f\_{m2}}{r\_t^2}
 $$
 
+We can not scale the frequency to planck time unit scales. $f_m * t_P  = m_{planck}$
+
+$$
+F = c \cdot \text{Hz}\_\text{kg} \cdot \frac{m\_{planck1} m\_{planck2}}{r\_t^2}
+$$
+
+This just leaves kg m/ s^2 units. The proportion is now matching the universe's scale and the newton's scale to align the proportion to the value of the Newton in this formula.
+
 ---
 
 ## 4. Analysis of the Resulting Formula and Units
