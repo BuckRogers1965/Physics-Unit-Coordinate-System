@@ -20,15 +20,15 @@ Where \( $G\_{\rm SI}$ \) is the gravitational constant in SI, \( $m\_{\rm SI}$ 
 
 ## 2. PUCS Definitions for SI Quantities
 
-Within the PUCS framework, SI quantities are expressed in terms of their natural counterparts and the unit scaling factors \( c \), \( $\text{Hz}\_\text{kg}$ \), and \( $G\_n$ \) (represented by \( $t\_P^h = \sqrt{G\_n}$ \)):
+Within the PUCS framework, SI quantities are expressed in terms of their natural counterparts and the unit scaling factors \( c \), \( $\text{Hz}\_\text{kg}$ \), and \( $G\_n$ \) (represented by \( $t\_{Ph} = \sqrt{G\_n}$ \)):
 
 -   Gravitational Constant \( $G\_{\rm SI}$ \) (units \( $\mathrm{m^3\,kg^{-1}\,s^{-2}}$ \)):
 
 $$
-G\_{\rm SI} = G\_n \cdot \frac{c^3}{\text{Hz}\_\text{kg}} = (t\_P^h)^2 \cdot \frac{c^3}{\text{Hz}\_\text{kg}}
+G\_{\rm SI} = G\_n \cdot \frac{c^3}{\text{Hz}\_\text{kg}} = (t\_{Ph})^2 \cdot \frac{c^3}{\text{Hz}\_\text{kg}}
 $$
 
-\( $G\_n$ \) (or \( ($t\_P^h)^2$ \)) represents the fundamental gravitational time-squared constant (units \( $\mathrm{s^2}$ \)).
+\( $G\_n$ \) (or \( ($t\_{Ph})^2$ \)) represents the fundamental gravitational time-squared constant (units \( $\mathrm{s^2}$ \)).
     \( $c^3 / \text{Hz}\_\text{kg}$ \) are the scaling factors bridging natural units to SI dimensions.
 
 -   Mass $\( m\_{\rm SI} \) (units \( \mathrm{kg} \))$:
@@ -60,51 +60,61 @@ This is true because in natural units of length, it is mathematically the identi
 Substitute these PUCS definitions into the formula \( $F = G\_{\rm SI} \frac{m\_{1, \rm SI} m\_{2, \rm SI}}{r\_{\rm SI}^2}$ \):
 
 $$
-F = \left( (t\_P^h)^2 \frac{c^3}{\text{Hz}\_\text{kg}} \right) \frac{(f\_{m1} \text{Hz}\_\text{kg}) (f\_{m2} \text{Hz}\_\text{kg})}{(r\_t c)^2}
+F = \left( (t\_{Ph})^2 \frac{c^3}{\text{Hz}\_\text{kg}} \right) \frac{(f\_{m1} \text{Hz}\_\text{kg}) (f\_{m2} \text{Hz}\_\text{kg})}{(r\_t c)^2}
 $$
 
 $$
-F = (t\_P^h)^2 \frac{c^3}{\text{Hz}\_\text{kg}} \frac{f\_{m1} f\_{m2} (\text{Hz}\_\text{kg})^2}{r\_t^2 c^2}
+F = (t\_{Ph})^2 \frac{c^3}{\text{Hz}\_\text{kg}} \frac{f\_{m1} f\_{m2} (\text{Hz}\_\text{kg})^2}{r\_t^2 c^2}
 $$
 
 Simplify the terms:
 
 $$
-F = (t\_P^h)^2 \frac{c^3 (\text{Hz}\_\text{kg})^2 f\_{m1} f\_{m2}}{ \text{Hz}\_\text{kg} r\_t^2 c^2}
+F = (t\_{Ph})^2 \frac{c^3 (\text{Hz}\_\text{kg})^2 f\_{m1} f\_{m2}}{ \text{Hz}\_\text{kg} r\_t^2 c^2}
 $$
 
 Cancel terms (\( $c^3/c^2 = c$ \), \( $(\text{Hz}\_\text{kg})^2 / \text{Hz}\_\text{kg} = \text{Hz}\_\text{kg}$ \)):
 
 $$
-F = (t\_P^h)^2 \cdot c \cdot \text{Hz}\_\text{kg} \cdot \frac{f\_{m1} f\_{m2}}{r\_t^2}
+F = (t\_{Ph})^2 \cdot c \cdot \text{Hz}\_\text{kg} \cdot \frac{f\_{m1} f\_{m2}}{r\_t^2}
 $$
 
-We can now scale the frequency to planck time unit scales. $f_m * t_P  = m_{planck}$
+We can now scale the frequency to planck time unit scales. $f_m * t_{Ph}  = m_{planck}$
 
 $$
 F = c \cdot \text{Hz}\_\text{kg} \cdot \frac{m\_{planck1} m\_{planck2}}{r\_t^2}
 $$
 
-This just leaves kg m/ s^2 units. The proportion is now matching the universe's scale and the newton's scale to align the proportion to the value of the Newton in this formula.
+This just leaves kg m/ s^2 units. The proportion is now matching the universe's scale and the newton's scale to align the proportion to the value of the Newton in this formula.  
+
+Let's remove that last little bit of SI unit scaling in the denominator.  We know $r_t = r_planck t_{Ph}$. 
+
+
+$$
+F = c \cdot \text{Hz}\_\text{kg} \cdot \frac{m\_{planck1} m\_{planck2}}{r\_{planck}^2 \cdot t_{Ph}^2}
+$$
+
+And we can pull that out to the scaling term.
+
+$$
+F = \frac {c \cdot \text{Hz}\_\text{kg}}{t_{Ph}^2} \cdot \frac{m\_{planck1} m\_{planck2}}{r\_{planck}^2}
+$$
+
+And we can divide through by that scaling term to get a dimensionless formula. The natural gravity law formula, back to how Newton formulated it.
+
+$$
+F_planck = \frac{m\_{planck1} m\_{planck2}}{r\_{planck}^2}
+$$
+
+By reversing these steps, scaling the Force to an SI Newton, scaling the planck length and mass terms to their SI scaling and simplifying we restore the original formula, showing that it was just unit scaling all along.
+
+
 
 ---
 
 ## 4. Analysis of the Resulting Formula and Units
 
-The formula \( $F = (t\_P^h)^2 \cdot (c \cdot \text{Hz}\_\text{kg}) \cdot \frac{f\_{m1} f\_{m2}}{r\_t^2}$ \) breaks down the force into components whose units and roles are clearer:
-
--   \( $(t\_P^h)^2$ \): This represents the fundamental gravitational time scale, the time-squared constant \( $G\_n$ \). It provides the necessary \( $\mathrm{s^2}$ \) dimension and the fundamental numerical value of the gravitational coupling (1 in its natural units). Units: \( $\mathrm{s^2}$ \).
--   \( $c \cdot \text{Hz}\_\text{kg}$ \): This is a composite unit scaling factor. Units: \( $(\mathrm{m/s}) \cdot (\mathrm{kg/Hz}) = (\mathrm{m/s}) \cdot (\mathrm{kg \cdot s}) = \mathrm{m \cdot kg}$ \). This factor brings in the specific scales of the SI meter and kilogram to the force calculation.
--   \( $f\_{m1} f\_{m2}$ \): The product of the masses expressed as frequencies. Units: \( $\mathrm{Hz^2}$ \) or \( $\mathrm{s^{-2}}$ \).
--   \( $r\_t^2$ \): The square of the radius expressed as time. Units: \( $\mathrm{s^2}$ \).
-
-Putting the units together:
-
-Units of $F = \( (\mathrm{s^2}) \cdot (\mathrm{m \cdot kg}) \cdot \frac{(\mathrm{s^{-2}})}{(\mathrm{s^2})} = \mathrm{s^2} \cdot \mathrm{m \cdot kg} \cdot \mathrm{s^{-2}} \cdot \mathrm{s^{-2}} = \mathrm{m \cdot kg \cdot s^{-2}} \)$
-
-These are the units of a Newton, the standard SI unit for Force.
-
-The unit cancellation reveals the roles: the \( $\mathrm{s^2}$ \) from \( ($t\_P^h)^2$ \) and \( $f\_m^{-2}$ \) cancel dimensionally, leaving the \( $\mathrm{m \cdot kg}$ \) from the \( $c \cdot \text{Hz}\_\text{kg}$ \) scaling factor multiplied by the \( $\mathrm{s^{-2}}$ \) from the squared radius in seconds \( $1 / r_t^2$ \).
+The final form of the formula is dimensionless, it has no units.  This is exactly how Newton used it his entire life. 
 
 ---
 
@@ -114,9 +124,9 @@ This decomposition reveals exactly what the complex value of \( $G\_{\rm SI}$ \)
 
 -   \( $G\_{\rm SI}$ \) is not an isolated, fundamental property of reality in the way that \( $G\_\text{planck}$ \), \( c \) (Length-Time scaler), or \( $\text{Hz}\_\text{kg}$ \) (Mass-Frequency scaler) are within the PUCS framework.
 -   Instead, \( $G\_{\rm SI}$ \) serves as a necessary **composite unit scaling factor** for the SI system. Its numerical value \( $\approx 6.674 \times 10^{-11}$ \) is precisely the product of the numerical value of \( $G\_\text{planck}$ \) (1 in its natural dimensionless unit) and the scaling factors \( G\_n \), \( $c^3$ \), and \( $1/\text{Hz}\_\text{kg}$ \) needed to reconcile the arbitrary scales of the SI meter, kilogram, and second with the fundamental gravitational proportionality governed by \( $G\_\text{planck}$ \).
--   The standard formula \( $F = G\_{\rm SI} m\_{1, \rm SI} m\_{2, \rm SI} / r\_{\rm SI}^2$ \) works because \( $G\_{\rm SI}$ \) includes the scaling \( $c^3/\text{Hz}\_\text{kg}$ \) which, when multiplied by \( $m\_{1, \rm SI} m\_{2, \rm SI} / r\_{\rm SI}^2$ \) (which contains SI units \( $\mathrm{kg^2/m^2}$ \)), correctly transforms the units and scales to yield a force in Newtons, while implicitly reflecting the underlying relationship driven by \( $(t\_P^h)^2$ \) and the proportionalities expressed as frequencies and times.
+-   The standard formula \( $F = G\_{\rm SI} m\_{1, \rm SI} m\_{2, \rm SI} / r\_{\rm SI}^2$ \) works because \( $G\_{\rm SI}$ \) includes the scaling \( $c^3/\text{Hz}\_\text{kg}$ \) which, when multiplied by \( $m\_{1, \rm SI} m\_{2, \rm SI} / r\_{\rm SI}^2$ \) (which contains SI units \( $\mathrm{kg^2/m^2}$ \)), correctly transforms the units and scales to yield a force in Newtons, while implicitly reflecting the underlying relationship driven by \( $(t\_{Ph})^2$ \) and the proportionalities expressed as frequencies and times.
 
-In essence, \( $G\_{\rm SI}$ \) is the specific numerical bridge required to make gravity calculations consistent when using SI units. Its complex form embodies the transformations needed to align SI's arbitrary scales with the universe's fundamental gravitational constant \( $G\_\text{planck}$ = 1 \). The formula, when broken down, shows the gravitational time unit scaling \( $(t\_P^h)^2$ \), scaled by \( $c^3 / \text{Hz}\_\text{kg}$ \) to fit the SI s, kg, and m base units, acting on the masses (as frequencies) and radius (as time).
+In essence, \( $G\_{\rm SI}$ \) is the specific numerical bridge required to make gravity calculations consistent when using SI units. Its complex form embodies the transformations needed to align SI's arbitrary scales with the universe's fundamental gravitational constant \( $G\_\text{planck}$ = 1 \). The formula, when broken down, shows the gravitational time unit scaling \( $(t\_{Ph})^2$ \), scaled by \( $c^3 / \text{Hz}\_\text{kg}$ \) to fit the SI s, kg, and m base units, acting on the masses (as frequencies) and radius (as time).
 
 This analysis highlights how the perceived complexity of \( G \) in SI is a result of its role as a multi-axis of measurement unit scaling constant, necessary because SI units are arbitrarily scaled relative to the natural proportionalities and the fundamental gravitational scale of a dimensionless 1.
 
@@ -124,4 +134,4 @@ This analysis highlights how the perceived complexity of \( G \) in SI is a resu
 
 ## 6. Conclusion
 
-Applying the PUCS framework to Newton's Law reveals that the gravitational constant \( G \) in SI units is a complex composite scaling factor \( $(t\_P^h)^2 \cdot c^3 / \text{Hz}\_\text{kg}$ \). This factor is essential for converting mass and distance values measured in arbitrary SI base units into a force value consistent with the fundamental gravitational time coupling constant \( $G\_n$ \). This perspective demystifies \( G \) by showing its numerical value is a consequence of unit definitions rather than a standalone Layer 1 mystery, and clarifies how our choice of measurement system shapes the appearance of fundamental laws.
+Applying the PUCS framework to Newton's Law reveals that the gravitational constant \( G \) in SI units is a complex composite scaling factor \( $(t\_{Ph})^2 \cdot c^3 / \text{Hz}\_\text{kg}$ \). This factor is essential for converting mass and distance values measured in arbitrary SI base units into a force value consistent with the fundamental gravitational time coupling constant \( $G\_n$ \). This perspective demystifies \( G \) by showing its numerical value is a consequence of unit definitions rather than a standalone Layer 1 mystery, and clarifies how our choice of measurement system shapes the appearance of fundamental laws.
