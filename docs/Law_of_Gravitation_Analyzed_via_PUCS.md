@@ -104,7 +104,7 @@ Units of $F = \( (\mathrm{s^2}) \cdot (\mathrm{m \cdot kg}) \cdot \frac{(\mathrm
 
 These are the units of a Newton, the standard SI unit for Force.
 
-The unit cancellation reveals the roles: the \( $\mathrm{s^2}$ \) from \( ($t\_P^h)^2$ \) and \( $f\_m^-2$ \) cancel dimensionally, leaving the \( $\mathrm{m \cdot kg}$ \) from the \( $c \cdot \text{Hz}\_\text{kg}$ \) scaling factor multiplied by the \( $\mathrm{s^{-2}}$ \) from the squared radius in seconds \( $1 / r_t^2$ \).
+The unit cancellation reveals the roles: the \( $\mathrm{s^2}$ \) from \( ($t\_P^h)^2$ \) and \( $f\_m^{-2}$ \) cancel dimensionally, leaving the \( $\mathrm{m \cdot kg}$ \) from the \( $c \cdot \text{Hz}\_\text{kg}$ \) scaling factor multiplied by the \( $\mathrm{s^{-2}}$ \) from the squared radius in seconds \( $1 / r_t^2$ \).
 
 ---
 
