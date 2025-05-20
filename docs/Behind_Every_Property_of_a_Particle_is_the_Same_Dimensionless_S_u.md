@@ -13,7 +13,7 @@ $$
 For example, the ratio between energy and frequency axes via Planck units naturally yields Planck’s constant:
 
 $$
-\frac{E_P}{t_P} = \frac{(Hz_{kg} \cdot c^2)}{t_P^2} = Hz_{kg} \cdot c^2 = h
+E_P \cdot t_P = \frac{(Hz_{kg} \cdot c^2)}{t_P^2} \cdot t_P = Hz_{kg} \cdot c^2 = h
 $$
 
 This kind of relation holds between **any pair of physical axes**: mass and frequency, energy and length, temperature and momentum, and so on. The constants $c, h, k_B, G$ are simply **unit scaling ratios between coordinate axes** in a unit space — nothing more, and nothing less.
