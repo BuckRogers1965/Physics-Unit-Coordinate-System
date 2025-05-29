@@ -1,5 +1,8 @@
 # Physics Unit Coordinate System
 
+
+It's not that natural units get rid of constants; it's that arbitrary units introduce the need for them.
+
 The **Physics Unit Coordinate System** is a groundbreaking framework that redefines how physical constants and measurement systems are understood and utilized. By applying coordinate scaling to physical constants, this system transforms them into simple, elegant ratios derived directly from the interrelationships between mass, length, charge, temperature, and other units. It reveals physics' inherent simplicity, breaking down traditional interpretations into elegant interrelations.
 
 [A notebooklm audio of the PUCS framework.](https://youtu.be/xSAoo8HRqMs)
