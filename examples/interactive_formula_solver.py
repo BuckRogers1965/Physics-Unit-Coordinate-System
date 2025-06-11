@@ -69,6 +69,7 @@ class EnhancedPhysicsDisentangler:
             'force': PhysicalQuantity('force', 'F', {'M': 1, 'L': 1, 'T': -2}, description="Interaction causing acceleration"),
             'energy': PhysicalQuantity('energy', 'E', {'M': 1, 'L': 2, 'T': -2}, description="Capacity to do work"),
             'power': PhysicalQuantity('power', 'P', {'M': 1, 'L': 2, 'T': -3}, description="Rate of energy transfer"),
+            'pressure': PhysicalQuantity('pressure', 'Pres', {'M': 1, 'L': -1, 'T': -2}, description="Pressure"),
             'momentum': PhysicalQuantity('momentum', 'p', {'M': 1, 'L': 1, 'T': -1}, description="Mass times velocity"),
             'angular_momentum': PhysicalQuantity('angular_momentum', 'L_ang', {'M': 1, 'L': 2, 'T': -1}, description="Rotational momentum"),
             
@@ -394,7 +395,7 @@ class EnhancedPhysicsDisentangler:
                 new_constants = (constants_to_include or []) + [suggestion]
                 
                 # Recursive call is NOT verbose to avoid cluttered output
-                recursive_result = self.discover_relationship(output_quantity, input_quantities, new_constants, auto_search=False, verbose=False)
+                recursive_result = self.discover_relationship(output_quantity, input_quantities, new_constants, auto_search=True, verbose=False)
                 
                 if recursive_result.get('success'):
                     # Found a solution! Add a note about what was added.
