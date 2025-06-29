@@ -56,12 +56,16 @@ class EnhancedPhysicsDisentangler:
         """Extended library of physical quantities"""
         base_quantities = {
             # Base quantities
+            'dimensionless': PhysicalQuantity('dimensionless', 'D', {'L': 0, 'M': 0, 'T': 0, 'Θ':0}, description="dimensionless"),
             'length': PhysicalQuantity('length', 'L', {'L': 1}, description="Spatial dimension"),
             'mass': PhysicalQuantity('mass', 'm', {'M': 1}, description="Measure of matter"),
+            'i_mass': PhysicalQuantity('mass', 'm_i', {'M': -1}, description="Inverse measure of matter"),
             'time': PhysicalQuantity('time', 't', {'T': 1}, description="Temporal dimension"),
             'temperature': PhysicalQuantity('temperature', 'T', {'Θ': 1}, description="Thermal energy scale"),
             'charge': PhysicalQuantity('charge', 'q', {'Q': 1}, description="Electric charge"),
             'amount': PhysicalQuantity('amount', 'n', {'N': 1}, description="Amount of substance"),
+            'volume': PhysicalQuantity('volume', 'vol', {'L': 3}, description="Volume of substance"),
+            'area': PhysicalQuantity('area', 'area', {'L': 2}, description="Area of substance"),
             
             # Mechanical quantities
             'velocity': PhysicalQuantity('velocity', 'v', {'L': 1, 'T': -1}, description="Rate of position change"),
@@ -70,8 +74,13 @@ class EnhancedPhysicsDisentangler:
             'energy': PhysicalQuantity('energy', 'E', {'M': 1, 'L': 2, 'T': -2}, description="Capacity to do work"),
             'power': PhysicalQuantity('power', 'P', {'M': 1, 'L': 2, 'T': -3}, description="Rate of energy transfer"),
             'pressure': PhysicalQuantity('pressure', 'Pres', {'M': 1, 'L': -1, 'T': -2}, description="Pressure"),
+            'density': PhysicalQuantity('density', 'rho', {'M': 1, 'L': -3}, description="Density"),
             'momentum': PhysicalQuantity('momentum', 'p', {'M': 1, 'L': 1, 'T': -1}, description="Mass times velocity"),
             'angular_momentum': PhysicalQuantity('angular_momentum', 'L_ang', {'M': 1, 'L': 2, 'T': -1}, description="Rotational momentum"),
+            'e-tensor': PhysicalQuantity('E-tensor', 'et', {'L': -2}, description="Einstein tensor"),
+            'se-tensor': PhysicalQuantity('set', 'set', {'M': 1, 'L': -1, 'T': -2}, description="Stress-energy tensor"),
+#Einstein tensor: [L⁻²] (inverse length squared)
+#Stress-energy tensor: [M L⁻¹ T⁻²] (same as pressure)
             
             # Wave and quantum quantities
             'frequency': PhysicalQuantity('frequency', 'f', {'T': -1}, description="Oscillations per unit time"),
@@ -96,6 +105,7 @@ class EnhancedPhysicsDisentangler:
             'reduced_planck': PhysicalQuantity('reduced_planck', 'ℏ', {'M': 1, 'L': 2, 'T': -1}, description="h/2π"),
             'boltzmann_constant': PhysicalQuantity('boltzmann_constant', 'k_B', {'M': 1, 'L': 2, 'T': -2, 'Θ': -1}, description="Thermal energy scale"),
             'speed_of_light': PhysicalQuantity('speed_of_light', 'c', {'L': 1, 'T': -1}, description="Universal speed limit"),
+            'speed_of_light_cubed': PhysicalQuantity('speed_of_light', 'c^3', {'L': 3, 'T': -3}, description="Universal speed limit cubed"),
             'gravitational_constant': PhysicalQuantity('gravitational_constant', 'G', {'M': -1, 'L': 3, 'T': -2}, description="Gravity coupling constant"),
             'gas_constant': PhysicalQuantity('gas_constant', 'R_gas', {'M': 1, 'L': 2, 'T': -2, 'Θ': -1, 'N': -1}, description="Universal gas constant"),
             'avogadro_number': PhysicalQuantity('avogadro_number', 'N_A', {'N': -1}, description="Particles per mole"),
