@@ -10,6 +10,10 @@ composite_units = [
         "units": [("Btest", 1), ("kg", 1)]  # UnitA depends on UnitB and kg
     },
     # Mechanics
+    { #"Momentum":
+        "symbol": "p",
+        "units": [("kg", 1), ("m", 1), ("s", -1)],
+    },
     { #"Newton":
         "symbol": "N",
         "units": [("kg", 1), ("m", 1), ("s", -2)],

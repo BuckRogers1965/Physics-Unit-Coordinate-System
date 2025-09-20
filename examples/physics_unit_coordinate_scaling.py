@@ -43,6 +43,8 @@ scaling_choice = "rogers"
 #scaling_choice = "imperial" 
 #scaling_choice = "natural" 
 #scaling_choice = "planck_h" 
+scaling_choice = "planck_h_m_e" 
+scaling_choice = "planck_h_afn" 
 #scaling_choice = "planck" 
 #scaling_choice = "stoney" 
 #scaling_choice = "atomic_electron" 
@@ -104,6 +106,9 @@ print("\n   --- Scaling Factors Used ---")
 for unit_entry in unit_scaling:
     print(f"   {unit_entry['symbol']:<10} -> {unit_entry['factor']:.20e} -> {unit_entry['swap_with']:<10}")
 
+print()
+print()
+print()
 # -----------------------------------------------------------------------
 # END OF PROGRAM
 #
