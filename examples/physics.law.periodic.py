@@ -31,7 +31,7 @@ rho_P = c**5 / (h * G**2)
 sigma_P = c**4 / (h * G)
 A_P = h * G / c**3
 Vol_P = (h * G / c**3)**(3/2)
-omega_P = c**5 / (h * G)**(1/2)
+omega_P = (c**5 / (h * G))**(1/2)
 k_P = c**3 / (h * G)**(1/2)
 
 planck_units = {
