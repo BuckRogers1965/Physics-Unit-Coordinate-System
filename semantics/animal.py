@@ -50,20 +50,120 @@ KNOWLEDGE_BASE = {
         "traits": {'is_mammal': 1.0, 'has_fur': 0.7, 'can_fly': 0.9, 'is_nocturnal': 1.0, 'eats_insects': 0.8},
         "metadata": {"class": "Mammalia", "type": "Real"}
     },
+    'dolphin': {
+        "traits": {'is_mammal': 1.0, 'can_swim': 1.0, 'is_intelligent': 0.95, 'echolocates': 1.0, 'lives_in_water': 1.0, 'has_fur': 0.0},
+        "metadata": {"class": "Mammalia", "type": "Real"}
+    },
+    'elephant': {
+        "traits": {'is_mammal': 1.0, 'is_herbivore': 1.0, 'has_trunk': 1.0, 'has_tusks': 1.0, 'has_four_legs': 1.0, 'is_large': 1.0, 'is_social': 0.9},
+        "metadata": {"class": "Mammalia", "type": "Real"}
+    },
+    'wolf': {
+        "traits": {'is_mammal': 1.0, 'is_carnivore': 1.0, 'howls': 1.0, 'is_predator': 1.0, 'is_social': 0.9, 'has_four_legs': 1.0},
+        "metadata": {"class": "Mammalia", "type": "Real"}
+    },
+    'platypus': {
+        "traits": {'is_mammal': 1.0, 'lays_eggs': 1.0, 'can_swim': 1.0, 'has_beak': 1.0, 'has_fur': 0.7, 'is_venomous': 0.2},
+        "metadata": {"class": "Mammalia", "type": "Real"}
+    },
 
     # --- Real Birds ---
     'eagle': {
         "traits": {'is_bird': 1.0, 'has_feathers': 1.0, 'can_fly': 1.0, 'is_carnivore': 1.0, 'is_predator': 1.0, 'has_beak': 1.0, 'has_talons': 0.9},
         "metadata": {"class": "Aves", "type": "Real"}
     },
+    'penguin': {
+        "traits": {'is_bird': 1.0, 'has_feathers': 1.0, 'can_fly': 0.0, 'can_swim': 1.0, 'lives_in_cold': 1.0},
+        "metadata": {"class": "Aves", "type": "Real"}
+    },
+    'owl': {
+        "traits": {'is_bird': 1.0, 'has_feathers': 1.0, 'is_nocturnal': 1.0, 'can_fly': 1.0, 'rotates_head': 1.0, 'is_predator': 0.9},
+        "metadata": {"class": "Aves", "type": "Real"}
+    },
+
     
     # --- Real Reptiles ---
+
     'snake': {
         "traits": {'is_reptile': 1.0, 'has_scales': 1.0, 'is_carnivore': 1.0, 'is_legless': 1.0, 'is_venomous': 0.3},
         "metadata": {"class": "Reptilia", "type": "Real"}
     },
+    'crocodile': {
+        "traits": {'is_reptile': 1.0, 'has_scales': 1.0, 'is_carnivore': 1.0, 'can_swim': 1.0, 'is_predator': 1.0, 'lives_in_water': 0.9},
+        "metadata": {"class": "Reptilia", "type": "Real"}
+    },
+    'chameleon': {
+        "traits": {'is_reptile': 1.0, 'has_scales': 1.0, 'can_change_color': 1.0, 'is_insectivore': 1.0, 'has_eyesight': 0.95},
+        "metadata": {"class": "Reptilia", "type": "Real"}
+    },
+
+
+    # --- Real Fish ---
+
+    'clownfish': {
+        "traits": {'is_fish': 1.0, 'can_swim': 1.0, 'is_small': 1.0, 'lives_in_coral_reef': 1.0, 'is_colorful': 0.9},
+        "metadata": {"class": "Actinopterygii", "type": "Real"}
+    },
+    'shark': {
+        "traits": {'is_fish': 1.0, 'is_predator': 1.0, 'can_smell_blood': 1.0, 'can_swim': 1.0, 'is_large': 1.0, 'is_carnivore': 1.0},
+        "metadata": {"class": "Chondrichthyes", "type": "Real"}
+    },
+
+    # --- Extinct Land Animals ---
+    'woolly_mammoth': {
+        "traits": {'is_mammal': 1.0, 'has_fur': 1.0, 'is_herbivore': 1.0, 'has_tusks': 1.0, 'lives_in_cold': 1.0, 'is_extinct': 1.0},
+        "metadata": {"class": "Mammalia", "type": "Extinct"}
+    },
+    'saber_tooth_cat': {
+        "traits": {'is_mammal': 1.0, 'is_predator': 1.0, 'has_fur': 1.0, 'has_saber_teeth': 1.0, 'is_carnivore': 1.0, 'is_extinct': 1.0},
+        "metadata": {"class": "Mammalia", "type": "Extinct"}
+    },
+
+    # --- Extinct Dinosaurs (Land/Flying) ---
+    'tyrannosaurus_rex': {
+        "traits": {'is_reptile': 1.0, 'is_carnivore': 1.0, 'has_teeth': 1.0, 'is_large': 1.0, 'has_small_arms': 1.0, 'is_predator': 1.0, 'is_extinct': 1.0},
+        "metadata": {"class": "Theropoda", "type": "Dinosaur"}
+    },
+    'triceratops': {
+        "traits": {'is_reptile': 1.0, 'is_herbivore': 1.0, 'has_horns': 1.0, 'has_frill': 1.0, 'has_four_legs': 1.0, 'is_extinct': 1.0},
+        "metadata": {"class": "Ceratopsidae", "type": "Dinosaur"}
+    },
+    'stegosaurus': {
+        "traits": {'is_reptile': 1.0, 'is_herbivore': 1.0, 'has_plates': 1.0, 'has_spiked_tail': 1.0, 'has_four_legs': 1.0, 'is_extinct': 1.0},
+        "metadata": {"class": "Stegosauria", "type": "Dinosaur"}
+    },
+    'velociraptor': {
+        "traits": {'is_reptile': 1.0, 'is_carnivore': 1.0, 'is_fast_runner': 1.0, 'has_claws': 1.0, 'is_intelligent': 0.8, 'is_predator': 1.0, 'is_extinct': 1.0},
+        "metadata": {"class": "Dromaeosauridae", "type": "Dinosaur"}
+    },
+
+    # --- Flying Prehistoric ---
+    'pteranodon': {
+        "traits": {'is_reptile': 1.0, 'can_fly': 1.0, 'has_wings': 1.0, 'has_beak': 1.0, 'is_carnivore': 0.8, 'is_extinct': 1.0},
+        "metadata": {"class": "Pterosauria", "type": "Prehistoric Flying"}
+    },
+    'archaeopteryx': {
+        "traits": {'is_bird': 0.6, 'is_reptile': 0.6, 'can_fly': 0.8, 'has_feathers': 1.0, 'has_teeth': 0.7, 'is_extinct': 1.0},
+        "metadata": {"class": "Avialae", "type": "Prehistoric Flying"}
+    },
+
+    # --- Aquatic Extinct Species ---
+    'megalodon': {
+        "traits": {'is_fish': 1.0, 'is_predator': 1.0, 'is_large': 1.0, 'can_swim': 1.0, 'is_extinct': 1.0, 'is_carnivore': 1.0},
+        "metadata": {"class": "Chondrichthyes", "type": "Extinct Aquatic"}
+    },
+    'plesiosaurus': {
+        "traits": {'is_reptile': 1.0, 'can_swim': 1.0, 'has_long_neck': 1.0, 'has_flippers': 1.0, 'is_extinct': 1.0},
+        "metadata": {"class": "Sauropterygia", "type": "Extinct Aquatic"}
+    },
+    'ichthyosaurus': {
+        "traits": {'is_reptile': 1.0, 'can_swim': 1.0, 'has_fins': 1.0, 'is_carnivore': 1.0, 'is_extinct': 1.0},
+        "metadata": {"class": "Ichthyosauria", "type": "Extinct Aquatic"}
+    },
+
 
     # --- Mythical Creatures ---
+
     'dragon': {
         "traits": {'is_reptile': 0.9, 'has_scales': 1.0, 'can_fly': 1.0, 'is_carnivore': 1.0, 'is_predator': 1.0, 'breathes_fire': 1.0, 'is_intelligent': 0.8, 'is_mythical': 2.0},
         "metadata": {"class": "Draconic", "type": "Mythical"}
@@ -75,6 +175,22 @@ KNOWLEDGE_BASE = {
     'pegasus': {
         "traits": {'is_mammal': 1.0, 'has_fur': 0.8, 'is_herbivore': 1.0, 'has_four_legs': 1.0, 'is_fast_runner': 0.9, 'can_fly': 1.0, 'is_mythical': 2.0},
         "metadata": {"class": "Equine", "type": "Mythical"}
+    },
+    'griffin': {
+        "traits": {'is_mammal': 0.5, 'is_bird': 0.5, 'can_fly': 1.0, 'has_beak': 1.0, 'has_talons': 1.0, 'is_predator': 1.0, 'has_fur': 0.9, 'is_predator': 1.0, 'is_feline': 0.9, 'has_four_legs': 1.0, 'is_mythical': 2.0},
+        "metadata": {"class": "Hybrid", "type": "Mythical"}
+    },
+    'mermaid': {
+        "traits": {'is_mammal': 0.9, 'can_swim': 1.0, 'is_intelligent': 0.9, 'is_mythical': 2.0, 'has_fish_tail': 1.0, 'is_humanoid': 0.8},
+        "metadata": {"class": "Aquatic-Hybrid", "type": "Mythical"}
+    },
+    'phoenix': {
+        "traits": {'is_bird': 1.0, 'can_fly': 1.0, 'has_feathers': 1.0, 'is_immortal': 1.0, 'rebirth_from_ashes': 1.0, 'is_mythical': 2.0},
+        "metadata": {"class": "Mystic-Aves", "type": "Mythical"}
+    },
+    'kraken': {
+        "traits": {'is_cephalopod': 1.0, 'is_predator': 1.0, 'can_swim': 1.0, 'is_large': 1.0, 'has_tentacles': 1.0, 'is_mythical': 2.0},
+        "metadata": {"class": "Mythical-Cephalopoda", "type": "Mythical"}
     }
 }
 
