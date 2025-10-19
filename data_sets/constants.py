@@ -223,6 +223,17 @@ grouped_constants = {
             "comment": "The standard SI unit of frequency, now defined by atomic clocks based on cesium-133 transitions.",
             "reference": "Modern definition adopted in 1967 by the International System of Units (SI)."
         },
+        "1 K": {
+            "value": 1,
+            "units": [("K", 1)],
+            "symbol": "K",
+            "pronunciation": "One degree Kelvin",
+            "date": "1700's",
+            "name": "france ",
+            "origin": "The inverse second.",
+            "comment": "The standard SI unit of temperature",
+            "reference": "Scale set by fiat since 2019,  International System of Units (SI)."
+        },
         "Amp force": {
             "value": 1e-7,
             "units": [("kg", 1), ("m", 1), ("s", -2), ("A", -2)],
@@ -790,7 +801,7 @@ grouped_constants = {
             "reference": "Defined in quantum fluid dynamics."
         },
         "cosmological_constant_Lambda": {
-            "value": 1.0908000000e-52,
+            "value": 1.098000000e-52,
             "units": [("m", -2)],
             "symbol": "Λ",
             "pronunciation": "Lam-duh",
