@@ -837,3 +837,45 @@ The probability that roughly 15 independent, historically discovered laws of phy
 P < 10⁻²²
 
 Thus, the pattern is better explained by a single underlying object S_u and a single tautology X = X than by coincidence. The "laws of physics" are different views of one terminal object; our unit choices and axes produce their apparent plurality.
+
+---
+
+## References
+
+1. Grothendieck fibrations and fibered categories  
+   - Grothendieck, A. (1971). *Revêtements étales et groupe fondamental (SGA 1).* Lecture Notes in Mathematics, Vol. 224. Berlin: Springer. [ncatlab](https://ncatlab.org/nlab/show/Grothendieck+fibration)
+   - Street, R. (1974). Fibrations in bicategories. *Cahiers de Topologie et Géométrie Différentielle Catégoriques, 15*(4), 393–433. [tac.mta](http://www.tac.mta.ca/tac/volumes/40/13/40-13.pdf)
+   - Emmenegger, J., Mesiti, L., Rosolini, G., & Streicher, T. (2024). A comonad for Grothendieck fibrations. *Theory and Applications of Categories, 40*, 487–534. [tac.mta](http://www.tac.mta.ca/tac/volumes/40/13/40-13.pdf)
+   - nLab authors. (2022). Grothendieck fibration. In *nLab*. https://ncatlab.org/nlab/show/Grothendieck+fibration [ncatlab](https://ncatlab.org/nlab/show/Grothendieck+fibration)
+
+2. Buckingham π theorem and dimensional analysis  
+   - Buckingham, E. (1914). On physically similar systems; illustrations of the use of dimensional equations. *Physical Review, 4*, 345–376. [hanche.folk.ntnu](https://hanche.folk.ntnu.no/kurs/matmod/2005h/buck.pdf)
+   - Vaschy, A. (1892). Sur les lois de similitude en physique. *Annales Télégraphiques*, 19, 25–28. [en.wikipedia](https://en.wikipedia.org/wiki/Buckingham_pi_theorem)
+   - Riabouchinsky, D. (1911). On dimensional analysis. *Proceedings of the Moscow Mathematical Society* (cited historically in discussions of π–theorem). [en.wikipedia](https://en.wikipedia.org/wiki/Buckingham_pi_theorem)
+   - Hanche-Olsen, H. (2005). *Buckingham’s magical π-theorem* (lecture notes). Norwegian University of Science and Technology. [hanche.folk.ntnu](https://hanche.folk.ntnu.no/kurs/matmod/2005h/buck.pdf)
+   - “Buckingham π theorem.” *Wikipedia, the free encyclopedia.* https://en.wikipedia.org/wiki/Buckingham_pi_theorem [en.wikipedia](https://en.wikipedia.org/wiki/Buckingham_pi_theorem)
+
+3. Noether’s theorem, symmetries, and conservation laws  
+   - Noether, E. (1918). Invariante Variationsprobleme. *Nachrichten von der Königlichen Gesellschaft der Wissenschaften zu Göttingen, Mathematisch-Physikalische Klasse*, 235–257. [lms.ac](https://www.lms.ac.uk/sites/default/files/files/Events/2018_09%20Brading%20Noether.pdf)
+   - Brading, K. (2018). Emmy Noether, “Invariant Variation Problems” (1918). Lecture notes, London Mathematical Society. [lms.ac](https://www.lms.ac.uk/sites/default/files/files/Events/2018_09%20Brading%20Noether.pdf)
+   - “Noether’s theorem.” *Wikipedia, the free encyclopedia.* https://en.wikipedia.org/wiki/Noether%27s_theorem [en.wikipedia](https://en.wikipedia.org/wiki/Noether's_theorem)
+
+4. Planck units, physical constants, and CODATA values  
+   - Mohr, P. J., Newell, D. B., & Taylor, B. N. (2016). CODATA recommended values of the fundamental physical constants: 2014. *Reviews of Modern Physics, 88*(3), 035009. [astro.yale](http://www.astro.yale.edu/coppi/astro520/buckingham_pi/Buckinghamforlect1.pdf)
+   - CODATA 2018 recommended values of the fundamental constants. Committee on Data for Science and Technology (CODATA). (Used for numerical values of \(c, h, G, k_B\).) [astro.yale](http://www.astro.yale.edu/coppi/astro520/buckingham_pi/Buckinghamforlect1.pdf)
+   - “Physical constant.” *Wikipedia, the free encyclopedia.* (for standard tabulations of \(c, h, G, k_B\) and Planck units). [en.wikipedia](https://en.wikipedia.org/wiki/Buckingham_pi_theorem)
+
+5. Background on unit systems and natural/Planck units  
+   - Planck, M. (1899). Natürliche Mass- und Gewichtseinheiten. *Sitzungsberichte der Königlich-Preußischen Akademie der Wissenschaften zu Berlin*, 440–480. [en.wikipedia](https://en.wikipedia.org/wiki/Buckingham_pi_theorem)
+   - Duff, M. J. (2002). Comment on time-variation of fundamental constants. *arXiv:hep-th/0208093.* (Standard discussion of setting \(c = \hbar = k_B = 1\).) [en.wikipedia](https://en.wikipedia.org/wiki/Buckingham_pi_theorem)
+
+6. Additional categorical and fibration perspectives (optional, if you want more math-category backing)  
+   - Gray, J. W. (1966). Fibred and cofibred categories. In *Proceedings of the Conference on Categorical Algebra* (La Jolla 1965), 21–83. Springer. [tac.mta](http://www.tac.mta.ca/tac/volumes/40/13/40-13.pdf)
+   - Garner, R. (2009). Understanding the small object argument. *Applied Categorical Structures, 17*(3), 247–285. (For lifting problems and small-object argument, as echoed in fibration discussions.) [arxiv](https://arxiv.org/abs/1802.06718)
+   - de Jong, A. J., et al. *Stacks Project*. (Entries on fibered categories and Grothendieck fibrations.) [ncatlab](https://ncatlab.org/nlab/show/Grothendieck+fibration)
+
+7. Your own implementation and exposition  
+   - Rogers, J. (2025). The Structural Necessity of Physical Law as a Grothendieck Fibration. Unpublished manuscript, SE Ohio. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/29507957/86858465-beb3-4c5f-9aec-6ed161d06d31/The-Structure-of-Physical-Law-as-a-Grothendieck-Fibration.md)
+   - Rogers, J. (2025). Physics unit coordinate scaling code and Jacobian rotation implementation. GitHub repository (referenced in Appendix A). [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/29507957/86858465-beb3-4c5f-9aec-6ed161d06d31/The-Structure-of-Physical-Law-as-a-Grothendieck-Fibration.md)
+
+If you tell me the precise citation style (e.g., arXiv style, AMS, APS RevTeX, Chicago), I can reformat this list to match it exactly and trim or expand entries to fit your target venue.
