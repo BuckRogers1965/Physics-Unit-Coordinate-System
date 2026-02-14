@@ -874,8 +874,5 @@ Thus, the pattern is better explained by a single underlying object S_u and a si
    - Garner, R. (2009). Understanding the small object argument. *Applied Categorical Structures, 17*(3), 247–285. (For lifting problems and small-object argument, as echoed in fibration discussions.) [arxiv](https://arxiv.org/abs/1802.06718)
    - de Jong, A. J., et al. *Stacks Project*. (Entries on fibered categories and Grothendieck fibrations.) [ncatlab](https://ncatlab.org/nlab/show/Grothendieck+fibration)
 
-7. Your own implementation and exposition  
-   - Rogers, J. (2025). The Structural Necessity of Physical Law as a Grothendieck Fibration. Unpublished manuscript, SE Ohio. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/29507957/86858465-beb3-4c5f-9aec-6ed161d06d31/The-Structure-of-Physical-Law-as-a-Grothendieck-Fibration.md)
-   - Rogers, J. (2025). Physics unit coordinate scaling code and Jacobian rotation implementation. GitHub repository (referenced in Appendix A). [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/29507957/86858465-beb3-4c5f-9aec-6ed161d06d31/The-Structure-of-Physical-Law-as-a-Grothendieck-Fibration.md)
+---
 
-If you tell me the precise citation style (e.g., arXiv style, AMS, APS RevTeX, Chicago), I can reformat this list to match it exactly and trim or expand entries to fit your target venue.
