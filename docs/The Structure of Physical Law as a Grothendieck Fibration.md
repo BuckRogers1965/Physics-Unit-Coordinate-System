@@ -867,7 +867,7 @@ Thus, the pattern is better explained by a single underlying object S_u and a si
 
 5. Background on unit systems and natural/Planck units  
    - Planck, M. (1899). Natürliche Mass- und Gewichtseinheiten. *Sitzungsberichte der Königlich-Preußischen Akademie der Wissenschaften zu Berlin*, 440–480. [en.wikipedia](https://en.wikipedia.org/wiki/Buckingham_pi_theorem)
-   - Duff, M. J. (2002). Comment on time-variation of fundamental constants. *arXiv:hep-th/0208093.* (Standard discussion of setting \(c = \hbar = k_B = 1\).) [en.wikipedia](https://en.wikipedia.org/wiki/Buckingham_pi_theorem)
+   - Duff, M. J., Okun, L. B., & Veneziano, G. (2002). Trialogue on the number of fundamental constants. JHEP 03, 023.
 
 6. Additional categorical and fibration perspectives (optional, if you want more math-category backing)  
    - Gray, J. W. (1966). Fibred and cofibred categories. In *Proceedings of the Conference on Categorical Algebra* (La Jolla 1965), 21–83. Springer. [tac.mta](http://www.tac.mta.ca/tac/volumes/40/13/40-13.pdf)
