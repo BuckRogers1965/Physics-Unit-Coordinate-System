@@ -87,10 +87,6 @@ This lemma states that if the universe is not a disconnected multiverse of non-i
 
 ---
 
-Here's a new section explaining the inversion without rewriting the whole paper:
-
----
-
 ## 3. The Inversion Point: Why Planck Units Appear
 
 The Planck scale is not a physical threshold but a **mathematical inversion**—the point where reciprocal ratios flip their orientation in the dimensional coordinate system.
@@ -146,10 +142,6 @@ In categorical terms, the inversion point where all normalized ratios equal unit
 Because these relations are reciprocal, there is one and only one point in the (m,\lambda) (and similarly (f,t)) plane where all normalized ratios are simultaneously equal to unity. That unique intersection is the Planck point.
 
 The "mystery" of Planck units dissolves: they are simply the coordinates of the inversion point in a reciprocally-structured substrate. Our constants measure how far SI units are displaced from this natural origin.
-
----
-
-This section directly addresses your point: Planck units arise because some ratios (like m/m_P) scale one direction while their conjugates (like l_P/λ) scale the opposite direction, and Planck marks where these inversions all equal unity simultaneously.
 
 ---
 
