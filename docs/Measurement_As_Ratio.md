@@ -6,7 +6,7 @@
 
 ## Abstract
 
-Measurement is the comparison of an object to a standard, yielding a dimensionless ratio. The subsequent attachment of a unit label is a human convention, not a discovery of an intrinsic property. The so‑called fundamental constants of physics—$c, h, G, k_B$—appear only because we have already fixed our unit system. When we divide a measured quantity by its corresponding Planck value (a combination of these constants expressed in the same units), both the arbitrary human unit and the Planck "scale" cancel completely, leaving a pure dimensionless number $X$ that depends on nothing but the object and the unified substrate. This number is the only physically meaningful invariant. The equality of $X$ across all conceptual axes (mass, length, time, temperature, etc.) is the algebraic expression of the universe's unity. In this view, constants are not part of the invariant; they are merely the scaffolding we use to strip away our own conventions, and they vanish entirely when we do so.
+Measurement is the comparison of an object to a standard, yielding a dimensionless ratio. The subsequent attachment of a unit label is a human convention, not a discovery of an intrinsic property. The so‑called fundamental constants of physics— $c, h, G, k_B$ —appear only because we have already fixed our unit system. When we divide a measured quantity by its corresponding Planck value (a combination of these constants expressed in the same units), both the arbitrary human unit and the Planck "scale" cancel completely, leaving a pure dimensionless number $X$ that depends on nothing but the object and the unified substrate. This number is the only physically meaningful invariant. The equality of $X$ across all conceptual axes (mass, length, time, temperature, etc.) is the algebraic expression of the universe's unity. In this view, constants are not part of the invariant; they are merely the scaffolding we use to strip away our own conventions, and they vanish entirely when we do so.
 
 ---
 
@@ -56,7 +56,7 @@ We can write this directly as:
 
 $X = \frac{m}{m_P} \quad \text{(a pure number)}$.
 
-Because both numerator and denominator share the same unit, the unit vanishes. The constants that went into defining $m_P$ vanish as well—they were only a ladder, and once we climb it, we leave it behind.
+Because both numerator and denominator share the same unit, the unit vanishes. This is not profound, all we are doing is removing the unit standard we interposed in the first place. The constants that went into defining $m_P$ vanish as well—they were only a ladder, and once we climb it, we leave it behind.
 
 ## 5. The Same $X$ Across All Axes
 
